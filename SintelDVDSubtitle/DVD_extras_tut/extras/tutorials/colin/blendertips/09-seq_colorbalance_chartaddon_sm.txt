@@ -1,0 +1,79 @@
+OK, so I'd like to show you a couple of sequencer features for your quick
+the first I just wanna do general file selection thing
+so I'm gonna add an image sequence 
+just can navigate to this tab
+whatever the sequence
+what you can do is, actually, let's say these PNGs are mixed in with tons of various kinds of files
+you can add... Do a *.png
+and you will automatically select all of the files of that extension
+that's really handy
+a little thing
+now here right now is actually the correct aspect create issue
+a lot of times you bring something in
+and it's completely distorted
+so my first step usually is after I've imported something 
+to go to Strip -> Set Render Size
+and what that's gonna do is
+if you go to Shift F7
+and look at dimensions
+it's going to set the dimensions of the project to whatever that actually file is
+so let's just say that comes in like this
+I'm gonna go Strip -> Set Render Size
+and as soon as you change the frame
+you will see that is just set correctly
+so now I'm gonna open up the aminatic edit
+and just show you a really color balance stuff we are doing
+and... gonna change the scene to ColorGrade
+as so
+these are referencing AVI files 
+and basically there is a really cool addon
+which allows you to take any property of the given strip
+and allow you to apply that same properties or values to other strips
+and this is useful especially when you are doing color correction with the Color Balance tools here
+they are pretty basic, but really nice to work with
+and, so, let's just assume that I wanted to give this entire scene a really green fill
+I wanna make it look like that 
+by the way, you can use Shift to make this ultra sensitive 
+what I'm going to do is going to the User Preference
+Ctrl Alt U
+and go to the Add-Ons pane
+and I've already searched for "chart"
+but we are looking indeed for the Property Chart
+and you can just go ahead and enable it
+and... (oops)
+now at the bottom you would see the Property Chart
+and it's already got all these properties enabled
+the basic I would have done is
+if I got this strip selected
+use Color Balance
+I can hover over a property like Lift
+and take a look at with the Python line says "SequenceColorBalance.lift"
+and you can see here that I've got "Use_color_balance.lift"
+"color_balance.gamma"
+"color_balance.gain"
+so these are properties that I've just basically copy and paste into here
+and that becomes what the chart is
+so let's just say I want... Let's go ahead and make this green as we've designed
+excellent that's perfect
+now I wanna apply that to the rest of the scene
+you see, as soon as I selected, the chart increases to the selection
+and color balance is not enabled on this strip
+the first thing I wanna do is make that enabled
+now the gamma selection is changed
+so this one his a slightly more green hue
+and I'll just copy the gamma
+so, right now, if you like this chart it's pretty normal
+copy it over
+and now the gamma is that green tint for the entire scene
+that's pretty nifty
+now if delete this actually right now I'm sure I'm having a bug with Property Chart
+where it completely disappeared
+but I could just say "color_saturation" I can just add that to the property chart
+I'm undoing, so it doesn't disappeared
+and say, I gonna type "color_saturation"
+and I can see that saturation has replaced the color that we had before
+so I can just make it completely this saturated
+border selected these guys, and apply
+now, saturation is down to 0 for the entire thing
+so it's a pretty handy tool which I thought you should know about
+so yep, that's it for this subside of blender tips with Colin Levy

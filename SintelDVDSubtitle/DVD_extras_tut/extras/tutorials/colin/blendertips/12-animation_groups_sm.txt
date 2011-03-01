@@ -1,0 +1,106 @@
+Hey there
+so, I think this is gonna have to be the last video tutorial in the series
+I'm currently in Savannah
+and tomorrow, actually, I'm flying to Amsterdam for the premier of Sintel
+very excited, but school has started
+and my schedule is filling up
+I wasn't able to get too quite as much as I originally intended
+but, I'm proud to see that you've made all the way through to No.12
+and hopefully you found it useful
+so, in the last tutorial, I was talking about animation
+just how to visualize, how to look at the animation data in their files
+and because it can actually be pretty challenging
+just to see what's going on, you know, and to work with animation data you want to start getting into a little bit more complex scenes
+and I wanna show you in this particular case
+something that a little bit more of a test case
+because it's a definitely outliner
+here I've done the layout for the first scene
+the scene was cut 
+this is the original fight scene that is gonna start of the movie with three bandies and Sintel
+another rig has been updated since it's so... A little bit being broken her header's like lowing a bit
+but from this part, she survives
+and if you notice the actual length of the animation of this file, the single file is 1 min and 50 sec
+so a lot of work, a lot of animation in this one file
+and it can be difficult to, when you're actually working, to make sense at all
+one of the limitations of blender, or just something so inherent about the way that blender works is that:
+actions are properties of the object 
+so you can't have multiple objects in a single action
+and this, you know, became a issue that little bit with, for example,
+sintel's here, and actually all the bandies, all the characters are in this scene has stuffs
+so, even a stuff changes his hands from one character to another
+and part of change of setting that up is to constant the rigging side of it
+but the other is managing the animation
+when you have apended who has the stuff 
+what would normally happen if you have this "Only include channels..." button selected
+and if you are working on the bandie's body
+you see the bandie's body
+when you working on the stuff, you only see the stuff
+and, really, these things should be working in concert
+because they are completely intergrated in, you know, the overall animation of the scene that's of any worth
+but, you know, I was going to a process, just setting keys and animating
+just really loosely
+and, so, because I was struggling with just organizing the animation
+I talked to AG online, and he implemented a little feature that I thought it was pretty obscure
+I mean I don't imagine it that too many people know about it
+and it's a button right here, if you are in the Dopesheet
+"Only include channels from Objects in the specified Group"
+so this is basically animation groups
+and you can specify any group to, sort of, filter
+what you are looking at in the Dopesheet
+so, if I select Sintel's rig here
+and I go into the Object buttons
+you'll see in the groups, right here, that she is in several groups
+and this one....both of them have this prefix "AN"
+which is I just used to specify
+OK, this group isn't animation group
+"AN_ALLchars", so it's just characters and no cameras
+and here, it's just Sintel by herself
+so let me just show you all the animation first in the whole scene
+and, just gonna select everything I don't know any to do that
+alright, so, do you like the Dopesheet?
+Summarily you get it pretty dense
+and I can just scroll it down
+lots of objects in the scene
+if I toggle a few of these down
+you know, this is, was....
+actually, I was animating hands with empties for certain uses: camera, root of Sintel...
+Let's see where are the bindies
+anyway, I think you get the point
+surely we have the bindies around here
+"GEO-stuff" so you've got stuff separated from bandies' "jack_simple_proxy"
+OK, so this is jack's animation
+alright, so, it's not too bad
+but, it's very easy to view overwhelmed 
+you know, especially for scrolling to all the stuff and camera are binded in it
+and, if you notice the channel for Sintel's root is all the way up here
+yep, Sintel's actual proxy and hand channels are where on here
+and currently, there isn't a way to disorder them, can't click and drag
+so, navigating and moving, you know, blocks of animation,you know, became extremely difficult to figure it out how to do
+you know, I was working with the layers and not get a thing
+so instead of talking isolate things
+I'm gonna take use of groups, and use that to just help me
+actually see what I'm doing 
+so, I'm just gonna toggle this on
+I probably got one of these groups selected
+but I'm gonna change it to Sintel
+and then press Home
+and now, our scene is animated, that I have determined is relevant to Sintel
+so that includes Sintel's body, yep, here is all just the relevant animation
+left hand, right hand, her weapon
+and you know this is may not be as elegant as if all of these individual actions would actually one, unified
+for most purposes, it's already achieved that
+and what next thing is I connected this boot of the view
+and create another dopesheet with another group
+so here let's look at "Smith"
+"Simth" animation for example, currently
+so we've got the root you're just translating his poses and stuff
+and those are the three different objects needed animation
+and because all here, the dopesheet icons
+sort of, move all three of the same time without having to rearrange my view and find, OK, where is everything
+so, ya, that is all I really want to share with you
+and, just because, you know, being very very helpful especially with the scene which got very complex very fast
+Umm.. Ya, I guess that is it.
+If you want to send me... Or if you have very specific features or things you'd like to see demoed
+I'm interested to continue this kind of short tutorial as here is
+Um, but ya, I hope I find it useful
+thanks very much for watching, bye

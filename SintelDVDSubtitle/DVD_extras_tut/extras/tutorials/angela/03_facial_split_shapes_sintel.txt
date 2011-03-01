@@ -1,0 +1,70 @@
+Now that Sintel's full shapes are completed
+the next step is to create a symmetrical one using "Vertex Groups Weight Painting"
+in the "Property" panel under "Vertex Group"
+I created a new group
+and named it "Face_L"
+in Edit mode I select the central edge loop using Shift Alt Right Mouse Button
+I then hide the selection with the H key
+Moving the mouth into Sintel's right side
+I press L to select the linked
+back to the "Vertex Group" panel
+I assign those vertex a weight of 0
+then deselect all using A
+the same is done to Sintel's left side
+but this time the weight value is changed to 1
+with the left and right side now done
+I un-hide the central edge loop using Alt H
+and assign the center a weight of 0.5
+weight value of selected vertex can be seen in the Property shelf under Vertex Groups
+next step is to create a smoother transition
+to do this
+I edge-loop select the next span over in the left side
+and assign it a weight of 0.8
+the same is done to the right side 
+but this time I assign it 0.2
+whatever the value on one side
+the mirrored side must equal a total of 100%
+this way
+when combined together
+it fix back exactly to the full shape
+you can also use Ctrl V key to blend vertex groups
+but for this purpose
+I prefer the position I can get by assigning directly selected vertex
+let's switch the mode to Weight Paint
+and select the face's left vertex group to display the assignment
+from here I usually go back and tweak the weights a little bit more
+back to Edit mode
+I copy and paste the face's left vertex group name into the Shapes Key panel under each shape
+example for "MOUTH-up", "MOUTH-down", "MOUTH-L" and "MOUTH-twist"
+here I'm using the Up Arrow to scroll through the list
+let's activate the Paint button here
+to quickly go over the shapes
+having Paint button activated will always show that current shape at the full one value
+overwriting any other shape with values
+in Object mode I select the "smile.L" to add its full value of 1
+select the + button to add new shape
+the X button clears all shapes to 0
+I rename this new shape "MOUTH-Smile.L"
+next I create a duplicate of that shape
+clear all shape and by copying and pasting the "MOUTH-Smile.L"
+I replace the "L" with "R" for right
+having this right shape selected
+I then click on Mirror Shape Key which flips the shape to the right
+dialing both values of left and right to 1 recreates the full smile shape
+for the "MOUTH-L" shape and the "MOUTH-twist.L" shape
+the right side is created by simply using Mirror Shape Key
+"MOUTH-up" shape and "MOUTH-down" shape are left as is
+you can always create a new shape key by blending existing ones
+here I'm combining the "MOUTH-L" with the "MOUTH-twist.L" 
+Here I'm expanding the window using Shift and Middle Mouse Scroll
+all 28 symmetrical shapes have been divided up to create a total of 25 split shapes
+including the pupil dilation
+at this stage I create the coinsiding shapes for the inner mouth geometry
+as well as the eyebrow emitter and lashes
+once all shapes are completed and named properly
+the next step is to hook these shapes up to the facial rig
+using the same vertex weighting method
+brows up and down get split in four shapes
+left inner and outer
+and right inner and outer
+here is a Wire view of the mouth shapes working with the facial shapes

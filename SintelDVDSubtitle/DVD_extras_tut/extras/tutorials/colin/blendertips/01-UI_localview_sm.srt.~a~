@@ -1,0 +1,204 @@
+1
+00:00:00,000 --> 00:00:02,266
+Hello, this is Colin Levy
+
+2
+00:00:00,000 --> 00:00:02,773
+How are you
+
+3
+00:00:00,000 --> 00:00:00,000
+I thought I'll be interesting to do a series of really short and less than one-munite videos
+
+4
+00:00:00,000 --> 00:00:00,000
+to show you tips and tricks that I learned in blender during my time on Sintel
+
+5
+00:00:00,000 --> 00:00:00,000
+I thought I knew blender
+
+6
+00:00:00,000 --> 00:00:00,000
+but appearently there's a lot of people who know a lot of things that I didn't know
+
+7
+00:00:00,000 --> 00:00:00,000
+everything in this little series gonna be simple, really simple
+
+8
+00:00:00,000 --> 00:00:00,000
+so to jump right in
+
+9
+00:00:00,000 --> 00:00:00,000
+first I wanna show you this in blender 2.5
+
+10
+00:00:00,000 --> 00:00:00,000
+let's say I have the scene open
+
+11
+00:00:00,000 --> 00:00:00,000
+and I want to make sure Anti-Aliasing is on
+
+12
+00:00:00,000 --> 00:00:00,000
+well, I'm gonna just scroll down all the way to Anti-Aliasing
+
+13
+00:00:00,000 --> 00:00:00,000
+wow that took about a second
+
+14
+00:00:00,000 --> 00:00:00,000
+but look how much faster it would be
+
+15
+00:00:00,000 --> 00:00:00,000
+if I could really quickly to close and open these little sections in the render panel
+
+16
+00:00:00,000 --> 00:00:00,000
+you can do that by hitting A
+
+17
+00:00:00,000 --> 00:00:00,000
+that just toggles them on
+
+18
+00:00:00,000 --> 00:00:00,000
+enough
+
+19
+00:00:00,000 --> 00:00:00,000
+No.2: Math
+
+20
+00:00:00,000 --> 00:00:00,000
+appearently and maybe this is really obvious to anyone who has used this program
+
+21
+00:00:00,000 --> 00:00:00,000
+but you can do math in any field with their numbers in blender 
+
+22
+00:00:00,000 --> 00:00:00,000
+so you've got 100 here
+
+23
+00:00:00,000 --> 00:00:00,000
+you'll just type /2
+
+24
+00:00:00,000 --> 00:00:00,000
+and it goes to 50
+
+25
+00:00:00,000 --> 00:00:00,000
+wow that is cool
+
+26
+00:00:00,000 --> 00:00:00,000
+now this is useful in a lot of situations
+
+27
+00:00:00,000 --> 00:00:00,000
+because if you're dealing with a technical things that have absolute values
+
+28
+00:00:00,000 --> 00:00:00,000
+so right here we've got this setup to be you know to render it 2000
+
+29
+00:00:00,000 --> 00:00:00,000
+what if you wanna render it in 4000
+
+30
+00:00:00,000 --> 00:00:00,000
+well normally I would come up with and launch the calculator
+
+31
+00:00:00,000 --> 00:00:00,000
+and do the math here that want it to be precise
+
+32
+00:00:00,000 --> 00:00:00,000
+but you can actually just type in *2 on both of these values
+
+33
+00:00:00,000 --> 00:00:00,000
+and there you go
+
+34
+00:00:00,000 --> 00:00:00,000
+beautiful
+
+35
+00:00:00,000 --> 00:00:00,000
+that applies basicly everywhere in blender
+
+36
+00:00:00,000 --> 00:00:00,000
+No.3 Local View
+
+37
+00:00:00,000 --> 00:00:00,000
+also a feather from years ago that I did not know about
+
+38
+00:00:00,000 --> 00:00:00,000
+so basicly when you're dealing with scenes of any complexity you're working in a space with a lot of other things
+
+39
+00:00:00,000 --> 00:00:00,000
+hitting period to center my selection
+
+40
+00:00:00,000 --> 00:00:00,000
+and sometimes to be a drag if these things are included in your view and the only one is selection of our objects
+
+41
+00:00:00,000 --> 00:00:00,000
+let's say that I want to get all the lights just by themselves
+
+42
+00:00:00,000 --> 00:00:00,000
+and it's pretty easy
+
+43
+00:00:00,000 --> 00:00:00,000
+first of all to select all in the same type with Shift G -> Type
+
+44
+00:00:00,000 --> 00:00:00,000
+and then go into local view by hitting the / button
+
+45
+00:00:00,000 --> 00:00:00,000
+Bam! now all we see are lights
+
+46
+00:00:00,000 --> 00:00:00,000
+everything there was selected 
+
+47
+00:00:00,000 --> 00:00:00,000
+and in a point you can just start working with these things by themselves
+
+48
+00:00:00,000 --> 00:00:00,000
+you can toggle in and out with /
+
+49
+00:00:00,000 --> 00:00:00,000
+and you can move things away from local view by hitting M
+
+50
+00:00:00,000 --> 00:00:00,000
+pretty cool
+
+51
+00:00:00,000 --> 00:00:00,000
+that's concludes the first installment of blender tips with Colin Levy
+

@@ -1,0 +1,106 @@
+Hello, my name is David REVOY
+welcome to this video tutorial series indicated to 2D digital painting
+with free and open sources softwares
+this video would mainly show you how I manage my graffiti process through a simple illustration
+I will use three softwares
+the first is Alchemy
+for the external story creative start
+the second is Mypaint
+as the main painting program
+and finally the third is Gimp
+with the patch "Gimp-for -Painter" and toolset "Gimp Paint Studio" for mainly image manipulation
+All of these are on my favourite operating system - Linux Mint
+So let's get in
+-------
+To Protect sensitives ears against the French accent, all the following video will be musical.
+This is a message from the O.P.A.B.T.S., the Organisation of Protection Against Bad Tutorial Speech
+-------
+Music: Kevin MacLeod
+"Willow and the Light"
+incompetech.com
+Licensed under Creative Commons
+"Attribution 3.0"
+-------
+1. Chaos with Alchemy
+Alchemy look at first as a basic 2D tools, but it have originals features.
+In this tutorial, I show how to use it as a CHAOS generator.
+As you can see, the user interface is pretty minimalistic.
+Just go over the top apps to let appear the main toolbar
+We can add effects or modifier on the brush stroke to have more random shapes.
+I use mainly "Speed shapes" and "Pull shapes" here.
+Pretty chaos :)
+But for what???
+We want here to be creative, and to have a totally new result.
+Starting from a Chaos is a great solution.
+Chaos will bring us incredible new organics and geometrics shapes
+and we will just underline what we see from it
+As children play to guess "What this could look like?" during watching the sky.
+A strong creative process.
+I underline here in red a girl faces to better show you what I see in this chaos at first
+And I try to render the 2D way what I see using the "solid shape" brush with just opacity
+I didn't like a lot this idea. So I just continue my Chaos work over.
+In Alchemy, no "undo"
+New shapes appear very fast, and also depend of personal interpretation
+I would be curious to know what do you see in all those splatters of shape.
+It's kind revelant most of the time....
+Now you understand the process, let's speed the video to the end of this first part.
+That's all for the Alchemy part, of course Alchemy can do a lot of other things, this will be in future's videos. :)
+---------------
+Music: Kevin MacLeod
+"Perigrine Grandeur"
+incompetech.com
+Licensed under Creative Commons
+"Attribution 3.0"
+---------------
+2. Black and white painting
+I opened Gimp to prepare my drawing a bit:
+I need to make it darker (multiply layer) and resize this base to a higher resolution.
+After, I switch to Mypaint and start a paint over with my basic brush set (you can find it on the Mypaint forum).
+I start with the head: the main focal point.
+At this step I use the mirror a lot;
+It help my eyes to have a refreshing view of the face, and see all my proportions errors.
+After finishing to paint the face, I switch to Gimp to correct the proportions with a simple cut/transform/paste process.
+I crop too the artwork to a better size using the good option of the crop tools "rules of the third" that display an helpful gird.
+I paint a bit with Gimp to reconstruct voids parts,
+but all the brush are very slow at this resolution.
+I start also to light some part, using layer blending modes.
+back to Mypaint. I paint on the whole surface of the painting, keeping a view mode that display all my illustration on the screen.
+I continue the B&W painting.
+I keep it speed painting to go to the next step: Color!
+----------
+Music: Kevin MacLeod
+"Night of the Owl"
+Incompetech.com
+Licensed under Creative Commons
+"Attribution 3.0"
+-----------
+To color my black & white speed painting
+I use mostly layers with blending mode (color/multiply/dodge)
+I also flatten image very often,
+and use the tools as "levels","color curves", "colorise", "hue/saturation" to adjust better colors.
+Color step is always the best moment to try a lot of possibility:
+Here I focus on cold blue/green palette, with my focus points more warms.
+When I'm happy with the general palette, I switch to Mypaint.
+All Mypaint's tools can have custom keyboard shortcuts.
+-----------
+4. Details
+Details step is very long...
+It represents around 60% of all the drawing time
+This timelapse video is accelerate;
+time is between 25 and 30 times more than normal
+At normal time speed, all this illustration took 7hour and 30min.
+I did it in 3 steps, and on 2 different days.
+All details are created with the same creative process in part.1...
+I always try to recognise in random shaping something.
+All ideas born during the painting,
+I didn't block myself to an idea at first.
+That's the most pleasant way to paint.  :-)
+Still switching Between Mypaint and Gimp all the time...
+Blending layers as "Multiply" or "Dodge" are very useful to fix shadows.
+-----------
+5. Finishing
+Back to Mypaint, I use the brush system to create some textures
+and continuing adding details
+At the end, I switch a last time in Gimp to do the final crop, and paste my signature.
+The End
+Thanks for watching

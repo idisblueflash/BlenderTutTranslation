@@ -1,0 +1,284 @@
+1
+00:00:00,019 --> 00:00:02,511
+Now that Sintel's full shapes are completed
+
+2
+00:00:02,521 --> 00:00:06,616
+the next step is to create a symmetrical one using "Vertex Groups Weight Painting"
+
+3
+00:00:07,643 --> 00:00:10,313
+in the "Property" panel under "Vertex Group"
+
+4
+00:00:10,383 --> 00:00:11,449
+I created a new group
+
+5
+00:00:11,469 --> 00:00:13,552
+and named it "Face_L"
+
+6
+00:00:25,779 --> 00:00:31,329
+in Edit mode I select the central edge loop using Shift Alt Right Mouse Button
+
+7
+00:00:33,721 --> 00:00:36,382
+I then hide the selection with the H key
+
+8
+00:00:37,488 --> 00:00:39,979
+Moving the mouth into Sintel's right side
+
+9
+00:00:40,138 --> 00:00:42,450
+I press L to select the linked
+
+10
+00:00:44,354 --> 00:00:46,297
+back to the "Vertex Group" panel
+
+11
+00:00:46,367 --> 00:00:48,509
+I assign those vertex a weight of 0
+
+12
+00:00:48,639 --> 00:00:50,642
+then deselect all using A
+
+13
+00:00:51,917 --> 00:00:54,239
+the same is done to Sintel's left side
+
+14
+00:00:54,219 --> 00:00:57,338
+but this time the weight value is changed to 1
+
+15
+00:01:02,101 --> 00:01:03,955
+with the left and right side now done
+
+16
+00:01:03,965 --> 00:01:06,615
+I un-hide the central edge loop using Alt H
+
+17
+00:01:06,605 --> 00:01:10,053
+and assign the center a weight of 0.5
+
+18
+00:01:20,696 --> 00:01:26,535
+weight value of selected vertex can be seen in the Property shelf under Vertex Groups
+
+19
+00:01:41,882 --> 00:01:44,841
+next step is to create a smoother transition
+
+20
+00:01:44,931 --> 00:01:45,708
+to do this
+
+21
+00:01:45,698 --> 00:01:49,325
+I edge-loop select the next span over in the left side
+
+22
+00:01:49,335 --> 00:01:52,634
+and assign it a weight of 0.8
+
+23
+00:01:56,580 --> 00:01:58,095
+the same is done to the right side 
+
+24
+00:01:58,065 --> 00:02:00,606
+but this time I assign it 0.2
+
+25
+00:02:00,755 --> 00:02:02,419
+whatever the value on one side
+
+26
+00:02:02,439 --> 00:02:05,548
+the mirrored side must equal a total of 100%
+
+27
+00:02:05,658 --> 00:02:06,375
+this way
+
+28
+00:02:06,395 --> 00:02:07,521
+when combined together
+
+29
+00:02:07,521 --> 00:02:10,302
+it fix back exactly to the full shape
+
+30
+00:02:18,563 --> 00:02:22,309
+you can also use Ctrl V key to blend vertex groups
+
+31
+00:02:22,549 --> 00:02:23,734
+but for this purpose
+
+32
+00:02:23,734 --> 00:02:28,787
+I prefer the position I can get by assigning directly selected vertex
+
+33
+00:02:30,720 --> 00:02:32,334
+let's switch the mode to Weight Paint
+
+34
+00:02:32,384 --> 00:02:36,430
+and select the face's left vertex group to display the assignment
+
+35
+00:02:37,227 --> 00:02:40,695
+from here I usually go back and tweak the weights a little bit more
+
+36
+00:02:43,914 --> 00:02:44,930
+back to Edit mode
+
+37
+00:02:44,920 --> 00:02:50,730
+I copy and paste the face's left vertex group name into the Shapes Key panel under each shape
+
+38
+00:02:58,532 --> 00:03:02,399
+example for "MOUTH-up", "MOUTH-dn", "MOUTH-L" and "MOUTH-twist"
+
+39
+00:03:39,767 --> 00:03:43,464
+here I'm using the Up Arrow to scroll through the list
+
+40
+00:03:46,524 --> 00:03:48,736
+let's activate the Paint button here
+
+41
+00:03:48,806 --> 00:03:50,749
+to quickly go over the shapes
+
+42
+00:03:50,789 --> 00:03:56,289
+having Paint button activated will always show that current shape at the full one value
+
+43
+00:03:56,349 --> 00:03:58,890
+overwriting any other shape with values
+
+44
+00:04:07,610 --> 00:04:11,526
+in Object mode I select the "smile.L" to add its full value of 1
+
+45
+00:04:11,576 --> 00:04:14,864
+select the + button to add new shape
+
+46
+00:04:15,641 --> 00:04:18,641
+the X button clears all shapes to 0
+
+47
+00:04:19,358 --> 00:04:22,537
+I rename this new shape "MOUTH-Smile.L"
+
+48
+00:04:25,407 --> 00:04:28,048
+next I create a duplicate of that shape
+
+49
+00:04:28,137 --> 00:04:33,070
+clear all shape and by copying and pasting the "MOUTH-Smile.L"
+
+50
+00:04:33,090 --> 00:04:36,787
+I replace the "L" with "R" for right
+
+51
+00:04:46,662 --> 00:04:48,406
+having this right shape selected
+
+52
+00:04:48,416 --> 00:04:53,150
+I then click on Mirror Shape Key which flips the shape to the right
+
+53
+00:04:56,587 --> 00:05:01,670
+dialing both values of left and right to 1 recreates the full smile shape
+
+54
+00:05:05,646 --> 00:05:09,303
+for the "MOUTH-L" shape and the "MOUTH-twist.L" shape
+
+55
+00:05:09,323 --> 00:05:13,269
+the right side is created by simply using Mirror Shape Key
+
+56
+00:05:13,289 --> 00:05:18,122
+"MOUTH-up" shape and "MOUTH-down" shape are left as is
+
+57
+00:05:42,666 --> 00:05:46,841
+you can always create a new shape key by blending existing ones
+
+58
+00:05:46,841 --> 00:05:51,694
+here I'm combining the "MOUTH-L" with the "MOUTH-twist.L" 
+
+59
+00:06:10,597 --> 00:06:14,454
+Here I'm expanding the window using Shift and Middle Mouse Scroll
+
+60
+00:06:14,484 --> 00:06:20,473
+all 28 symmetrical shapes have been divided up to create a total of 55 split shapes
+
+61
+00:06:20,493 --> 00:06:22,805
+including the pupil dilation
+
+62
+00:06:22,954 --> 00:06:27,847
+at this stage I create the coinsiding shapes for the inner mouth geometry
+
+63
+00:06:28,216 --> 00:06:31,374
+as well as the eyebrow emitter and lashes
+
+64
+00:06:32,491 --> 00:06:35,311
+once all shapes are completed and named properly
+
+65
+00:06:35,331 --> 00:06:39,605
+the next step is to hook these shapes up to the facial rig
+
+66
+00:07:18,828 --> 00:07:21,478
+using the same vertex weighting method
+
+67
+00:07:21,508 --> 00:07:24,597
+brows up and down get split in four shapes
+
+68
+00:07:25,096 --> 00:07:27,408
+left inner and outer
+
+69
+00:07:27,447 --> 00:07:30,586
+and right inner and outer
+
+70
+00:08:12,130 --> 00:08:16,864
+here is a Wire view of the mouth shapes working with the facial shapes
+
+71
+00:00:00,000 --> 00:00:00,000
+
+

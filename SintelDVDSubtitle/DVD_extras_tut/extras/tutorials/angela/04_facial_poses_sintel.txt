@@ -1,0 +1,32 @@
+Here we have all blended shapes connected to the facial rig
+now ready for animation
+at this stage I tested everything else but creating a series of quick and basic facial poses
+which include a series of both bone names and emotions
+each bones is keyed on every 10 frames
+doing this text provides me with feedback on how well everything posed together overall
+and ensures a good range that still looks pretty natural
+since the shapes all now being controlled by the facial rig
+animators use the controls to key poses
+to speed up my workflow
+I enable the AutoKey
+OK let's add two more poses
+one on frame 260
+and the other one on frame 270
+in the DopeSheet
+default values have already been keyed
+which allows me a blank canvas to start with
+to create poses
+I include jaw, eyelids and tone controls
+but not till the end of the head, eye direction or pupil dilations
+so let's hide these controls
+now let's move on to frame 270 to create the pose
+on frame 270 you can see how her face resets to default 
+saving default values every 10 frames ahead of time created a very quick and easy workflow
+here I'm checking on the transition
+it's moving smoothly and naturally
+when working this closely to Sintel's face in perspective
+I leave the camera lens to 90
+switching the lens back to its default 35 creates an inaccurate distortion of the face
+so I just leave it at 90
+starting with basic symmetrical shapes seen in the full shapes tutorial portion
+you can see how we can now achieve a nice range of a symmetrical movement in the face

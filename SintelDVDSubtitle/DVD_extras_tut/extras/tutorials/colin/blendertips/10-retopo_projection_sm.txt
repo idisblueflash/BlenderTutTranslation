@@ -1,0 +1,55 @@
+So, I'm currently at home
+I probably assume I'm gonna run out of the features to demonstrate
+So it's just probably do a couple of more
+But right I'm gonna show you a "projection editing"
+Forget what the term it actually was
+When I was under 2.49, there is a different way of doing this
+this is really cool
+this is basically the feature that allows you to take a base of geometry that has deformations 
+you know, it's not a plane
+and you can take another object when you're editing the mesh that have the vertices automatically snap to the surfaces underneath
+and it's really a great modeling tool
+anyway, its approach in 2.5 is a little bit different
+so I can either... Well, I just use this cube, since it's here
+with Ctrl 2 just add a Subsurf modifier and make it smooth
+so here we go
+and I'm just gonna add a plane
+and, basically...er... Rotate with double R
+just because I want it to be outside
+OK
+so, basically we have to be in Shaded mode, I believe
+and this tool actually is a snapping feature which wakes sense
+this feature was not immigrated in the snapping tools, I believe in 2.49
+but here at the bottom of the 3D view 
+we can toggle on Snapping
+and here right next to it is your snapping options
+so let's click that
+and go to Face
+because it's gonna snap those vertices to the faces underneath
+and, then, this is important to a magical button
+right here
+"Project vertices on the surface of other objects"
+so just can toggle that on
+we just wanna do
+there, interesting
+now I'm gonna prove that 
+alright, so I'm going to Edit Mode
+hit G
+and suddenly, as all we have to do, to need moving it
+those four points have snapped to the surface of the object underneath
+I need to just toggle Subsurf on more
+so we can see, and, we're gonna subdivide to several times on this plane
+we can always see it by then
+now under Shade mode we can 
+and we're gonna play the trick again
+and it's actually going to just confirm perfectly to the form of that sphere
+beautiful
+and you might be going like this 
+right now, it looks like it's still not doing it right 
+but if I change the view
+you will see how it's actually deformed those points
+so it's really a handy modeling tool
+if you've got the shape of a model 
+that looks great, but the edge loops are not working
+it is really a great way to start to work
+anyway, that is that pretty cool feature, pretty easy, as well.

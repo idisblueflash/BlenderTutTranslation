@@ -1,0 +1,45 @@
+this is a short tutorial explaining how we made the varies of things like fly for our movie "Sintel"
+we have basicly dragons, butterflies, birds
+then a large amount of them
+so we have to carry out with an enfficent way of making a fly in an interesting way
+and for this
+we use a library of cycles
+this one is a bird cycle I come up with
+it's also one for the baby dragon and for the butterfly
+for example here is the baby dragon and you will this is the baby dragon with cycles in the character directory
+btw, in the action list you will find different varies of ones
+so anyway here is a small example about a bird flying around the bezier spline
+you'll see the banking somewhere you wanna go around it such as connection
+what you normally do is in the NLA
+import this cycle you saw earlier
+and simply go down
+and increase the number of Repeats such as the beziered animation
+and there have a bird flying around the spline
+unfortunately it looks wrapped out
+because the fly's waven
+and I really have much characters to do
+and I don't have anything to do with speeding up or slowing down
+as is the part changes
+so I don't wanna change it and I would use these two buttons
+one of these is the new feature for this candidates started for Durian
+Basically it means that we now have the use of a F-Curve we have controls over the timing in the NLA strip
+so basically here you can see
+change the handle to vector
+here you can see it's looping just as it normally would if you would repeat
+the cycle is in a standard wide
+but because of the curve we now have control library
+so by adding keyframes I can, for example, make the bird speed up as it goes around the curve
+so add a keyframe here
+and keyframe here
+select to the end and lift them up
+you now see in that region it will speed the curve
+which means that the bird will fly faster in that region
+now just set another one here and drag it up again
+so basically the speedy curve means a faster flap a shadowed curve means a slower flap
+as you can see this means that the bird now has a provisional appeal
+and you can make the flap speed make sense to the projectory of the bird
+so alright
+this is the technique used
+and hopefully you can find it useful for other themes
+good luck
+see you

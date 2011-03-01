@@ -1,0 +1,179 @@
+1
+00:00:00,000 --> 00:00:04,222
+Here in the "Shapes" panel are all the symmetrical shapes for Sintel
+在这里的"Shapes"面板中既是所有的SINTEL对称表情
+
+2
+00:00:04,252 --> 00:00:08,314
+we have 26 facial and 2 more for pupil dilation
+现在有26个面部表情以及另外2个用于瞳孔变大变小的表情
+
+3
+00:00:19,066 --> 00:00:20,660
+while working on facial shapes
+当我们使用面部表情进行工作时
+
+4
+00:00:20,630 --> 00:00:23,198
+I found that working with "Texture Solid" shading enabled
+我发现最好工作在“Texture solid”阴影打开的模式下
+
+5
+00:00:23,238 --> 00:00:26,087
+which is in the "Property" shelf under "Display"
+这个模式可以在"Display"下的“Property”栏里找到
+
+6
+00:00:26,207 --> 00:00:28,263
+made it much nicer to work with
+打开它会让工作变的更爽
+
+7
+00:00:28,413 --> 00:00:30,841
+it gave me feedback on how our textures moved
+因为它反馈出我们的纹理是如何移动的
+
+8
+00:00:30,831 --> 00:00:33,779
+and was close to what she looked like once rendered
+而且这效果和最终渲染后的效果也很接近
+
+9
+00:00:40,960 --> 00:00:43,508
+once the jaw and eyelids are rigged and weighted
+一旦下巴和眼皮儿被链接骨骼和加权
+
+10
+00:00:43,498 --> 00:00:45,895
+the first thing I do is to open the jaw
+我做的第一件事就是打开下巴
+
+11
+00:00:45,895 --> 00:00:49,114
+check and clean up the geometry inside the mouth
+检查和清除嘴里面的一些几何体
+
+12
+00:00:49,466 --> 00:00:50,438
+after that
+然后
+
+13
+00:00:50,448 --> 00:00:56,366
+I start creating a series of isolated shapes in full symmetrical form using "X Mirror" tool
+我开始创建一系列独立的表情，他们都是用X轴镜像工具来实现完全对称的
+
+14
+00:00:56,396 --> 00:00:57,710
+I start with proportional editing
+我先以比例调整开始
+
+15
+00:00:57,670 --> 00:01:02,985
+and then move onto editing individual vertex for final polishing
+然后下一步针对各独立的顶点做调整使其光滑
+
+16
+00:01:03,427 --> 00:01:05,112
+I like to work in symmetry
+我喜欢工作在对称模式下
+
+17
+00:01:05,072 --> 00:01:07,860
+because it gives me the full effective in each shape
+因为它可以给我看每个表情的最终效果
+
+18
+00:01:07,940 --> 00:01:08,983
+in the next section
+接下来呢
+
+19
+00:01:08,953 --> 00:01:12,624
+you'll see how I break up the shapes to create a symmetry
+你会看到我怎么分割表情去创建对称
+
+20
+00:01:25,542 --> 00:01:30,607
+on frame 220 you will notice that the only shape that I include in the rig is the screen shape
+在220帧时，你会注意到在链接中唯一存在一种的表情是屏幕表情（?不知道是什么）
+
+21
+00:01:30,687 --> 00:01:31,901
+to create the shape
+要创建这种表情
+
+22
+00:01:31,861 --> 00:01:36,454
+I first placed the eyelid rig and then built my screen shape around it
+我首先需放置眼皮的链接，然后围绕它为每一个面部表情
+
+23
+00:01:55,581 --> 00:01:56,443
+for each shape
+创建了屏幕表情
+
+24
+00:01:56,453 --> 00:01:59,4
+I checked on three things which I call it Three Ms
+我检查了3个东东，我叫他们3个大M
+
+25
+00:01:59,512 --> 00:02:00,947
+first: "Motion"
+第一个M：Motion（运动）
+
+26
+00:02:01,067 --> 00:02:05,891
+I stare between default shape at all angles ensuring everything moves naturally
+我盯着看每个表情从默认状态到各个角度时的动作以保证所有东西动作都很自然
+
+27
+00:02:06,172 --> 00:02:07,747
+second: "Mixing"
+第二个M：“Mixing”（混合）
+
+28
+00:02:07,877 --> 00:02:10,595
+since the goals to create shapes that are mixable
+我们创建表情的目的是：让他们可混在一起以表现正常
+
+29
+00:02:10,665 --> 00:02:13,393
+I mixed what I'm currently working on with other shapes
+那么我就必须要把我正在做的每一片表情都与别的相吻合及混合
+
+30
+00:02:13,373 --> 00:02:16,141
+and that ensures that they blend well together
+这样就能保证他们很好的混接起来。
+
+31
+00:02:16,573 --> 00:02:18,197
+third: "Mouth Open"
+第三个M：“Mouth Open”（张开嘴）
+
+32
+00:02:18,288 --> 00:02:19,321
+for all mouth shapes
+对于每个嘴的表情
+
+33
+00:02:19,291 --> 00:02:25,048
+I open the jaw and make sure that each shape is smooth inside the mouth and against the teeth
+我会打开下巴去确认是不是每个表情在嘴内部是平滑的，而且是贴着牙齿的
+
+34
+00:02:27,184 --> 00:02:29,280
+the shapes might not look like much now
+这些表情可能现在看起来不那么逼真
+
+35
+00:02:29,220 --> 00:02:31,978
+and that's because they're meant to be combined together
+这个嘛是因为他们将要并需要被合并起来
+
+36
+00:02:32,018 --> 00:02:38,989
+this layering method allows animators more flexibility to build more complex facial expression
+这种分层的方法允许动画作家们更有柔性的创建复杂的面部表达。

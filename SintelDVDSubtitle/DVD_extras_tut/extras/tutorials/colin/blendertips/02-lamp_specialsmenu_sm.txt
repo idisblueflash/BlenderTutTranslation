@@ -1,0 +1,86 @@
+Hello 
+and welcome to the Blendr's Tips of Colin Levy Part 2
+first I wanna show you is the special menu of light
+so duplicating a couple of lights here
+turning this one to spot
+and gonna make a buffer shadow 
+to focus this light
+I normally go into here and change spot shape
+and, you know, change Autoclip and...
+but you can actually access these settings very quickly with the W key
+to enter this Specials menu
+so that you can change the spot size, the blend, so you can see
+I'll rotate like this
+clip start and end for shadows and and that's nice and handy, very fast
+and it works specially for buffer shadow lamps
+but you can also change the settings for all of them
+so you notice that if you hit W key
+this last feature called "Isolate Render Selection"
+so I'm just gonna apologize right there
+actually we've just forward in time two weeks
+I am at home right now
+basically I have to re-record the seonc part of this tutorial
+because actually blender's functionality has changed
+so I've got three lights here 
+and now if you hit the Specials menu
+you will see that this feature has been updated
+and no loger you'll have...
+oh, I forgot what the term actually was 
+but now we have two updates here 
+Restrict Render Unselected and Clear All Restrict Render
+er... confusing
+so to see what's this does
+let's open up the Outliner and set it to Same Types
+what's this gonna do is everything in your scene that's of same types
+whatever you have selected will show up here
+in this case I got one lamp selected
+so all the lamps gonna in the scene that are not selected gonna show up
+when I change selection to this cube you'll see all the meshs of the objects
+so here we go
+we see three lamps here
+basically these features here make it very easy to isolate one of them or several to render
+a lot of time you will be working on complex scenes
+with ton of light all over the place 
+it's really important to be able to very quickly know what each of the individual light is doing 
+and fix, for example, shadow buffer issue with one of your lamps and if you don't want know which one it is
+this is a quick way, sort of a test
+so I've got one light selected
+and I wanna see this light in the render all by itself
+so by hitting W
+the Specials menu
+and going to the Restrict Render Unselected
+that's going to look all of the objects in the same type 
+whatever isn't selected
+it's gonna hide them from renderbility
+so, as you see
+now this is the only one that has the render icon toggled on
+I mean other two lamps are off
+and to restall it
+you can go now to the W menu - Clear All Restrict Render
+so everything is of the same type would now be renderable 
+and you can do this with multiple things of course
+andthat whould make this one to toggle off
+now another related handy shortcut to hide objects that are selected remain renderable is Ctrl H
+so let's say you have twenty-five lamps all over the place
+and you want one of them to not render
+so is the inverse situation
+you can just selected and with your mouse just over the 3D view
+Ctrl H
+and you'll see the Outliner that the renderability icon is now off
+and you can use Ctrl Alt H to bring it back
+but you can, in this case, you can also just say Clear All Restrict Render
+and it just will bring all back
+and this is also useful for other thing than lights
+but that would be the feature that was implemented for
+and... it's really really handy
+I used it a lot
+and while we are here, one last thing
+I wanna show this really cool feature
+which you've probably known about
+which is in the Sport Shape menu
+a little toggle dragged down called Show Cone
+so if you toggle that on you can now see in the 3D view where your lights are hidding
+and that's really useful to know
+a lot of time it's just hard to visualize
+it's just really nice a little tool
+OK. see you in Part 3

@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:05,007
+Here we have all blended shapes connected to the facial rig
+
+2
+00:00:05,036 --> 00:00:07,000
+now ready for animation
+
+3
+00:00:07,385 --> 00:00:12,797
+at this stage I tested everything else but creating a series of quick and basic facial poses
+
+4
+00:00:12,788 --> 00:00:16,957
+which include a series of both bone names and emotions
+
+5
+00:00:18,787 --> 00:00:22,071
+each bones is keyed on every 10 frames
+
+6
+00:00:25,142 --> 00:00:30,265
+doing this text provides me with feedback on how well everything posed together overall
+
+7
+00:00:30,342 --> 00:00:33,751
+and ensures a good range that still looks pretty natural
+
+8
+00:00:36,833 --> 00:00:40,193
+since the shapes all now being controlled by the facial rig
+
+9
+00:00:40,203 --> 00:00:43,506
+animators use the controls to key poses
+
+10
+00:01:03,401 --> 00:01:04,932
+to speed up my workflow
+
+11
+00:01:04,932 --> 00:01:06,665
+I enable the AutoKey
+
+12
+00:01:13,059 --> 00:01:15,370
+OK let's add two more poses
+
+13
+00:01:15,418 --> 00:01:16,786
+one on frame 260
+
+14
+00:01:16,795 --> 00:01:19,145
+and the other one on frame 270
+
+15
+00:01:22,015 --> 00:01:22,939
+in the DopeSheet
+
+16
+00:01:22,939 --> 00:01:25,192
+default values have already been keyed
+
+17
+00:01:25,183 --> 00:01:27,783
+which allows me a blank canvas to start with
+
+18
+00:01:33,272 --> 00:01:34,418
+to create poses
+
+19
+00:01:34,398 --> 00:01:37,489
+I include jaw, eyelids and tone controls
+
+20
+00:01:37,528 --> 00:01:41,428
+but not till the end of the head, eye direction or pupil dilations
+
+21
+00:01:41,380 --> 00:01:43,219
+so let's hide these controls
+
+22
+00:05:13,128 --> 00:05:17,458
+now let's move on to frame 270 to create the pose
+
+23
+00:05:17,664 --> 00:05:21,645
+on frame 270 you can see how her face resets to default 
+
+24
+00:05:21,851 --> 00:05:28,506
+saving default values every 10 frames ahead of time created a very quick and easy workflow
+
+25
+00:06:44,342 --> 00:06:46,622
+here I'm checking on the transition
+
+26
+00:06:46,585 --> 00:06:48,753
+it's moving smoothly and naturally
+
+27
+00:07:35,336 --> 00:07:38,813
+when working this closely to Sintel's face in perspective
+
+28
+00:07:38,850 --> 00:07:41,616
+I leave the camera lens to 90
+
+29
+00:07:45,505 --> 00:07:51,729
+switching the lens back to its default 35 creates an inaccurate distortion of the face
+
+30
+00:07:56,739 --> 00:07:58,982
+so I just leave it at 90
+
+31
+00:08:25,900 --> 00:08:31,246
+starting with basic symmetrical shapes seen in the full shapes tutorial portion
+
+32
+00:08:31,283 --> 00:08:37,975
+you can see how we can now achieve a nice range of a symmetrical movement in the face
+
+33
+00:00:00,000 --> 00:00:00,000
+
+

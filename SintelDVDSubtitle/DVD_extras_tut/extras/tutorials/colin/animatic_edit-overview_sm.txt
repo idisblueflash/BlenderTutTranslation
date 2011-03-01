@@ -1,0 +1,319 @@
+Hi, my name is Colin Levy
+
+and I'm the director of project Durian, aka Sintel
+
+and I wanna show you guys a little bit about the structure of our "Ani" folder within our Durian production repository
+
+this is the directory that I, sort of, maintain throughtout the duriation of the project
+
+and specificly, tha "animatic_edit.blend", which is where the most updated version of the movie always was, as we were working on it
+
+so, right here, this is the whole repository
+
+as you can see, the biggest folder or directory is "pro"
+
+that's for production files, textures, models, scenes
+
+"ani" is actually just mainly renders that is, you know, taking up all our space
+
+so go into "ani" directory and you'll see this "animatic_edit.blend" 
+ 
+let's just open that up
+
+oh, sorry it's already open
+
+OK, so here is the animatic_edit, and as you can see it's a sequencer that is open
+
+and the frame range goes from 0 to 21312
+
+21000 frames
+
+so, as I described here, you'll see the entire movie
+
+and this is... we're currently looking at the ColorGrade scene
+
+so this, up here, is where you can access all different scenes in the file
+
+and basically, everything is like a different sequence 
+
+it's basically a different edit of something
+
+a lot of them have to do with the exact same thing that you're looking at here, the whole... you know, the final movie
+
+this is the one that we have set this upon colorgrading
+
+but you'll see a couple of them, look very similar
+
+so if we go to "MASTER Edit"
+
+this one is a lot more complex
+
+expand this
+
+hoo... it smokes!
+
+look at all this... you know, a lot of stuff here
+
+but essentially, it just goes through, and it's the same thing
+
+what is happening here behind the scenes is,
+
+I'm just gonna go to ColorGrade
+
+because it's all simpler to look at
+
+thse are referencing files in the end of the directory
+
+if you're looking that the Strip Input, over here
+
+we can access that by hitting N
+
+we'll see that in the end of the directory there's a "render" folder, in "render", there's a "O4.1c_comp.avi"
+
+so I'm just gonna hide blender for a second
+
+so we can check out the "render" folder
+
+and in this folder, there are some folders, like subfolders
+
+but most of these are AVIs that have been generated from image sequences of exr files that we have rendered from the farm
+
+so just open up a random shot
+
+OK, so this is an example shot that we get back from farm
+
+that happens automatically, or happend automatically, as we were working on it
+
+in the render directory, now you'll see that every shot actually has a corresponding AVI in the "render_gl" folder
+
+and this is the OpenGL, like playblasts of animation
+
+so, probably should be called "animation_gl"
+
+but it's like... OpenGL is ready to be rendered
+
+and these actually are oriental folders, so we've the same shot, you'll see this is what it looks like before it's rendered
+
+but this will finally replace in the edit, when this is all we had
+
+you know, there's a mix....could be a majority project... there's a mix of storyboards, layout, OpenGL renders, and then final renders
+
+I'm, so, going back to blender
+
+you can see right now, and this ColorGrade sequence, all the areas, this is like the simple version of everything, of the edit
+
+so this is the final edit with only the renders linked in
+
+if you go back to "MASTER Edit"
+
+this is the one that I was maintaining throughout
+
+so this is the one that I worked on for the majority project
+
+and basically for some scenes, there are 3 levels
+
+there is, the final render
+
+I'm gonna just press H to hide
+
+underneath that, there's the OpenGL
+
+and underneath that, is my layout
+
+so this is an interesting way to look at the progressional scenes
+
+so if I actually hide the top 2 layers of all these render strips and the the render_gl strips
+
+I'm gonna press H
+
+you can have... you can take a look at what the layout was
+
+so this is what I spent reduced time in the project Durian, is figuring out the blocking in the characters, the blocking in the camera moves, the edit in the timing
+
+so this basical tool that was handy to the animators
+
+but the timing is actually pretty good
+
+I mean, right for this particular scene, the frame is accuate
+
+so whatever the timing in the layout was, that's so much time the animator had to do their work
+
+so I'm just gonna unhide the render_gl scene
+
+so that you can see when you are working on the scene, and you'll see that, you know, shots are not consistent
+
+you know, sometimes it's a proxy models, sometimes it's forward models£¬sometimes characters are missing, like in the shot
+
+but it's really interesting to take a look at 
+
+and then finally the renders
+
+now, not everything is so needly on layout
+
+the process of woking on Durian, I think, was a lot more messy than Big Buck Bunny which had... which was very very structured
+
+if you look at the animatic... the "live_edit.blend" from the Big Buck Bunny repository
+
+it looks beautiful
+
+there are MetaStrips that you can tab into
+
+but you can see the the storyboards, the layout, or the animatic, all the in the final film, is all framed and markered
+
+and nothing is missing basically
+
+and here, it's a little bit more random
+
+timing direrent change between layout and animation and sometimes uncertainly between storyboard and layout
+
+so, one of the things that I do need in the project was I made a 4-split view of the film, where you can see the final film
+
+and you can see the animatic, the layout and storyboards edited to that final timing
+
+so if you check out the, for example, the layout
+
+go into the Scenes -> "4split-layout"
+
+and this is the layout for the entire scene, for the entire film with the timing of that final movie
+
+so there's a little bit of shifting around to make it match
+
+same thing with "open_gl"
+
+this can, of course, be a lot more exact
+
+and the "storyboards"
+
+you're gonna have to Tab into this MetaStrip
+
+so that the proportions are right, interesting
+
+none of these storyboards seem to be linking in
+
+that's because they are all relative absolute paths
+
+OK, this is gonna have to be fixed
+
+sorry, blocked, to fix this
+
+this is just gonna change the path, like so
+
+so we've got storyboards, but this is edited retrospectively
+
+and my point is, that this is, maybe interesting, to look at
+
+but probably more interesting is to actually look at storyboards as they were when I edit them originally
+
+so we actually have a scene for that
+
+if you go into the Scene menu again, "Storyboards"
+
+this is actually, you know, a copy of the scene of the whole film as it was when project was only existed in storyboards
+
+which, you know, we have limited amount of time to do
+
+so they are not beautiful
+
+and unforturately, probably most audio would not linked in
+
+but this is... there wasn't much audios, just for the two small scenes
+
+so, that might be interesting 
+
+there are a lot of the transformed final strips, just because of the work being done in 2.5, especially the sequencers' stuff probably do not have animation any more
+
+it's really annoying
+
+but I did do a little bit of camera movement in the storyboards
+
+but it's such a pain to retain that data
+
+because as soon as you move stuff around, because it's pretty buggy at the time, I will lose it
+
+so, in this case, on this strip, this probably animation data
+
+if I go over to this view, which is the Graph Editor
+
+you'll see these two channels, "Scale X", "Scale Y", so that's what I animated
+
+press Home, you'll see that in fact there are curves here
+
+and really that should be lined up with the end with the playhead right here
+
+I'm gonna  maximize this, and just move those strips...er, those curves over
+
+do same thing here
+
+and move that beginning
+
+it's now this... well, timing needs work
+
+but that's closer to what we actually had
+
+it's gonna be as quick as dulling probably
+
+and we've also got the teaser trailer
+
+edit it here£¬ which might also interesting to look at
+
+so, what else, "2k"
+
+these reference, I mean, unless you are active bunners too, these are not gonna work for you
+
+because these reference are shared directory, and there's all "2K" JPGs we can swap them out for EXRs using script over here, on the top right
+
+but this was the sequence that we... the actual sequence we used to export the final movie
+
+Oh, one quick thing, you might be wondering what this layer is, of these, like yellow strips
+
+and that is actually what we end up using for a scene markers  
+
+the current implementation of the markers, the feature, is a little bit hacky
+
+that's my personal knowledge
+
+basically, one of the things I wanted early was to have those markers automatically transform with, whatever, the strips shared in movie
+
+so, like... for example, if I have everything to the right of the playhead selected, which is Ctrl Right click
+
+and then I move, right now, they do move with you transformation if you have "Transform Markers" taken down
+
+however, if I deselect those, you know, the strips... I don't know, grab this guy and move it
+
+grab this guy and move it
+
+we'll see actually the markers are moving, too
+
+so the markers do not... the selection of the markers have to be done here, instead of the actual sequencer
+
+so, anyway, it's just a bit sort of a pain and, of course, unforunately£¬and unhopfully change
+
+but it's just a lot easier for us, for youngs, especially to know where the timging is changed for sort of any purposes
+
+and musics too
+
+I just have these in visible color strips
+
+hovering above the change between each of our scenes
+
+and they can be named and furnctions basically the same 
+
+OK, so that is that
+
+I think this... no, unless you have a 4G render files in Durian directory
+
+this is probably of limited use to you
+
+but in terms of how we set it up, how we actually worked with blender to maintain whole edit
+
+I mean it's pretty straight forward
+
+and I'm not really sure what else to share
+
+if you have questions certainly let me know 
+
+and maybe I can do another video
+
+thanks 
+
+

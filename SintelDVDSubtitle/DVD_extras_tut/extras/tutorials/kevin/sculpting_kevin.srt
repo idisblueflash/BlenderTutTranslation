@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:05,153
+Music: Little People by Project Divinity
+
+2
+00:00:05,275 --> 00:00:11,182
+General forms are sculpted first at a low resolution
+
+3
+00:00:12,762 --> 00:00:25,039
+It's important to sculpt the general shapes at a low resolution to prevent unwanted lumpiness
+
+4
+00:00:25,014 --> 00:00:29,317
+The clay, draw, smooth, and grab brushes are good for this stage
+
+5
+00:00:48,498 --> 00:00:56,860
+Try to perfect the current resolution before sculpting at a higher resolution.
+
+6
+00:02:16,961 --> 00:02:22,893
+Save the small details for last
+
+7
+00:02:26,758 --> 00:02:35,607
+A textured brush isn't used because it lacks control over continuity and growth patterns of scales.
+
+8
+00:02:47,932 --> 00:02:53,110
+Flows of scales that contour underlying shapes are sculpted first.
+
+9
+00:02:56,052 --> 00:03:01,011
+Areas between these flows are patched with smaller scales that don't follow a pattern
+
+10
+00:04:36,427 --> 00:04:44,182
+A textured brush with are enabled allows multiple cuts to be made at once
+
+11
+00:05:18,264 --> 00:05:23,442
+The last step is to use a textured brush to give everything a bit of variety.

@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:05,995
+Hi, my name is Colin Levy, and my the director of project durian, aka(also known as) Sintel
+
+2
+00:00:06,138 --> 00:00:14,921
+I want to show you guys little bit by the structure of our ANI folder within our durian production repository
+
+3
+00:00:14,992 --> 00:00:21,624
+this is a .. the dirctory that isolate contain the dirctories of the project, and specifically
+
+4
+00:00:21,724 --> 00:00:31,070
+the animatic_edit.blend which is where the most updated version of the movie always was as you organize
+
+5
+00:00:31,170 --> 00:00:43,033
+so this is , right here, this is  the whole repository as you can see and  the biggest folder directory is 
+
+6
+00:00:43,133 --> 00:00:47,434
+PRO nahz proproduction files, textures, models, scences
+
+7
+00:00:47,534 --> 00:00:53,280
+ any exactly just mean the renders that's you know take up lots  space
+
+8
+00:00:53,380 --> 00:00:59,763
+so go into the any directory and you'll see this animatic_edit.blend which should open that up
+
+9
+00:00:59,863 --> 00:01:05,914
+sorry to open, ok , so here is the animatic_edit
+
+10
+00:01:06,014 --> 00:01:10,404
+and as you can see, it's a sequencer does it open
+
+11
+00:01:10,423 --> 00:01:21,229
+and the frame range goes from  0 to 21312, 21 thousands frames
+
+12
+00:01:21,329 --> 00:01:26,040
+so, as I described here, it's the entire movie
+
+13
+00:01:26,140 --> 00:01:30,595
+and, this is we currently looking at the color gray scence
+
+14
+00:01:30,695 --> 00:01:41,998
+so these up here, is where we can access all  the pre-scences in the file, basically every scence is like different sequence
+
+15
+00:01:42,098 --> 00:01:44,036
+it's basically an different editor or something
+
+16
+00:01:44,136 --> 00:01:50,390
+a lot of them has to do the exactly same things you looking at here, you know the final movie
+
+17
+00:01:50,490 --> 00:01:54,577
+this is the one, that we had set up the ColorGrading
+
+18
+00:01:54,677 --> 00:02:01,748
+but you'll see a couple of them, looks very similar, so if you goto the MASTER Edit
+
+19
+00:02:01,848 --> 00:02:05,108
+this has a lot more complex
+
+20
+00:02:05,208 --> 00:02:14,969
+as mine this, holy smokes, look at all these, you know , a lot of stuffs here
+

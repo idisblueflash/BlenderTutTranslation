@@ -1,0 +1,27 @@
+OK, so the next thing I wanna show you I'm just gonna leave... (靠，舌头跑偏了，重来) 
+OK, so the next thing I wanna show you I'm just wanna pick up where I locked off
+Is a pretty handy way of working with lights
+So I'm just gonna add a spot light here
+And since it's selected I'm going to go into it with Ctrl 0
+And here we are
+It looks as if we are in the camera view so you can do everything that you can normally do from a camera view
+Namely, Fly
+So Shift F is entering the fly mode
+And from there you can point and, you know, aim your light
+you can use R to rotate
+or double R to sort of grab on something and look around
+and if I just put the view here
+and fold these stupid things
+you can also see that the clipping plane that you've normally associated with the camera is the same thing as through the clip start and clip end
+so if I...(I just bring it really low)...
+You can actually see from within the camera view how much they like is able to shadow
+and just that could be really useful when you need it to be precise
+so ya, that's that
+and one of the things that makes it a little bit annoying is
+currently it's not really an easy way to get back to the camera view where you were
+I think the previous version 2.49 you could do the same thing getting Ctrl 0
+or something and get back to where you were
+it's more like a toggle, maybe, I forgot what it's probably said
+but if you're using camera markers
+it's easy enough to Ctrl click and jump right back where you were
+so that's another reason to use camera binding 

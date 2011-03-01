@@ -1,0 +1,12 @@
+For each Sintel
+start with the young Sintel
+and all her shape keys
+I then simply added one aging shape key and named it "sintel_scene8"
+this aging shape key was also added to her shirt, inside mouth, eyebrow emit, top and bottom eyelash emit as well as her tear line
+when left on
+the shape fits into all the rest of the shapes which alters the model
+I then went back to check out all existing facial shapes held up
+they all worked well so we left as is
+since the aging shape is on the slider
+the range can be adjusted to any desired value for the movie
+overwriting the full value of the shape even further or age her even more

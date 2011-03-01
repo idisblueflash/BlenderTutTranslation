@@ -1,0 +1,260 @@
+1
+00:00:00,094 --> 00:00:00,765
+Already
+
+2
+00:00:00,757 --> 00:00:07,668
+so, right now I gonna show you about the camera switching system that Campbell implemented for Durian
+
+3
+00:00:07,684 --> 00:00:13,577
+this, of course, as everything is subject to change as the most ideal system
+
+4
+00:00:13,656 --> 00:00:16,244
+but I found it's quite useful whereas here
+
+5
+00:00:16,339 --> 00:00:17,696
+you might want to know how to use it
+
+6
+00:00:17,711 --> 00:00:21,664
+so I've just opened up the cabin environment file
+
+7
+00:00:21,703 --> 00:00:23,273
+we've already got one camera
+
+8
+00:00:23,360 --> 00:00:24,867
+in here
+
+9
+00:00:25,064 --> 00:00:27,778
+by the way, while we are here
+
+10
+00:00:27,763 --> 00:00:32,780
+you can select the camera by going to set Select menu -> Select Camera
+
+11
+00:00:32,828 --> 00:00:34,816
+so now I've got it actually selected
+
+12
+00:00:34,903 --> 00:00:37,932
+but I'm gonna open up the Timeline
+
+13
+00:00:38,177 --> 00:00:42,942
+and the way that camera switching works is it's linked to markers
+
+14
+00:00:42,966 --> 00:00:47,044
+so I'm just gonna make a marker on frame 22
+
+15
+00:00:47,068 --> 00:00:50,248
+by hitting M with my mouse over the timeline
+
+16
+00:00:50,342 --> 00:00:55,589
+Now I'm going to create another camera
+
+17
+00:00:55,754 --> 00:00:58,003
+and just put it right in the middle of the scene
+
+18
+00:00:58,098 --> 00:01:00,472
+rotate it somewhere
+
+19
+00:01:02,555 --> 00:01:05,380
+not really the way I've played with the camera scale up and down
+
+20
+00:01:05,466 --> 00:01:06,232
+just for case
+
+21
+00:01:06,208 --> 00:01:08,835
+now we've got two cameras in the scene
+
+22
+00:01:08,977 --> 00:01:10,965
+and one marker
+
+23
+00:01:11,068 --> 00:01:14,374
+so, to bind a camera to a marker
+
+24
+00:01:14,476 --> 00:01:15,809
+and it is the process
+
+25
+00:01:15,809 --> 00:01:17,308
+you select the camera
+
+26
+00:01:17,435 --> 00:01:21,048
+you make it active by going in Ctrl 0
+
+27
+00:01:21,206 --> 00:01:28,748
+and in the View menu there is a menu item "Bind Camera to Markers"
+
+28
+00:01:28,874 --> 00:01:30,602
+so you've got this marker selected
+
+29
+00:01:30,657 --> 00:01:34,152
+and I just gotta do the shortcut Ctrl B
+
+30
+00:01:34,452 --> 00:01:39,612
+so now this camera is selected...er...active, that is
+
+31
+00:01:39,722 --> 00:01:45,726
+and you can tell whether it's active because this triangle above it is filled in
+
+32
+00:01:46,018 --> 00:01:47,541
+that is binded to that marder
+
+33
+00:01:47,549 --> 00:01:50,452
+now I'm gonna go forward to frame 95
+
+34
+00:01:50,460 --> 00:01:52,440
+hit M to add another marker
+
+35
+00:01:52,503 --> 00:01:54,223
+I'm gonna select this camera
+
+36
+00:01:54,255 --> 00:01:56,945
+go into with Ctrl NumPad 0 
+
+37
+00:01:57,016 --> 00:02:01,347
+and, with my mouse over the timeline, hit Ctrl B
+
+38
+00:02:01,434 --> 00:02:07,635
+alright, so it's a little bit of a workflow you'll get used to
+
+39
+00:02:07,793 --> 00:02:10,744
+but, now we just grab
+
+40
+00:02:10,831 --> 00:02:13,024
+you will see how it switches around
+
+41
+00:02:13,008 --> 00:02:20,566
+you can move the marker to change the frame which camera will switch
+
+42
+00:02:20,574 --> 00:02:22,184
+you can re-order them
+
+43
+00:02:22,215 --> 00:02:23,501
+you can name them
+
+44
+00:02:23,541 --> 00:02:27,493
+and another is done actually in a really hacking way
+
+45
+00:02:27,572 --> 00:02:31,170
+by going into Frame menu actually just clicking here
+
+46
+00:02:31,288 --> 00:02:33,032
+"lalala..."
+
+47
+00:02:33,110 --> 00:02:38,854
+and... "shotA" like so
+
+48
+00:02:38,933 --> 00:02:43,185
+but this is how it's done for Durian, and it's really handy
+
+49
+00:02:43,288 --> 00:02:48,195
+I guess that's all we have yet for this one, thanks
+
+50
+00:02:48,369 --> 00:02:50,404
+er... a little addendum to that is
+
+51
+00:02:50,388 --> 00:02:53,024
+a little shortcut that compared that how it is useful
+
+52
+00:02:53,063 --> 00:03:02,491
+and that is Ctrl clicking on any of these markers, because they are bound, will select that camera
+
+53
+00:03:02,593 --> 00:03:06,822
+this is just a nice and easy way to access cameras in your scene
+
+54
+00:03:06,870 --> 00:03:08,826
+and another little thing is
+
+55
+00:03:08,937 --> 00:03:17,363
+if you make it unrenderable by, I usually go, Ctrl H
+
+56
+00:03:17,718 --> 00:03:21,331
+then it would not actually switch
+
+57
+00:03:22,609 --> 00:03:26,183
+so it is still technically bound
+
+58
+00:03:26,238 --> 00:03:28,439
+but when you play around the shadowing or other stuff
+
+59
+00:03:28,510 --> 00:03:30,625
+sometimes you actually don't want it to switch
+
+60
+00:03:30,704 --> 00:03:37,015
+or if you just wanna see what this camera sees, you know, for beyond and set up moving the frame that you've got
+
+61
+00:03:37,023 --> 00:03:37,907
+and you've decided on
+
+62
+00:03:37,946 --> 00:03:45,031
+you can just temporarily disable that render ability of that camera and enable it again once you want
+
+63
+00:03:45,165 --> 00:03:47,264
+this switched to actual linker
+
+64
+00:03:47,303 --> 00:03:50,727
+so, yep.
+
+65
+00:00:00,000 --> 00:00:00,000
+
+

@@ -1,0 +1,204 @@
+1
+00:00:00,000 --> 00:00:03,756
+So this is actually one of my favourite little features
+
+2
+00:00:03,856 --> 00:00:06,932
+there is a way in Maya to do this
+
+3
+00:00:06,947 --> 00:00:08,325
+but now in blender
+
+4
+00:00:08,318 --> 00:00:09,761
+and so I asked Campbell
+
+5
+00:00:09,861 --> 00:00:13,735
+and he spent like 30 seconds running this feature
+
+6
+00:00:13,835 --> 00:00:15,635
+it is extremely exciting
+
+7
+00:00:15,735 --> 00:00:18,985
+so I'm going to duplicate this cube
+
+8
+00:00:19,085 --> 00:00:21,654
+and set up the parent, child
+
+9
+00:00:21,908 --> 00:00:24,149
+a little hot key here
+
+10
+00:00:24,249 --> 00:00:30,270
+basically all what I wanna be about to do is move along this chain
+
+11
+00:00:30,378 --> 00:00:33,120
+and so by using the bracket keys
+
+12
+00:00:33,220 --> 00:00:36,941
+you can now navigate through them
+
+13
+00:00:36,985 --> 00:00:37,717
+so cool
+
+14
+00:00:37,817 --> 00:00:42,823
+and you can even hit Shift and select, you know, multiple
+
+15
+00:00:42,903 --> 00:00:46,108
+and it's pretty smart the way it works
+
+16
+00:00:46,166 --> 00:00:49,125
+now I've got sort of a branch 
+
+17
+00:00:49,219 --> 00:00:53,150
+this one is the parent of all of them
+
+18
+00:00:53,193 --> 00:00:54,238
+settled there
+
+19
+00:00:54,338 --> 00:00:56,493
+this is also the child of this parent
+
+20
+00:00:56,566 --> 00:01:00,714
+by hitting bracket right
+
+21
+00:01:00,814 --> 00:01:02,171
+it selects both
+
+22
+00:01:02,280 --> 00:01:05,072
+I'm not really sure how it will deal with the active one
+
+23
+00:01:05,101 --> 00:01:06,566
+probably the longer chain
+
+24
+00:01:06,610 --> 00:01:07,639
+in this case
+
+25
+00:01:07,639 --> 00:01:11,657
+it is incredibly useful and use it all time
+
+26
+00:01:11,672 --> 00:01:12,912
+you should 
+
+27
+00:01:12,977 --> 00:01:14,304
+let's see
+
+28
+00:01:14,297 --> 00:01:16,494
+the other thing that I want show you is...
+
+29
+00:01:16,538 --> 00:01:21,266
+I'm gonna open up a particular dance shot from Durian
+
+30
+00:01:21,382 --> 00:01:24,493
+and so it's another Campbell feature
+
+31
+00:01:24,609 --> 00:01:31,600
+so, as you can see this is a pretty intense shot
+
+32
+00:01:31,651 --> 00:01:33,899
+if I enable all layers and holy smokes
+
+33
+00:01:33,914 --> 00:01:35,110
+what's is going on
+
+34
+00:01:35,139 --> 00:01:38,178
+I can barely see the scene
+
+35
+00:01:38,359 --> 00:01:42,137
+but if you look, hit the N key to open up this tab on the right
+
+36
+00:01:42,246 --> 00:01:44,125
+A to close this up
+
+37
+00:01:44,212 --> 00:01:46,561
+and under the Display tab
+
+38
+00:01:46,670 --> 00:01:48,548
+there's a Only Render option
+
+39
+00:01:48,614 --> 00:01:52,095
+what that will do is locate everything that doesn't render
+
+40
+00:01:52,174 --> 00:01:58,295
+rigs, cameras, empties, curves...  And make them disappeared under the view port
+
+41
+00:01:58,389 --> 00:02:00,703
+and wow look the clean that is
+
+42
+00:02:00,775 --> 00:02:02,893
+you can actually see what is going on
+
+43
+00:02:02,907 --> 00:02:04,082
+very handy
+
+44
+00:02:04,155 --> 00:02:08,020
+if you open up any files from the Durian repository
+
+45
+00:02:08,100 --> 00:02:10,906
+and you can't select things
+
+46
+00:02:11,008 --> 00:02:12,197
+that's why
+
+47
+00:02:12,291 --> 00:02:15,627
+so untoggle Only Render 
+
+48
+00:02:15,642 --> 00:02:16,331
+anyway
+
+49
+00:02:16,360 --> 00:02:18,071
+awesome feature?
+
+50
+00:02:18,122 --> 00:02:21,509
+Part of 4 is next
+
+51
+00:00:00,000 --> 00:00:00,000
+
+

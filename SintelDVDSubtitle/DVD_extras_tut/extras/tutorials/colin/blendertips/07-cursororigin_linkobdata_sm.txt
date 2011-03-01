@@ -1,0 +1,28 @@
+OK, welcome to Part 7
+first I wanna show you is a really really simple 
+and that is when you want to return you 3D cursor to the origin
+it's just a shortcut
+but I have the want to do this, you know, for many many times
+and I usually end up zooming away and go in like this to say
+and then say "Cursor to Grid" to snap it
+and that's just stupid
+so what you can actually do is just go Shift C
+and then your new cursor is on the origin
+beautiful
+alright, next thing I wanna show you is linkage
+I guess it is also one of the pretty obvious things but I didn't know it
+it's kinda convenient
+I mean you probably find multiple cases where you wanna use this 
+let's just say, for example
+I've got, you know, a camera with very specific, you know, lens size
+and I want this camera and this camera to have that lens size 
+what we can do is, select the two, select the active
+hit Ctrl L, make links to the object data
+and Bam!
+Now they are all linked
+and have the same attributes
+you can do the same thing here
+and for some reason I didn't know how to do that
+it's quite useful
+now what I wanna do is show you... Hmm... My driver is not mountains
+so this is the way for the next Blender tips of Colin Levy

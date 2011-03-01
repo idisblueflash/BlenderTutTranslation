@@ -1,0 +1,14 @@
+The guardian required the shock specific facial expression which combines several shapes in one
+here we have squinting of the eyes
+the much corners are pulled down and out
+the upper lip is pulled up and the lower lip is pulled down
+and we also have the nasal sneer
+for the brows here makes of mad, sad and raise up
+to create the final overall effect of the blend shape
+I also added the head, eyelids and jaw rig
+here in the Property shelf
+you can see the blend shape named "Death Face" at the full 100% value
+because it's meant to be pushed to the extreme
+the second version of the death face adds to the movement
+in the Shape panel you can see the blend shapes which are now controlled by the rig
+I also added coinciding shape for the inner mouth geometry

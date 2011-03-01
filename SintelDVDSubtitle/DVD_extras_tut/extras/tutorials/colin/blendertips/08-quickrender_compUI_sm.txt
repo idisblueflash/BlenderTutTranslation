@@ -1,0 +1,93 @@
+To this tutorial 
+I'm gonna open up from the bamboo forest to talk for a time
+and I'm just gonna show you how I set it up
+how I will go about rendering other versions of this
+because for the files you are gonna be digging through of Durian
+basically, and now, I'm just gonna open it and hit F12
+the things that should probably be done to make the initial rendering list
+to render it quicker
+so you can at least see... What the thing looks like 
+I'm just gonna go and turn the Simplify on
+in the World settings there are the samples right there
+and the Gather tab
+24 would take a long time
+so I'm just gonna divide this by 4 or 6
+I just do 4
+it's a really low samples
+and now we can go and turn of Anti-Aliasing
+turn off Ray Tracing... Well, we can keep that on
+and for SSS, I don't we need it really in this case
+check the render resolution
+1024 is fine
+and then hit F12
+and a lot of times
+SSS, you know, it should a side effect anyway
+so if you are trying to judge the lighting in the environment
+but you wanna see the character
+you know, you can turn that off and do other things
+just a bit of judges and renders quicker
+so I just cut
+when this render finishes and pick it up there
+so here we are
+the render is finished
+and take about a minute and a half
+so first let's put a view
+and go into the node setup with Shift F3 to go to the Node view
+and I'm just gonna change to the render compositing nodes
+so, first I wanna show you how....er..  I'm gonna do it in the backdrop
+you've probably known this
+but, you know, a lot of time just there in the background
+and you can get destructing it and you can turn it off
+but to move it, you can go Alt MMB click and drag around
+and a little bit more on the tricks than that is to scale it up and down
+hit V
+goes down, and back up
+so it's kind of interesting
+now another look
+a quick thing I wanna show you is selecting the same type of node
+for example
+if you are not sure whether or not the focus is already on all of your render layers 
+because usually it will make sense to be at least on right one
+you can hit Shift G
+it will select the same type of node
+wherever your curves you are set up
+so you can see all your RGB curves 
+and you can even...er... If you got one selected
+I think you can go to the next with Shift and bracket
+so you can through toggles, through them
+and then hit Home to view all
+I thought that NumPad . Will take the center view 
+but of course it's not
+now if you want to place or add new node
+a lot of times I do is
+I'm working in real close like this
+I wanna add, say, a Blur
+and, wow, it just appeared away, down here
+that's not where I wanted
+and I have to move it all the way back
+and as I was wondering why it was
+Barton just told me all I have to do is click where I want it
+then add a node
+and it pops up where you want it
+so I guess you are placing an invisible 2D cursor or kind of the thing
+and, it's just a little thing
+it's probably handy to know 
+last thing I wanna show you right at this moment is
+if you go to the image viewer and just click around
+you will get this really handy...
+We have to be viewing the render result
+you will get this handy XYZ or RGB values here
+so you can get some information about your image
+what's alpha is zero, or what's black, you know
+also, you can see values for Z
+but even cooler than that is
+you hit P
+be here you'll have a very formal vector scope pop-up
+and these are really awesome tools
+really looks good if you expand them to the maximum
+we can get some nice detail
+and you can see the distributional color
+these are the professional looking tools 
+so you should definitely use P in the image area
+OK, that concludes this portion
+see you later

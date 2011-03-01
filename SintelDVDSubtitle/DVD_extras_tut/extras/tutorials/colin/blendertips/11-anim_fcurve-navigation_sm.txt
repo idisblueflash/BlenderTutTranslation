@@ -1,0 +1,133 @@
+So, I'd like to show you guys 
+Basically, have a look at the animation at one of our files
+And you can be really confusing
+So, here opened a shot from the market scene "03.4b"
+and this is what it looks like, fill it in this view and discover around
+and track the cam
+it's kind of collided
+so I'm going to just turn on Only Render
+so you can see what the shot is
+so I'm just gonna put his view over here
+and, so you got a 3D view added
+and by going a Shift F6
+and toggle on the Graph Editor
+so as soon as you get there
+you'll see one troop of vertical lines
+and by pressing Shift and Middle mouse button
+it's coming around
+and see, yep, that's a lot here
+and zoom in Ctrl + Middle Mouse or Mouse Wheel, anyway
+there's a lot of stuff here
+to full view of everything I'm now just gonna press Home
+so, this is a lot of animation, and not all of it is even showing
+but this is what the scene looks like
+and if yo go over here
+and press A, and then Numpad -
+that collapse all the channels
+now we can see, alright 
+we are looking animation for these two extra Man and Woman
+the dragon, Sintel... No idea what that is
+plus camera animation there are just a lot here
+so we only wanna look at what are relevant to us
+so let's focus on the baby dragon
+I'm just gonna select baby dragon's rig
+and you'll notice it's selected here, as well
+and since it's selected here
+I could just press V, and that should isolate everything to just what isn't been checked or selected in the channels here
+so I've got three things selected
+and I hit V
+very directly
+that should change what channels are available
+I guess it's not working because I don't actually have the individual channels selected
+but any case, actually the best way to do this is to turn onto this mouse cursor icon
+and the tool tip is "Only include channels relating to selected objects and data"
+so, you probably don't wanna see...I'm gonna press ++++
+then A to select everything, then V, and you will see
+OK, this is whole scene
+you probably don't wanna see all that once
+so I'm gonna press this mouse cursor icon 
+and that will do a really good job of everything is done
+now you'll notice... I'll press Home here
+actually there's nothing to show up
+and this can be a bit of confusing 
+but the thing is, right now, we are not in Pose Mode
+so I don't have the access to channels
+and the channels are not selected apparently
+so here we can just go in the 3D view
+to Pose Mode, I'm gonna just use a shortcut Ctrl Tab
+but you can also here to go Pose Mode
+select all
+and here we've got all of our channels
+so these are all of the animation channels that have animations on them
+wow, that's a lot
+the tongue is animated
+let's just go to the tongue
+just select that channel, press V, everything else disappears
+alright, so, it's not actually animated but their key frames are on it
+the keys haven't to be identical
+but I'm gonna look at all of it
+so, pressing A here, and V, to show or toggle these ability
+those of tools that are used£¬ A + Plus or Minus£¬V
+or you can border select these channels, press V again, Home
+these are all things that are  critical to use
+and be able to navigate in, and figure out what you're looking at in terms of the animation
+so, right now, I'm just gonna look at the "root", press Home again
+and these are the animation on ¡°root"
+what about the hips?
+OK. So, it's moving pretty linearally and then we've got this channel, which is "X Quaterion", umm, you know, some rotation there
+to look at... to select a channel...
+uh... ok, first, really awesome, you can select all the keys to left and right of the playhead
+with Ctrl + Right Click
+so, I'm clicking on the right side here, and left side here, really really handy
+and it's also the same in the DopeSheet
+to select a channel, let me see how I did this
+Ctrl Alt, and it will select all the keys, or, basically all the channels of those keys
+you can also use the L key to select a single vertical of that curve
+and then you're gonna select the rest of those it's connected to
+and then, to select all the keys that happen on the same frame
+just use Alt + Right Click to select
+I remember in 2.49 there was there was the key which toggled vertical lines which is really handy
+and this, sort of, gets back to that functionality
+anyway, hope that would be a little bit of useful
+while we are here, I'm just gonna show you really quickly on how to swap out the proxies
+because, if you notice, I want you really note the left up here
+and it's really chugging to play back
+so, I'm gonna go back
+first gonna turn Simplify to 0
+play it back
+so it does work better
+but still, it's too slow
+so what I'm actually gonna do, these are high resolution versions of the models we actually use in the rendering 
+but I'm just gonna swap it out for what the animation that is actually I'm working with
+so I've got it selected, even through you can see, there is a Only Render
+but I believe I didn't even have it selected
+here we go. oops...
+Dragon baby is selected
+I wanna go over to the Object panel
+and go down to Duplication
+and you'll see "dragon_baby"
+now I'm gonna select in this group
+you'll see that we already have only two options
+that is because the libraries are already owning it up
+but here, all I'm gonna do is just to "dragon_baby_simpl"
+as you'll see this disappears
+but if frame forward, it snaps into position
+and I'll do the same with Sintel
+select Sintel here
+so it is what she looks like
+if I got the frame
+she's got hairing stuff
+we go here, the Duplication -> sintel_simple
+frame forward, you'll see this is much better
+now if I turn on Only Render
+Ah, hahaha...
+We recently turned off renderability for these guys 
+so, instead, I have to disable the rig layers
+but there you go, it's much faster, it's still only 15 frames / sec
+but instead, what layer this guy is on...
+We don't need the extras
+this guy is on this layer
+so, start taking off layers, and....
+There we go, we are playing in real time
+so, hopefully that it is helpful in some way, and figuring out how to look at these files that being little overwhelmed
+alright, see you in the next one.

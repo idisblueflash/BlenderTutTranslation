@@ -1,0 +1,75 @@
+Hi I'm Angela Guenette
+and I'm going to talk about some of the work I did on the film Sintel
+These are the same techniques I've used working in Maya, Softimage XSI
+On productions such as the featured film "Everyone's Hero"
+and the DVD movie "Barbie as Rapunzel"
+and the television "Spider-man: The New Animated Series"
+As I demonstrate
+these techniques work really well in blender
+In this first part
+we are going to look at how I organize facial topology specifically for animation use
+the vertical span in the center of the face separates the left and right side
+for the eye area
+the vertical span ran across the pupil
+matching the up eyelid center to the bottom eyelid center
+as the same center line also divides the inner eyebrow and the outer eyebrow
+for the other corners of the mouth
+we have three holes onto spans
+the center span
+which divides upper and lower portion
+and two supporting span on either side
+the eye area is also organized in same way as the mouth
+with center span and two supporting spans on either side
+the eyebrow location is clearly defined by two parallel spans
+encircling the eye area is a mask like continued span
+nose and mouth area are also contained together
+this defined the upper and lower portion of the face
+using extrude select
+you can see how the lip line is defined by two parallel loops
+for the luff line
+we have a central loop with two supporting loops
+and the crease of eyelids are also defined in this way
+taking a closer look in 3 quarter of view
+you can see how the three parallel spans meet at the top, middle and bottom edge of nostril
+the middle span is used to create the crease
+also in wireframe they should look like luff lines
+additional spans are used to continue the smooth transition inside the mouth and eye-socks
+here I'm using Ctrl and Numpad Plus key to increase my selection
+building your geometry like this with continued edge loops made it very easy to select areas of the face when working with your model
+here you can see closely how the top lip and bottom lip mirror each other
+also
+vertical spans from top to bottom lineup
+taking a closer look at the eyelids
+you can see how the topology is organized in the same way as the mouth
+the outer edge of the eyelids are also defined by two spans
+which are highlighted here in grey color
+the next span in fits the eyeball creating a shelf
+or the thickness of the eyelid
+adding a two-line geometry is a very effective way to add life to the eyes
+to make this
+I simply duplicate the eyelid shelf and then reshaped it
+creating a slide curve that will catch the light better
+the cornea is the glossy transparent part increasing the eye
+when shaping the eyelids I leave the cornea in solid display
+which ensures the proper fit without gaps or intersection
+OK
+let's hide the proxy here to display the scalp
+in the property panel under materials
+you can see how I've divided aparts of the topology with individual material colors
+the grey topology material clearly displays placement for the hair and eyebrows
+it also helps to define where the scalp will end and the forehead begin
+now let's select the "topology_lashline" material
+this defines where the eyelashes will be
+after having these three areas clearly marked
+I simply duplicate the mesh to create these particle emitter meshes
+to conclude the section on facial topology
+let's bring in the shaman and dragon baby beside Sintel to compare
+as you can see here
+although they each have their own tailor-made topology
+from old man to young girl to creature
+the inner structure closely follows the same principles 
+which pretty much ends up in pre-assembling the muscles of the face
+the blend files that I've included in the tutorials package have seen "Simplify" enabled
+to view models in higher resolution
+just raise the value for the subdivision level
+or disable "Simplify"

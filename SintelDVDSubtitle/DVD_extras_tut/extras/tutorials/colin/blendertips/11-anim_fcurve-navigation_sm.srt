@@ -1,0 +1,532 @@
+1
+00:00:00,000 --> 00:00:04,460
+So, I'd like to show you guys 
+
+2
+00:00:04,636 --> 00:00:08,979
+Basically, have a look at the animation at one of our files
+
+3
+00:00:09,057 --> 00:00:11,659
+And you can be really confusing
+
+4
+00:00:11,640 --> 00:00:17,841
+So, here opened a shot from the market scene "03.4b"
+
+5
+00:00:17,998 --> 00:00:22,693
+and this is what it looks like, fill it in this view and discover around
+
+6
+00:00:24,160 --> 00:00:26,038
+and track the cam
+
+7
+00:00:26,156 --> 00:00:28,229
+it's kind of collided
+
+8
+00:00:28,288 --> 00:00:32,612
+so I'm going to just turn on Only Render
+
+9
+00:00:32,925 --> 00:00:35,722
+so you can see what the shot is
+
+10
+00:00:35,781 --> 00:00:40,143
+so I'm just gonna put his view over here
+
+11
+00:00:40,613 --> 00:00:43,019
+and, so you got a 3D view added
+
+12
+00:00:42,921 --> 00:00:45,523
+and by going a Shift F6
+
+13
+00:00:45,699 --> 00:00:49,769
+and toggle on the Graph Editor
+
+14
+00:00:50,199 --> 00:00:52,547
+so as soon as you get there
+
+15
+00:00:52,547 --> 00:00:55,305
+you'll see one troop of vertical lines
+
+16
+00:00:55,227 --> 00:00:57,555
+and by pressing Shift and Middle mouse button
+
+17
+00:00:57,535 --> 00:00:58,689
+it's coming around
+
+18
+00:00:58,631 --> 00:01:03,228
+and see, yep, that's a lot here
+
+19
+00:01:03,404 --> 00:01:08,256
+and zoom in Ctrl + Middle Mouse or Mouse Wheel, anyway
+
+20
+00:01:08,236 --> 00:01:09,371
+there's a lot of stuff here
+
+21
+00:01:09,488 --> 00:01:11,856
+to full view of everything I'm now just gonna press Home
+
+22
+00:01:12,266 --> 00:01:17,157
+so, this is a lot of animation, and not all of it is even showing
+
+23
+00:01:17,333 --> 00:01:19,603
+but this is what the scene looks like
+
+24
+00:01:19,779 --> 00:01:21,715
+and if yo go over here
+
+25
+00:01:21,970 --> 00:01:25,628
+and press A, and then Numpad -
+
+26
+00:01:25,687 --> 00:01:27,917
+that collapse all the channels
+
+27
+00:01:28,093 --> 00:01:30,715
+now we can see, alright 
+
+28
+00:01:30,754 --> 00:01:34,686
+we are looking animation for these two extra Man and Woman
+
+29
+00:01:34,842 --> 00:01:38,559
+the dragon, Sintel... No idea what that is
+
+30
+00:01:38,559 --> 00:01:41,807
+plus camera animation there are just a lot here
+
+31
+00:01:41,846 --> 00:01:46,346
+so we only wanna look at what are relevant to us
+
+32
+00:01:46,365 --> 00:01:48,419
+so let's focus on the baby dragon
+
+33
+00:01:48,615 --> 00:01:50,982
+I'm just gonna select baby dragon's rig
+
+34
+00:01:50,963 --> 00:01:53,819
+and you'll notice it's selected here, as well
+
+35
+00:01:54,073 --> 00:01:55,188
+and since it's selected here
+
+36
+00:01:55,286 --> 00:02:06,418
+I could just press V, and that should isolate everything to just what isn't been checked or selected in the channels here
+
+37
+00:02:06,535 --> 00:02:08,550
+so I've got three things selected
+
+38
+00:02:08,687 --> 00:02:11,250
+and I hit V
+
+39
+00:02:11,367 --> 00:02:13,363
+very directly
+
+40
+00:02:14,282 --> 00:02:22,753
+that should change what channels are available
+
+41
+00:02:22,949 --> 00:02:28,602
+I guess it's not working because I don't actually have the individual channels selected
+
+42
+00:02:28,739 --> 00:02:35,821
+but any case, actually the best way to do this is to turn onto this mouse cursor icon
+
+43
+00:02:35,997 --> 00:02:40,106
+and the tool tip is "Only include channels relating to selected objects and data"
+
+44
+00:02:40,223 --> 00:02:46,014
+so, you probably don't wanna see...I'm gonna press ++++
+
+45
+00:02:46,346 --> 00:02:50,357
+then A to select everything, then V, and you will see
+
+46
+00:02:50,474 --> 00:02:51,668
+OK, this is whole scene
+
+47
+00:02:51,707 --> 00:02:53,859
+you probably don't wanna see all that once
+
+48
+00:02:54,093 --> 00:02:59,043
+so I'm gonna press this mouse cursor icon 
+
+49
+00:02:59,004 --> 00:03:02,290
+and that will do a really good job of everything is done
+
+50
+00:03:02,408 --> 00:03:05,264
+now you'll notice... I'll press Home here
+
+51
+00:03:05,303 --> 00:03:07,064
+actually there's nothing to show up
+
+52
+00:03:07,259 --> 00:03:09,881
+and this can be a bit of confusing 
+
+53
+00:03:09,959 --> 00:03:13,598
+but the thing is, right now, we are not in Pose Mode
+
+54
+00:03:13,618 --> 00:03:15,535
+so I don't have the access to channels
+
+55
+00:03:15,476 --> 00:03:17,374
+and the channels are not selected apparently
+
+56
+00:03:17,474 --> 00:03:21,365
+so here we can just go in the 3D view
+
+57
+00:03:21,619 --> 00:03:26,197
+to Pose Mode, I'm gonna just use a shortcut Ctrl Tab
+
+58
+00:03:26,392 --> 00:03:28,505
+but you can also here to go Pose Mode
+
+59
+00:03:28,623 --> 00:03:29,796
+select all
+
+60
+00:03:29,992 --> 00:03:35,255
+and here we've got all of our channels
+
+61
+00:03:35,431 --> 00:03:40,165
+so these are all of the animation channels that have animations on them
+
+62
+00:03:40,243 --> 00:03:41,632
+wow, that's a lot
+
+63
+00:03:41,710 --> 00:03:43,491
+the tongue is animated
+
+64
+00:03:43,745 --> 00:03:45,251
+let's just go to the tongue
+
+65
+00:03:45,447 --> 00:03:51,336
+just select that channel, press V, everything else disappears
+
+66
+00:03:51,414 --> 00:03:54,720
+alright, so, it's not actually animated but their key frames are on it
+
+67
+00:03:54,740 --> 00:03:57,576
+the keys haven't to be identical
+
+68
+00:03:57,596 --> 00:03:59,630
+but I'm gonna look at all of it
+
+69
+00:03:59,591 --> 00:04:06,067
+so, pressing A here, and V, to show or toggle these ability
+
+70
+00:04:06,047 --> 00:04:13,462
+those of tools that are used£¬ A + Plus or Minus£¬V
+
+71
+00:04:13,520 --> 00:04:18,822
+or you can border select these channels, press V again, Home
+
+72
+00:04:18,802 --> 00:04:22,148
+these are all things that are  critical to use
+
+73
+00:04:22,207 --> 00:04:26,784
+and be able to navigate in, and figure out what you're looking at in terms of the animation
+
+74
+00:04:26,882 --> 00:04:31,714
+so, right now, I'm just gonna look at the "root", press Home again
+
+75
+00:04:32,145 --> 00:04:33,592
+and these are the animation on ¡°root"
+
+76
+00:04:33,651 --> 00:04:34,962
+what about the hips?
+
+77
+00:04:35,099 --> 00:04:47,032
+OK. So, it's moving pretty linearally and then we've got this channel, which is "X Quaterion", umm, you know, some rotation there
+
+78
+00:04:47,150 --> 00:04:52,334
+to look at... to select a channel...
+
+79
+00:04:52,530 --> 00:04:59,494
+uh... ok, first, really awesome, you can select all the keys to left and right of the playhead
+
+80
+00:04:59,553 --> 00:05:00,981
+with Ctrl + Right Click
+
+81
+00:05:01,001 --> 00:05:06,146
+so, I'm clicking on the right side here, and left side here, really really handy
+
+82
+00:05:06,165 --> 00:05:08,278
+and it's also the same in the DopeSheet
+
+83
+00:05:08,669 --> 00:05:12,915
+to select a channel, let me see how I did this
+
+84
+00:05:12,993 --> 00:05:20,662
+Ctrl Alt, and it will select all the keys, or, basically all the channels of those keys
+
+85
+00:05:20,681 --> 00:05:27,685
+you can also use the L key to select a single vertical of that curve
+
+86
+00:05:27,802 --> 00:05:31,128
+and then you're gonna select the rest of those it's connected to
+
+87
+00:05:31,187 --> 00:05:36,293
+and then, to select all the keys that happen on the same frame
+
+88
+00:05:36,351 --> 00:05:41,105
+just use Alt + Right Click to select
+
+89
+00:05:41,164 --> 00:05:50,339
+I remember in 2.49 there was there was the key which toggled vertical lines which is really handy
+
+90
+00:05:50,437 --> 00:05:53,665
+and this, sort of, gets back to that functionality
+
+91
+00:05:53,763 --> 00:05:56,326
+anyway, hope that would be a little bit of useful
+
+92
+00:05:56,365 --> 00:06:00,316
+while we are here, I'm just gonna show you really quickly on how to swap out the proxies
+
+93
+00:06:00,395 --> 00:06:04,327
+because, if you notice, I want you really note the left up here
+
+94
+00:06:04,601 --> 00:06:07,633
+and it's really chugging to play back
+
+95
+00:06:07,809 --> 00:06:09,687
+so, I'm gonna go back
+
+96
+00:06:09,981 --> 00:06:13,248
+first gonna turn Simplify to 0
+
+97
+00:06:16,261 --> 00:06:17,454
+play it back
+
+98
+00:06:17,415 --> 00:06:18,667
+so it does work better
+
+99
+00:06:19,039 --> 00:06:22,345
+but still, it's too slow
+
+100
+00:06:22,423 --> 00:06:31,911
+so what I'm actually gonna do, these are high resolution versions of the models we actually use in the rendering 
+
+101
+00:06:32,048 --> 00:06:35,824
+but I'm just gonna swap it out for what the animation that is actually I'm working with
+
+102
+00:06:35,902 --> 00:06:39,854
+so I've got it selected, even through you can see, there is a Only Render
+
+103
+00:06:40,128 --> 00:06:43,551
+but I believe I didn't even have it selected
+
+104
+00:06:44,040 --> 00:06:46,271
+here we go. oops...
+
+105
+00:06:46,701 --> 00:06:48,618
+Dragon baby is selected
+
+106
+00:06:48,638 --> 00:06:51,729
+I wanna go over to the Object panel
+
+107
+00:06:51,924 --> 00:06:54,272
+and go down to Duplication
+
+108
+00:06:54,370 --> 00:06:56,972
+and you'll see "dragon_baby"
+
+109
+00:06:56,952 --> 00:06:59,339
+now I'm gonna select in this group
+
+110
+00:06:59,632 --> 00:07:02,665
+you'll see that we already have only two options
+
+111
+00:07:02,802 --> 00:07:05,580
+that is because the libraries are already owning it up
+
+112
+00:07:05,678 --> 00:07:09,218
+but here, all I'm gonna do is just to "dragon_baby_simpl"
+
+113
+00:07:09,238 --> 00:07:10,294
+as you'll see this disappears
+
+114
+00:07:10,294 --> 00:07:14,559
+but if frame forward, it snaps into position
+
+115
+00:07:14,814 --> 00:07:17,572
+and I'll do the same with Sintel
+
+116
+00:07:17,552 --> 00:07:19,313
+select Sintel here
+
+117
+00:07:19,509 --> 00:07:21,485
+so it is what she looks like
+
+118
+00:07:21,563 --> 00:07:22,698
+if I got the frame
+
+119
+00:07:22,776 --> 00:07:24,360
+she's got inherent stuff
+
+120
+00:07:24,478 --> 00:07:28,234
+we go here, the Duplication -> sintel_simple
+
+121
+00:07:28,586 --> 00:07:33,927
+frame forward, you'll see this is much better
+
+122
+00:07:34,044 --> 00:07:37,037
+now if I turn on Only Render
+
+123
+00:07:37,311 --> 00:07:41,615
+Ah, hahaha...
+
+124
+00:07:41,694 --> 00:07:46,956
+We recently turned off renderability for these guys 
+
+125
+00:07:47,660 --> 00:07:54,214
+so, instead, I have to disable the rig layers
+
+126
+00:07:55,055 --> 00:08:01,257
+but there you go, it's much faster, it's still only 15 frames / sec
+
+127
+00:08:01,257 --> 00:08:06,500
+but instead, what layer this guy is on...
+
+128
+00:08:06,656 --> 00:08:09,806
+We don't need the extras
+
+129
+00:08:10,452 --> 00:08:12,173
+this guy is on this layer
+
+130
+00:08:12,212 --> 00:08:14,227
+so, start taking off layers, and....
+
+131
+00:08:14,208 --> 00:08:16,066
+There we go, we are playing in real time
+
+132
+00:08:16,145 --> 00:08:27,256
+so, hopefully that it is helpful in some way, and figuring out how to look at these files that being little overwhelmed
+
+133
+00:08:27,315 --> 00:08:30,445
+alright, see you in the next one.
+

@@ -1,0 +1,376 @@
+1
+00:00:00,266 --> 00:00:02,243
+So to this tutorial 
+
+2
+00:00:02,102 --> 00:00:06,997
+I'm gonna open up from the bamboo forest to talk for a time
+
+3
+00:00:07,091 --> 00:00:09,131
+and I'm just gonna show you how I set it up
+
+4
+00:00:09,256 --> 00:00:13,131
+how I will go about rendering other versions of this
+
+5
+00:00:13,225 --> 00:00:18,842
+because for the files you are gonna be digging through of Durian
+
+6
+00:00:18,921 --> 00:00:22,921
+basically, and now, I'm just gonna open it and hit F12
+
+7
+00:00:22,984 --> 00:00:27,487
+the things that should probably be done to make the initial rendering list
+
+8
+00:00:27,518 --> 00:00:28,632
+to render it quicker
+
+9
+00:00:28,695 --> 00:00:31,770
+so you can at least see... What the thing looks like 
+
+10
+00:00:31,833 --> 00:00:35,692
+I'm just gonna go and turn the Simplify on
+
+11
+00:00:35,786 --> 00:00:40,352
+in the World settings there are the samples right there
+
+12
+00:00:40,415 --> 00:00:42,658
+and the Gather tab
+
+13
+00:00:42,752 --> 00:00:45,639
+24 would take a long time
+
+14
+00:00:45,686 --> 00:00:48,620
+so I'm just gonna divide this by 4 or 6
+
+15
+00:00:48,699 --> 00:00:50,832
+I just do 6
+
+16
+00:00:50,832 --> 00:00:53,484
+it's a really low samples
+
+17
+00:00:53,578 --> 00:00:57,045
+and then we can go and turn of Anti-Aliasing
+
+18
+00:00:57,045 --> 00:01:01,407
+turn off Ray Tracing... Well, we can keep that on
+
+19
+00:01:01,517 --> 00:01:05,800
+and for SSS, I don't we need it really in this case
+
+20
+00:01:05,831 --> 00:01:07,588
+check the render resolution
+
+21
+00:01:07,604 --> 00:01:09,110
+1024 is fine
+
+22
+00:01:09,236 --> 00:01:11,652
+and then hit F12
+
+23
+00:01:11,667 --> 00:01:14,648
+and a lot of times
+
+24
+00:01:14,711 --> 00:01:18,367
+SSS, you know, it should a side effect anyway
+
+25
+00:01:18,461 --> 00:01:23,764
+so if you are trying to judge the lighting in the environment
+
+26
+00:01:23,764 --> 00:01:25,709
+but you wanna see the character
+
+27
+00:01:25,756 --> 00:01:30,753
+you know, you can turn that off and do other things
+
+28
+00:01:30,832 --> 00:01:33,444
+just a bit of judges and renders quicker
+
+29
+00:01:33,522 --> 00:01:34,542
+so I just cut
+
+30
+00:01:34,495 --> 00:01:37,743
+when this render finishes and pick it up there
+
+31
+00:01:37,915 --> 00:01:39,437
+so here we are
+
+32
+00:01:39,437 --> 00:01:40,504
+the render is finished
+
+33
+00:01:40,473 --> 00:01:41,932
+and take about a minute and a half
+
+34
+00:01:41,979 --> 00:01:46,654
+so first let's put a view
+
+35
+00:01:46,670 --> 00:01:53,024
+and go into the node setup with Shift F3 to go to the Node view
+
+36
+00:01:53,071 --> 00:01:56,366
+and I'm just gonna change to the render compositing nodes
+
+37
+00:01:56,695 --> 00:02:01,402
+so, first I wanna show you how....er..  I'm gonna do it in the backdrop
+
+38
+00:02:01,418 --> 00:02:03,332
+you've probably known this
+
+39
+00:02:03,332 --> 00:02:06,297
+but, you know, a lot of time just there in the background
+
+40
+00:02:06,281 --> 00:02:09,090
+and you can get destructing it and you can turn it off
+
+41
+00:02:09,200 --> 00:02:14,204
+but to move it, you can go Alt MMB click and drag around
+
+42
+00:02:14,236 --> 00:02:17,687
+and a little bit more on the tricks than that is to scale it up and down
+
+43
+00:02:17,844 --> 00:02:19,774
+hit V
+
+44
+00:02:19,868 --> 00:02:22,473
+goes down, and back up
+
+45
+00:02:22,598 --> 00:02:24,810
+so it's kind of interesting
+
+46
+00:02:24,983 --> 00:02:25,940
+now another look
+
+47
+00:02:25,956 --> 00:02:33,047
+a quick thing I wanna show you is selecting the same type of node
+
+48
+00:02:33,110 --> 00:02:33,973
+for example
+
+49
+00:02:33,941 --> 00:02:39,087
+if you are not sure whether or not the focus is already on all of your render layers 
+
+50
+00:02:39,119 --> 00:02:43,543
+because usually it will make sense to be at least on right one
+
+51
+00:02:43,574 --> 00:02:45,285
+you can hit Shift G
+
+52
+00:02:45,300 --> 00:02:47,418
+it will select the same type of node
+
+53
+00:02:47,434 --> 00:02:50,180
+wherever your curves you are set up
+
+54
+00:02:50,289 --> 00:02:54,118
+so you can see all your RGB curves 
+
+55
+00:02:54,180 --> 00:02:58,809
+and you can even...er... If you got one selected
+
+56
+00:02:58,966 --> 00:03:04,410
+I think you can go to the next with Shift and bracket
+
+57
+00:03:04,488 --> 00:03:06,496
+so you can through toggles, through them
+
+58
+00:03:06,622 --> 00:03:13,321
+and then hit Home to view all
+
+59
+00:03:13,321 --> 00:03:17,792
+I thought that NumPad . Will take the center view 
+
+60
+00:03:17,792 --> 00:03:19,707
+but of course it's not
+
+61
+00:03:19,722 --> 00:03:24,633
+now if you want to place or add new node
+
+62
+00:03:24,758 --> 00:03:25,888
+a lot of times I do is
+
+63
+00:03:25,888 --> 00:03:28,759
+I'm working in real close like this
+
+64
+00:03:28,814 --> 00:03:31,842
+I wanna add, say, a Blur
+
+65
+00:03:31,936 --> 00:03:36,172
+and, wow, it just appeared away, down here
+
+66
+00:03:36,196 --> 00:03:37,514
+that's not where I wanted
+
+67
+00:03:37,498 --> 00:03:39,224
+and I have to move it all the way back
+
+68
+00:03:39,271 --> 00:03:41,444
+and as I was wondering why it was
+
+69
+00:03:41,460 --> 00:03:44,652
+Barton just told me all I have to do is click where I want it
+
+70
+00:03:44,786 --> 00:03:46,935
+then add a node
+
+71
+00:03:46,935 --> 00:03:49,014
+and it pops up where you want it
+
+72
+00:03:48,990 --> 00:03:52,309
+so I guess you are placing an invisible 2D cursor or kind of the thing
+
+73
+00:03:52,544 --> 00:03:55,133
+and, it's just a little thing
+
+74
+00:03:55,140 --> 00:03:56,968
+it's probably handy to know 
+
+75
+00:03:57,243 --> 00:04:00,545
+last thing I wanna show you right at this moment is
+
+76
+00:04:00,561 --> 00:04:05,080
+if you go to the image viewer and just click around
+
+77
+00:04:05,119 --> 00:04:08,076
+you will get this really handy...
+
+78
+00:04:08,100 --> 00:04:10,759
+We have to be viewing the render result
+
+79
+00:04:10,885 --> 00:04:17,623
+you will get this handy XYZ or RGB values here
+
+80
+00:04:17,662 --> 00:04:19,851
+so you can get some information about your image
+
+81
+00:04:19,945 --> 00:04:23,240
+what's alpha is zero, or what's black, you know
+
+82
+00:04:23,310 --> 00:04:25,758
+also, you can see values for Z
+
+83
+00:04:25,813 --> 00:04:29,249
+but even cooler than that is
+
+84
+00:04:29,429 --> 00:04:37,140
+you hit P
+
+85
+00:04:37,195 --> 00:04:39,745
+be here you'll have a very formal vector scope pop-up
+
+86
+00:04:39,807 --> 00:04:41,392
+and these are really awesome tools
+
+87
+00:04:41,518 --> 00:04:47,401
+really looks good if you expand them to the maximum
+
+88
+00:04:47,315 --> 00:04:49,260
+we can get some nice detail
+
+89
+00:04:49,448 --> 00:04:53,128
+and you can see the distributional color
+
+90
+00:04:53,230 --> 00:04:57,834
+these are the professional looking tools 
+
+91
+00:04:57,795 --> 00:05:01,223
+so you should definitely use P in the image area
+
+92
+00:05:01,255 --> 00:05:04,471
+OK, that concludes this portion
+
+93
+00:05:04,463 --> 00:05:06,848
+see you later
+
+94
+00:00:00,000 --> 00:00:00,000
+
+

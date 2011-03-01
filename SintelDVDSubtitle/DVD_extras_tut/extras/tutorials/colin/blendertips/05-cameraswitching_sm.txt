@@ -1,0 +1,64 @@
+Alright
+so, right now I gonna show you about the camera switching system that Campbell implemented for Durian
+this, of course, as everything is subject to change as the most ideal system
+but I found it's quite useful whereas here
+you might want to know how to use it
+so I've just opened up the cabin environment file
+we've already got one camera
+in here
+by the way, while we are here
+you can select the camera by going to set Select menu -> Select Camera
+so now I've got it actually selected
+but I'm gonna open up the Timeline
+and the way that camera switching works is it's linked to markers
+so I'm just gonna make a marker on frame 22
+by hitting M with my mouse over the timeline
+Now I'm going to create another camera
+and just put it right in the middle of the scene
+rotate it somewhere
+not really the way I've played with the camera scale up and down
+just for case
+now we've got two cameras in the scene
+and one marker
+so, to bind a camera to a marker
+and it is the process
+select the camera
+you make it active by going in Ctrl 0
+and in the View menu there is a menu item "Bind Camera to Markers"
+so you've got this marker selected
+and I just gotta do the shortcut Ctrl B
+so now this camera is selected...er...active, that is
+and you can tell whether it's active because this triangle above it is filled in
+that is binded to that marder
+now I'm gonna go forward to frame 95
+hit M to add another marker
+I'm gonna select this camera
+go in Ctrl 0 
+and, with my mouse over the timeline, hit Ctrl B
+alright, so it's a little bit of a workflow you'll get used to
+but, now we just grab
+you will see how it switches around
+you can move the marker to change the frame which camera will switch
+you can re-order them
+you can name them
+and another is done actually in a really hacking way
+by going into Frame menu actually just clicking here
+"lalala..."
+and... "shotA" like so
+but this is how it's done for Durian, and it's really handy
+I guess that's all we have yet for this one, thanks
+er... a little addendum to that is
+a little shortcut that compared that how it is useful
+and that is Ctrl clicking on any of these markers, because they are bound, will select that camera
+this is just a nice and easy way to access cameras in your scene
+and another little thing is
+if you make it unrenderable by, I usually go, Ctrl H
+then it would not actually switch
+so it is still technically bound
+but when you play around the shadowing or other stuff
+sometimes you actually don't want it to switch
+or if you just wanna see what this camera sees, you know, for beyond and set up moving the frame that you've got
+and you've decided on
+you can just temporarily disable that render ability of that camera and enable it again once you want
+this switched to actual linker
+so, yep.

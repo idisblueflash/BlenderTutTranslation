@@ -1,0 +1,344 @@
+1
+00:00:00,000 --> 00:00:01,264
+Hello 
+
+2
+00:00:01,245 --> 00:00:04,430
+and welcome to the Blendr's Tips of Colin Levy Part 2
+
+3
+00:00:04,488 --> 00:00:08,538
+first I wanna show you is the special menu of light
+
+4
+00:00:08,586 --> 00:00:10,630
+so duplicating a couple of lights here
+
+5
+00:00:11,370 --> 00:00:12,370
+turning this one to spot
+
+6
+00:00:12,470 --> 00:00:14,405
+and gonna make a buffer shadow 
+
+7
+00:00:14,505 --> 00:00:16,221
+now to focus this light
+
+8
+00:00:16,321 --> 00:00:20,405
+I normally go into here and change spot shape
+
+9
+00:00:20,505 --> 00:00:22,915
+and, you know, change Autoclip and...
+
+10
+00:00:23,015 --> 00:00:26,652
+but you can actually access these settings very quickly with the W key
+
+11
+00:00:26,728 --> 00:00:28,164
+to enter this Specials menu
+
+12
+00:00:28,264 --> 00:00:32,737
+so that you can change the spot size, the blend, so you can see
+
+13
+00:00:32,837 --> 00:00:34,725
+I'll rotate like this
+
+14
+00:00:34,825 --> 00:00:39,993
+clip start and end for shadows and and that's nice and handy, very fast
+
+15
+00:00:40,093 --> 00:00:42,588
+and it works specially for buffer shadow lamps
+
+16
+00:00:42,688 --> 00:00:45,118
+but you can also change the settings for all of them
+
+17
+00:00:45,218 --> 00:00:49,653
+so you notice that if you hit W key
+
+18
+00:00:49,753 --> 00:00:54,655
+this last feature called "Isolate Render Selection"
+
+19
+00:00:54,755 --> 00:00:57,165
+so I'm just gonna apologize right there
+
+20
+00:00:57,265 --> 00:01:00,892
+actually we've just forward in time two weeks
+
+21
+00:01:00,992 --> 00:01:02,766
+I am at home right now
+
+22
+00:01:02,866 --> 00:01:06,341
+basically I have to re-record the seonc part of this tutorial
+
+23
+00:01:06,441 --> 00:01:09,754
+because actually blender's functionality has changed
+
+24
+00:01:09,854 --> 00:01:12,112
+so I've got three lights here 
+
+25
+00:01:12,212 --> 00:01:15,203
+and now if you hit the Specials menu
+
+26
+00:01:15,303 --> 00:01:18,531
+you will see that this feature has been updated
+
+27
+00:01:18,631 --> 00:01:20,832
+and no loger you'll have...
+
+28
+00:01:20,932 --> 00:01:23,180
+oh, I forgot what the term actually was 
+
+29
+00:01:23,199 --> 00:01:25,482
+but now we have two updates here 
+
+30
+00:01:25,582 --> 00:01:29,627
+Restrict Render Unselected and Clear All Restrict Render
+
+31
+00:01:29,727 --> 00:01:31,824
+er... confusing
+
+32
+00:01:31,924 --> 00:01:33,735
+so to see what's this does
+
+33
+00:01:33,835 --> 00:01:38,413
+let's open up the Outliner and set it to Same Types
+
+34
+00:01:38,513 --> 00:01:45,373
+what's this gonna do is everything in your scene that's of same types
+
+35
+00:01:45,383 --> 00:01:48,150
+whatever you have selected will show up here
+
+36
+00:01:48,140 --> 00:01:49,728
+in this case I got one lamp selected
+
+37
+00:01:49,738 --> 00:01:53,370
+so all the lamps gonna in the scene that are not selected gonna show up
+
+38
+00:01:53,470 --> 00:01:58,581
+when I change selection to this cube you'll see all the meshs of the objects
+
+39
+00:01:58,681 --> 00:02:01,386
+so here we go
+
+40
+00:02:01,486 --> 00:02:03,269
+we see three lamps here and
+
+41
+00:02:03,364 --> 00:02:13,471
+basically these features here make it very easy to isolate one of them or several to render
+
+42
+00:02:13,471 --> 00:02:16,932
+a lot of time you will be working on complex scenes
+
+43
+00:02:17,032 --> 00:02:18,948
+with ton of light all over the place 
+
+44
+00:02:19,048 --> 00:02:25,452
+it's really important to be able to very quickly know what each of the individual light is doing 
+
+45
+00:02:25,552 --> 00:02:30,549
+and fix, for example, shadow buffer issue with one of your lamps and if you don't want know which one it is
+
+46
+00:02:30,649 --> 00:02:33,087
+this is a quick way, sort of a test
+
+47
+00:02:33,183 --> 00:02:35,541
+so I've got one light selected
+
+48
+00:02:35,550 --> 00:02:39,163
+and I wanna see this light in the render all by itself
+
+49
+00:02:39,135 --> 00:02:40,400
+so by hitting W
+
+50
+00:02:40,476 --> 00:02:41,341
+the Specials menu
+
+51
+00:02:41,350 --> 00:02:43,946
+and going to the Restrict Render Unselected
+
+52
+00:02:43,937 --> 00:02:48,120
+that's going to look all of the objects in the same type 
+
+53
+00:02:48,101 --> 00:02:49,889
+whatever isn't selected
+
+54
+00:02:49,908 --> 00:02:52,057
+it's gonna hide them from renderbility
+
+55
+00:02:52,066 --> 00:02:54,282
+so, as you see
+
+56
+00:02:54,382 --> 00:02:59,379
+now this is the only one that has the render icon toggled on
+
+57
+00:02:59,479 --> 00:03:02,535
+I mean other two lamps are off
+
+58
+00:03:02,535 --> 00:03:04,409
+and to restore it
+
+59
+00:03:04,418 --> 00:03:09,515
+you can go now to the W menu - Clear All Restrict Render
+
+60
+00:03:09,534 --> 00:03:12,767
+so everything is of the same type would now be renderable 
+
+61
+00:03:12,862 --> 00:03:15,885
+and you can do this with multiple things of course
+
+62
+00:03:15,895 --> 00:03:17,873
+and that whould make this one to toggle off
+
+63
+00:03:18,006 --> 00:03:27,239
+now another related handy shortcut to hide objects that are selected remain renderable is Ctrl H
+
+64
+00:03:27,296 --> 00:03:31,204
+so let's say you have twenty-five lamps all over the place
+
+65
+00:03:31,261 --> 00:03:34,484
+and you want one of them to not render
+
+66
+00:03:34,513 --> 00:03:36,776
+so is the inverse situation
+
+67
+00:03:36,795 --> 00:03:41,007
+you can just selected and with your mouse just over the 3D view
+
+68
+00:03:41,107 --> 00:03:42,424
+Ctrl H
+
+69
+00:03:42,500 --> 00:03:47,853
+and you'll see the Outliner that the renderability icon is now off
+
+70
+00:03:47,844 --> 00:03:52,703
+and you can use Ctrl Alt H to bring it back
+
+71
+00:03:52,760 --> 00:03:59,140
+but you can, in this case, you can also just say Clear All Restrict Render
+
+72
+00:03:59,159 --> 00:04:01,298
+and it just will bring all back
+
+73
+00:04:01,327 --> 00:04:03,761
+and this is also useful for other thing than lights
+
+74
+00:04:03,771 --> 00:04:06,889
+but that would be the feature that was implemented for
+
+75
+00:04:06,908 --> 00:04:09,390
+and... it's really really handy
+
+76
+00:04:09,390 --> 00:04:10,474
+I used it a lot
+
+77
+00:04:10,512 --> 00:04:12,956
+and while we are here, one last thing
+
+78
+00:04:12,994 --> 00:04:14,829
+I wanna show this really cool feature
+
+79
+00:04:14,839 --> 00:04:15,951
+which you've probably known about
+
+80
+00:04:15,942 --> 00:04:18,404
+which is in the Sport Shape menu
+
+81
+00:04:18,537 --> 00:04:22,341
+a little toggle dragged down called Show Cone
+
+82
+00:04:22,407 --> 00:04:28,531
+so if you toggle that on you can now see in the 3D view where your lights are hidding
+
+83
+00:04:28,578 --> 00:04:30,937
+and that's really useful to know
+
+84
+00:04:30,937 --> 00:04:33,009
+a lot of time it's just hard to visualize
+
+85
+00:04:32,971 --> 00:04:35,529
+it's just really nice a little tool
+
+86
+00:04:35,510 --> 00:04:38,677
+OK. see you in Part 3
+

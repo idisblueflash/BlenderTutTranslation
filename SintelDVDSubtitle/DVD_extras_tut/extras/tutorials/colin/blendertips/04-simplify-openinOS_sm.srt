@@ -1,0 +1,148 @@
+1
+00:00:00,000 --> 00:00:02,343
+So I'm just gonna load up Sintel
+
+2
+00:00:02,331 --> 00:00:05,532
+ans show you the coolest feature you've ever seen
+
+3
+00:00:05,633 --> 00:00:06,792
+But before that
+
+4
+00:00:06,780 --> 00:00:08,053
+I will show you Simplify
+
+5
+00:00:08,106 --> 00:00:10,982
+Simplify is in the Scene panel
+
+6
+00:00:11,100 --> 00:00:13,804
+And if you scroll to the bottom
+
+7
+00:00:13,822 --> 00:00:17,443
+You will see that what you can do by toggling on 
+
+8
+00:00:17,449 --> 00:00:23,331
+It limits the view port the number of subdivision levels you are showing
+
+9
+00:00:23,325 --> 00:00:27,869
+So you can actually play back animations in real time
+
+10
+00:00:27,916 --> 00:00:32,780
+When you sort of simplify your scene
+
+11
+00:00:32,839 --> 00:00:35,177
+So if you look at Sintel
+
+12
+00:00:35,336 --> 00:00:38,330
+You turn down the Child Particles here
+
+13
+00:00:38,366 --> 00:00:41,384
+it just makes everything a lot more responsive
+
+14
+00:00:41,484 --> 00:00:42,295
+alright
+
+15
+00:00:42,330 --> 00:00:44,798
+so the thing I actually may have said about 
+
+16
+00:00:44,881 --> 00:00:45,969
+that's really cool
+
+17
+00:00:45,993 --> 00:00:49,165
+but even cooler is 
+
+18
+00:00:49,224 --> 00:00:51,407
+I select Sintel's body
+
+19
+00:00:51,437 --> 00:00:53,259
+going the Texture panel
+
+20
+00:00:53,336 --> 00:00:58,218
+And you will see one of the textures here is skin color
+
+21
+00:00:58,312 --> 00:01:01,247
+when you working in 3D
+
+22
+00:01:01,253 --> 00:01:05,229
+a lot of time you realize: "OK, I wanna make this changes on the texture."
+
+23
+00:01:05,271 --> 00:01:10,549
+then you gotta go into, Nautilus or the finder...or, you know, Windows Explorer 
+
+24
+00:01:10,567 --> 00:01:13,040
+And navigate to where ever that texture is
+
+25
+00:01:13,099 --> 00:01:15,117
+To just open it
+
+26
+00:01:15,336 --> 00:01:19,815
+And this is a... You know, it takes time
+
+27
+00:01:19,898 --> 00:01:27,898
+now what we can do is just hover over this little file browser icon
+
+28
+00:01:28,022 --> 00:01:30,495
+and if you read the tool tip
+
+29
+00:01:30,595 --> 00:01:35,832
+it says "Hold Shift to open the file, Alt to browse containing directory"
+
+30
+00:01:35,921 --> 00:01:37,229
+How cool is that?
+
+31
+00:01:37,235 --> 00:01:42,578
+So, Alt click, the actual directory is just popped up
+
+32
+00:01:42,702 --> 00:01:47,341
+And Shift click, you'll actually get the image
+
+33
+00:01:47,519 --> 00:01:49,619
+Really really handy
+
+34
+00:01:49,678 --> 00:01:50,897
+I was so excited
+
+35
+00:01:50,951 --> 00:01:52,856
+Campbell, it's awesome
+
+36
+00:01:52,933 --> 00:01:55,459
+alright, on the Part 5.
+
+37
+00:00:00,000 --> 00:00:00,000
+
+

@@ -1,0 +1,11 @@
+Music: Little People by Project Divinity
+General forms are sculpted first at a low resolution
+It's important to sculpt the general shapes at a low resolution to prevent unwanted lumpiness
+The clay, draw, smooth, and grab brushes are good for this stage
+Try to perfect the current resolution before sculpting at a higher resolution.
+Save the small details for last
+A textured brush isn't used because it lacks control over continuity and growth patterns of scales.
+Flows of scales that contour underlying shapes are sculpted first.
+Areas between these flows are patched with smaller scales that don't follow a pattern
+A textured brush with are enabled allows multiple cuts to be made at once
+The last step is to use a textured brush to give everything a bit of variety.

@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:08,303
+The guardian required the shock specific facial expression which combines several shapes in one
+
+2
+00:00:12,030 --> 00:00:15,230
+here we have squinting of the eyes
+
+3
+00:00:15,376 --> 00:00:18,284
+the much corners are pulled down and out
+
+4
+00:00:18,300 --> 00:00:21,387
+the upper lip is pulled up and the lower lip is pulled down
+
+5
+00:00:21,395 --> 00:00:23,550
+and we also have the nasal sneer
+
+6
+00:00:25,324 --> 00:00:29,099
+for the brows here makes of mad, sad and raise up
+
+7
+00:00:32,874 --> 00:00:35,418
+to create the final overall effect of the blend shape
+
+8
+00:00:35,426 --> 00:00:38,448
+I also added the head, eyelids and jaw rig
+
+9
+00:00:40,538 --> 00:00:42,142
+here in the Property shelf
+
+10
+00:00:42,142 --> 00:00:46,031
+you can see the blend shape named "Death Face" at the full 100% value
+
+11
+00:00:46,014 --> 00:00:48,040
+because it's meant to be pushed to the extreme
+
+12
+00:00:48,461 --> 00:00:51,839
+the second version of the death face adds to the movement
+
+13
+00:00:55,209 --> 00:00:59,398
+in the Shape panel you can see the blend shapes which are now controlled by the rig
+
+14
+00:00:59,430 --> 00:01:03,351
+I also added coinciding shape for the inner mouth geometry
+

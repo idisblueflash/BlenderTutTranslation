@@ -1,0 +1,36 @@
+Here in the "Shapes" panel are all the symmetrical shapes for Sintel
+we have 26 facial and 2 more for pupil dilation
+while working on facial shapes
+I found that working with "Texture Solid" shading enabled
+which is in the "Property" shelf under "Display"
+made it much nicer to work with
+it gave me feedback on how our textures moved
+and was close to what she looked like once rendered
+once the jaw and eyelids are rigged and weighted
+the first thing I do is to open the jaw
+check and clean up the geometry inside the mouth
+after that
+I start creating a series of isolated shapes in full symmetrical form using "X Mirror" tool
+I start with proportional editing
+and then move onto editing individual vertex for final polishing
+I like to work in symmetry
+because it gives me the full effective in each shape
+in the next section
+you'll see how I break up the shapes to create a symmetry
+on frame 220 you will notice that the only shape that I include in the rig is the screen shape
+to create the shape
+I first placed the eyelid rig and then built my screen shape around it
+for each shape
+I checked on three things which I call it Three ¡®M¡¯s
+first: "Motion"
+I stare between default shape at all angles ensuring everything moves naturally
+second: "Mixing"
+since the goals to create shapes that are mixable
+I mixed what I'm currently working on with other shapes
+and that ensures that they blend well together
+third: "Mouth Open"
+for all mouth shapes
+I open the jaw and make sure that each shape is smooth inside the mouth and against the teeth
+the shapes might not look like much now
+and that's because they're meant to be combined together
+this layering method allows animators more flexibility to build more complex facial expression

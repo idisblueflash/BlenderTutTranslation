@@ -1,0 +1,285 @@
+1
+00:00:00,000 --> 00:00:03,605那么，下面我来给大家讲一下序列功能
+
+2
+00:00:03,620 --> 00:00:06,193我首先来选择文件3
+00:00:06,200 --> 00:00:08,414并添加一个图像序列(Shift+A) 4
+00:00:08,452 --> 00:00:12,902
+不管是添加那种序列5
+00:00:13,179 --> 00:00:14,428都先切换到这个窗口
+
+6
+00:00:14,615 --> 00:00:21,608
+其实吧，所谓的PNG就是一堆连续的图像文件
+
+7
+00:00:21,653 --> 00:00:25,939你只要在上面输入 *.png
+
+8
+00:00:26,141 --> 00:00:32,817就可以自动选择所有这样的扩展名(PNG)的文件9
+00:00:33,019 --> 00:00:34,993相当地方便啊！
+
+10
+00:00:36,966 --> 00:00:37,966（方便啊！）
+
+11
+00:00:37,989 --> 00:00:43,531现在需要做的是修正一下导入后的图片显示问题
+
+12
+00:00:43,498 --> 00:00:45,326
+很多时候，你导入了一些东西
+
+13
+00:00:45,416 --> 00:00:47,121结果发现全都悲剧了。。。
+
+14
+00:00:47,279 --> 00:00:51,228
+所以导入后的第一步 
+
+15
+00:00:51,228 --> 00:00:54,571菜单 Strip->Set Render Size
+
+16
+00:00:54,672 --> 00:00:56,254于是接下来。。。
+
+17
+00:00:56,187 --> 00:00:58,835或者你按 Shift+F7
+
+18
+00:00:59,631 --> 00:01:01,202然后看尺寸(dimensions)一栏
+
+19
+00:01:01,292 --> 00:01:10,279这里可以调整导入文件的尺寸分辨率等等，使其和文件一致20
+00:01:10,290 --> 00:01:12,803
+这里我们假设它就是这样
+
+21
+00:01:12,960 --> 00:01:17,683菜单 Strip->Set Render Size
+
+22
+00:01:17,796 --> 00:01:19,602然后当你移动当前帧时
+
+23
+00:01:19,624 --> 00:01:21,453你会看到它已经设置好了
+
+24
+00:01:21,655 --> 00:01:24,752现在我来打开aminatic edit
+
+25
+00:01:24,853 --> 00:01:27,949然后来告诉你色彩平衡的事
+
+26
+00:01:28,039 --> 00:01:31,001
+将场景(scene)切换到ColorGrade
+
+27
+00:01:31,102 --> 00:01:31,697
+喵~
+
+28
+00:01:31,596 --> 00:01:33,851这里是AVI的参考文件 
+
+29
+00:01:33,952 --> 00:01:37,329
+and basically there is a really cool addon
+
+30
+00:01:37,284 --> 00:01:41,233
+which allows you to take any property of the given strip
+
+31
+00:01:41,323 --> 00:01:47,572
+and allow you to apply that same properties or values to other strips
+
+32
+00:01:47,595 --> 00:01:55,875
+and this is useful especially when you are doing color correction with the Color Balance tools here
+
+33
+00:01:55,908 --> 00:01:59,577
+they are pretty basic, but really nice to work with
+
+34
+00:01:59,600 --> 00:02:06,937
+and, so, let's just assume that I wanted to give this entire scene a really green fill
+
+35
+00:02:06,971 --> 00:02:08,856
+I wanna make it look like that 
+
+36
+00:02:08,923 --> 00:02:13,377
+by the way, you can use Shift to make this ultra sensitive 
+
+37
+00:02:13,568 --> 00:02:17,495
+what I'm going to do is going to the User Preference
+
+38
+00:02:17,394 --> 00:02:19,133
+Ctrl Alt U
+
+39
+00:02:19,402 --> 00:02:21,938
+and go to the Add-Ons pane
+
+40
+00:02:22,140 --> 00:02:24,383
+and I've already searched for "chart"
+
+41
+00:02:24,563 --> 00:02:28,333
+but we are looking indeed for the Property Chart
+
+42
+00:02:28,445 --> 00:02:31,160
+and you can just go ahead and enable it
+
+43
+00:02:32,069 --> 00:02:34,077
+and... (oops)
+
+44
+00:02:34,189 --> 00:02:36,703
+now at the bottom you would see the Property Chart
+
+45
+00:02:36,949 --> 00:02:39,676
+and it's already got all these properties enabled
+
+46
+00:02:39,676 --> 00:02:41,695
+the basic I would have done is
+
+47
+00:02:41,605 --> 00:02:43,715
+if I got this strip selected
+
+48
+00:02:43,872 --> 00:02:44,702
+use Color Balance
+
+49
+00:02:44,713 --> 00:02:48,360
+I can hover over a property like Lift
+
+50
+00:02:48,494 --> 00:02:55,136
+and take a look at with the Python line says "SequenceColorBalance.lift"
+
+51
+00:02:55,282 --> 00:03:01,486
+and you can see here that I've got "Use_color_balance.lift"
+
+52
+00:03:01,576 --> 00:03:02,956
+"color_balance.gamma"
+
+53
+00:03:03,068 --> 00:03:03,977
+"color_balance.gain"
+
+54
+00:03:03,966 --> 00:03:08,431
+so these are properties that I've just basically copy and paste into here
+
+55
+00:03:08,409 --> 00:03:12,437
+and that becomes what the chart is
+
+56
+00:03:12,571 --> 00:03:19,191
+so let's just say I want... Let's go ahead and make this green as we've designed
+
+57
+00:03:19,314 --> 00:03:20,885
+excellent that's perfect
+
+58
+00:03:20,952 --> 00:03:23,129
+now I wanna apply that to the rest of the scene
+
+59
+00:03:23,219 --> 00:03:29,457
+you see, as soon as I selected, the chart increases to the selection
+
+60
+00:03:29,558 --> 00:03:34,247
+and color balance is not enabled on this strip
+
+61
+00:03:34,158 --> 00:03:37,624
+the first thing I wanna do is make that enabled
+
+62
+00:03:37,793 --> 00:03:40,037
+now the gamma selection is changed
+
+63
+00:03:39,958 --> 00:03:42,438
+so this one his a slightly more green hue
+
+64
+00:03:42,539 --> 00:03:44,188
+and I'll just copy the gamma
+
+65
+00:03:44,323 --> 00:03:49,528
+so, right now, if you like this chart it's pretty normal
+
+66
+00:03:49,719 --> 00:03:50,807
+copy it over
+
+67
+00:03:50,864 --> 00:03:56,675
+and now the gamma is that green tint for the entire scene
+
+68
+00:03:56,787 --> 00:03:58,942
+that's pretty nifty
+
+69
+00:03:59,110 --> 00:04:05,258
+now if delete this actually right now I'm sure I'm having a bug with Property Chart
+
+70
+00:04:05,292 --> 00:04:07,457
+where it completely disappeared
+
+71
+00:04:07,513 --> 00:04:15,210
+but I could just say "color_saturation" I can just add that to the property chart
+
+72
+00:04:15,277 --> 00:04:18,071
+I'm undoing, so it doesn't disappeared
+
+73
+00:04:18,071 --> 00:04:22,637
+and say, I gonna type "color_saturation"
+
+74
+00:04:24,365 --> 00:04:32,297
+and I can see that saturation has replaced the color that we had before
+
+75
+00:04:32,488 --> 00:04:35,068
+so I can just make it completely this saturated
+
+76
+00:04:35,248 --> 00:04:38,389
+border selected these guys, and apply
+
+77
+00:04:38,524 --> 00:04:41,250
+now, saturation is down to 0 for the entire thing
+
+78
+00:04:41,273 --> 00:04:46,198
+so it's a pretty handy tool which I thought you should know about
+
+79
+00:04:46,266 --> 00:04:52,739
+so yep, that's it for this subside of blender tips with Colin Levy
+

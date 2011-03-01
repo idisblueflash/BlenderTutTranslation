@@ -1,0 +1,304 @@
+1
+00:00:00,000 --> 00:00:02,840
+Hi I'm Angela Guenette
+
+2
+00:00:02,835 --> 00:00:06,304
+and I'm going to talk about some of the work I did on the film Sintel
+
+3
+00:00:06,395 --> 00:00:11,294
+These are the same techniques I've used working in Maya, Softimage XSI
+
+4
+00:00:11,370 --> 00:00:14,718
+On productions such as the featured film "Everyone's Hero"
+
+5
+00:00:14,855 --> 00:00:17,208
+and the DVD movie "Barbie as Rapunzel"
+
+6
+00:00:17,223 --> 00:00:20,048
+and the television "Spider-man: The New Animated Series"
+
+7
+00:00:20,063 --> 00:00:21,489
+As I demonstrate
+
+8
+00:00:21,473 --> 00:00:23,482
+these techniques work really well in blender
+
+9
+00:00:26,383 --> 00:00:27,204
+In this first part
+
+10
+00:00:27,184 --> 00:00:31,931
+we are going to look at how I organize facial topology specifically for animation use
+
+11
+00:00:36,805 --> 00:00:41,385
+the vertical span in the center of the face separates the left and right side
+
+12
+00:00:41,776 --> 00:00:43,028
+for the eye area
+
+13
+00:00:43,033 --> 00:00:45,143
+the vertical span ran across the pupil
+
+14
+00:00:45,128 --> 00:00:49,677
+matching the up eyelid center to the bottom eyelid center
+
+15
+00:00:49,855 --> 00:00:54,567
+as the same center line also divides the inner eyebrow and the outer eyebrow
+
+16
+00:00:55,380 --> 00:00:57,235
+for the other corners of the mouth
+
+17
+00:00:57,216 --> 00:00:59,261
+we have three holes onto spans
+
+18
+00:00:59,271 --> 00:01:00,236
+the center span
+
+19
+00:01:00,255 --> 00:01:02,616
+which divides upper and lower portion
+
+20
+00:01:02,702 --> 00:01:05,311
+and two supporting span on either side
+
+21
+00:01:05,407 --> 00:01:09,001
+the eye area is also organized in same way as the mouth
+
+22
+00:01:09,039 --> 00:01:12,681
+with center span and two supporting spans on either side
+
+23
+00:01:14,315 --> 00:01:18,951
+the eyebrow location is clearly defined by two parallel spans
+
+24
+00:01:19,400 --> 00:01:23,797
+encircling the eye area is a mask like continued span
+
+25
+00:01:23,864 --> 00:01:27,152
+nose and mouth area are also contained together
+
+26
+00:01:27,219 --> 00:01:30,727
+this defined the upper and lower portion of the face
+
+27
+00:01:32,151 --> 00:01:33,403
+using extrude select
+
+28
+00:01:33,394 --> 00:01:37,628
+you can see how the lip line is defined by two parallel loops
+
+29
+00:01:37,982 --> 00:01:38,651
+for the luff line
+
+30
+00:01:38,651 --> 00:01:42,579
+we have a central loop with two supporting loops
+
+31
+00:01:42,914 --> 00:01:46,909
+and the crease of eyelids are also defined in this way
+
+32
+00:01:48,840 --> 00:01:51,287
+taking a closer look in 3 quarter of view
+
+33
+00:01:51,277 --> 00:01:57,700
+you can see how the three parallel spans meet at the top, middle and bottom edge of nostril
+
+34
+00:01:57,873 --> 00:02:00,864
+the middle span is used to create the crease
+
+35
+00:02:01,065 --> 00:02:05,366
+also in wireframe they should look like luff lines
+
+36
+00:02:08,100 --> 00:02:15,173
+additional spans are used to continue the smooth transition inside the mouth and eye-socks
+
+37
+00:02:18,509 --> 00:02:23,441
+here I'm using Ctrl and Numpad Plus key to increase my selection
+
+38
+00:02:23,584 --> 00:02:31,164
+building your geometry like this with continued edge loops made it very easy to select areas of the face when working with your model
+
+39
+00:02:44,555 --> 00:02:50,835
+here you can see closely how the top lip and bottom lip mirror each other
+
+40
+00:02:57,115 --> 00:02:57,354
+also
+
+41
+00:02:57,373 --> 00:03:00,785
+vertical spans from top to bottom lineup
+
+42
+00:03:14,110 --> 00:03:16,318
+taking a closer look at the eyelids
+
+43
+00:03:16,318 --> 00:03:20,667
+you can see how the topology is organized in the same way as the mouth
+
+44
+00:03:21,250 --> 00:03:24,949
+the outer edge of the eyelids are also defined by two spans
+
+45
+00:03:24,958 --> 00:03:27,635
+which are highlighted here in grey color
+
+46
+00:03:29,336 --> 00:03:33,178
+the next span in fits the eyeball creating a shelf
+
+47
+00:03:33,178 --> 00:03:35,721
+or the thickness of the eyelid
+
+48
+00:03:38,541 --> 00:03:43,616
+adding a two-line geometry is a very effective way to add life to the eyes
+
+49
+00:03:43,759 --> 00:03:44,429
+to make this
+
+50
+00:03:44,381 --> 00:03:48,061
+I simply duplicate the eyelid shelf and then reshaped it
+
+51
+00:03:48,147 --> 00:03:51,072
+creating a slide curve that will catch the light better
+
+52
+00:03:57,370 --> 00:04:00,725
+the cornea is the glossy transparent part increasing the eye
+
+53
+00:04:00,792 --> 00:04:04,310
+when shaping the eyelids I leave the cornea in solid display
+
+54
+00:04:04,358 --> 00:04:08,047
+which ensures the proper fit without gaps or intersection
+
+55
+00:04:31,914 --> 00:04:32,354
+OK
+
+56
+00:04:32,316 --> 00:04:35,202
+let's hide the proxy here to display the scalp
+
+57
+00:04:39,016 --> 00:04:41,406
+in the property panel under materials
+
+58
+00:04:41,425 --> 00:04:46,395
+you can see how I've divided aparts of the topology with individual material colors
+
+59
+00:04:46,586 --> 00:04:52,312
+the grey topology material clearly displays placement for the hair and eyebrows
+
+60
+00:04:52,407 --> 00:04:56,642
+it also helps to define where the scalp will end and the forehead begin
+
+61
+00:04:58,897 --> 00:05:02,921
+now let's select the "topology_lashline" material
+
+62
+00:05:03,428 --> 00:05:06,123
+this defines where the eyelashes will be
+
+63
+00:05:14,888 --> 00:05:17,546
+after having these three areas clearly marked
+
+64
+00:05:17,526 --> 00:05:22,057
+I simply duplicate the mesh to create these particle emitter meshes
+
+65
+00:05:50,799 --> 00:05:53,772
+to conclude the section on facial topology
+
+66
+00:05:53,848 --> 00:05:57,700
+let's bring in the shaman and dragon baby beside Sintel to compare
+
+67
+00:05:58,140 --> 00:05:59,191
+as you can see here
+
+68
+00:05:59,134 --> 00:06:02,699
+although they each have their own tailor-made topology
+
+69
+00:06:02,689 --> 00:06:05,194
+from old man to young girl to creature
+
+70
+00:06:05,261 --> 00:06:08,367
+the inner structure closely follows the same principles 
+
+71
+00:06:08,444 --> 00:06:11,999
+which pretty much ends up in pre-assembling the muscles of the face
+
+72
+00:06:15,775 --> 00:06:20,927
+the blend files that I've included in the tutorials package have seen "Simplify" enabled
+
+73
+00:06:27,426 --> 00:06:29,787
+to view models in higher resolution
+
+74
+00:06:29,787 --> 00:06:33,219
+just raise the value for the subdivision level
+
+75
+00:06:33,429 --> 00:06:38,017
+or disable "Simplify"
+
+76
+00:00:00,000 --> 00:00:00,000
+
+

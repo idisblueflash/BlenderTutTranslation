@@ -1,0 +1,116 @@
+1
+00:00:00,000 --> 00:00:03,670
+OK, welcome to Part 7
+
+2
+00:00:03,860 --> 00:00:06,677
+first thing I wanna show you is a really really simple 
+
+3
+00:00:06,842 --> 00:00:12,015
+and that is when you want to return you 3D cursor to the origin
+
+4
+00:00:12,097 --> 00:00:13,836
+it's just a shortcut
+
+5
+00:00:13,864 --> 00:00:17,761
+but I have the want to do this, you know, for many many times
+
+6
+00:00:17,771 --> 00:00:23,399
+and I usually end up zooming away and go in like this to say
+
+7
+00:00:23,449 --> 00:00:25,800
+and then say "Cursor to Grid" to snap it
+
+8
+00:00:25,915 --> 00:00:27,919
+and that's just stupid
+
+9
+00:00:27,983 --> 00:00:31,933
+so what you can actually do is just go Shift C
+
+10
+00:00:32,070 --> 00:00:33,948
+and then your new cursor is on the origin
+
+11
+00:00:34,059 --> 00:00:35,249
+beautiful
+
+12
+00:00:35,267 --> 00:00:39,572
+alright, next thing I wanna show you is linkage
+
+13
+00:00:39,680 --> 00:00:44,698
+I guess it is also one of the pretty obvious things but I didn't know it
+
+14
+00:00:44,834 --> 00:00:47,755
+it's kinda convenient
+
+15
+00:00:47,884 --> 00:00:51,960
+I mean you probably find multiple cases where you wanna use this 
+
+16
+00:00:52,161 --> 00:00:53,906
+let's just say, for example
+
+17
+00:00:53,992 --> 00:01:00,602
+I've got, you know, a camera with very specific, you know, lens size
+
+18
+00:01:00,570 --> 00:01:06,817
+and I want this camera and this camera to both have that lens size 
+
+19
+00:01:06,875 --> 00:01:10,445
+what we can do is, select the two, select the active
+
+20
+00:01:10,466 --> 00:01:13,911
+hit Ctrl L, make links to the object data
+
+21
+00:01:13,983 --> 00:01:14,865
+and Bam!
+
+22
+00:01:14,857 --> 00:01:16,517
+Now they are all linked
+
+23
+00:01:16,908 --> 00:01:19,972
+and have the same attributes
+
+24
+00:01:20,026 --> 00:01:22,399
+you can do the same thing here
+
+25
+00:01:23,349 --> 00:01:27,536
+and for some reason I didn't know how to do that
+
+26
+00:01:27,550 --> 00:01:29,984
+it's quite useful
+
+27
+00:01:30,045 --> 00:01:39,002
+now what I wanna do is show you... Hmm... My driver is not mountains
+
+28
+00:01:39,010 --> 00:01:44,813
+so this is the way for the next Blender tips of Colin Levy
+
+29
+00:00:00,000 --> 00:00:00,000
+
+

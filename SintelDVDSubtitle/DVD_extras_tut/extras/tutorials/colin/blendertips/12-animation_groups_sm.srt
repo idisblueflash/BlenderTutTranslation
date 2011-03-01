@@ -1,0 +1,428 @@
+1
+00:00:00,000 --> 00:00:01,538
+Hey there
+
+2
+00:00:01,610 --> 00:00:07,546
+so, I think this is gonna have to be the last video tutorial in the series
+
+3
+00:00:07,639 --> 00:00:09,301
+I'm currently in Savannah
+
+4
+00:00:09,321 --> 00:00:13,564
+and tomorrow, actually, I'm flying to Amsterdam for the premier of Sintel
+
+5
+00:00:13,523 --> 00:00:17,632
+very excited, but school has started
+
+6
+00:00:17,735 --> 00:00:19,789
+and my schedule is filling up
+
+7
+00:00:19,862 --> 00:00:22,897
+I wasn't able to get too quite as much as I originally intended
+
+8
+00:00:23,031 --> 00:00:26,974
+but, I'm proud to see that you've made all the way through to No.12
+
+9
+00:00:26,985 --> 00:00:29,524
+and hopefully you found it useful
+
+10
+00:00:29,648 --> 00:00:32,580
+so, in the last tutorial, I was talking about animation
+
+11
+00:00:32,632 --> 00:00:36,431
+just how to visualize, how to look at the animation data in their files
+
+12
+00:00:36,575 --> 00:00:39,517
+and because it can actually be pretty challenging
+
+13
+00:00:39,610 --> 00:00:46,713
+just to see what's going on, you know, and to work with animation data you want to start getting into a little bit more complex scenes
+
+14
+00:00:46,888 --> 00:00:49,263
+and I wanna show you in this particular case
+
+15
+00:00:49,273 --> 00:00:51,947
+something that a little bit more of a test case
+
+16
+00:00:51,947 --> 00:00:54,342
+because it's a definitely outliner
+
+17
+00:00:54,476 --> 00:00:58,481
+here I've done the layout for the first scene
+
+18
+00:00:58,688 --> 00:01:00,226
+the scene was cut 
+
+19
+00:01:00,257 --> 00:01:07,339
+this is the original fight scene that is gonna start of the movie with three bandies and Sintel
+
+20
+00:01:07,452 --> 00:01:14,400
+another rig has been updated since it's so... A little bit being broken her header's like lowing a bit
+
+21
+00:01:14,503 --> 00:01:17,394
+but from this part, she survives
+
+22
+00:01:17,507 --> 00:01:26,953
+and if you notice the actual length of the animation of this file, the single file is 1 min and 50 sec
+
+23
+00:01:27,005 --> 00:01:32,084
+so a lot of work, a lot of animation in this one file
+
+24
+00:01:32,166 --> 00:01:39,331
+and it can be difficult to, when you're actually working, to make sense at all
+
+25
+00:01:39,506 --> 00:01:45,989
+one of the limitations of blender, or just something so inherent about the way that blender works is that:
+
+26
+00:01:46,093 --> 00:01:50,294
+actions are properties of the object 
+
+27
+00:01:50,397 --> 00:01:55,652
+so you can't have multiple objects in a single action
+
+28
+00:01:55,817 --> 00:02:00,463
+and this, you know, became a issue that little bit with, for example,
+
+29
+00:02:00,463 --> 00:02:05,882
+sintel's here, and actually all the bandies, all the characters are in this scene has stuffs
+
+30
+00:02:05,944 --> 00:02:12,200
+so, even a stuff changes his hands from one character to another
+
+31
+00:02:12,314 --> 00:02:17,878
+and part of change of setting that up is to constant the rigging side of it
+
+32
+00:02:17,940 --> 00:02:20,769
+but the other is managing the animation
+
+33
+00:02:20,758 --> 00:02:24,857
+when you have apended who has the stuff 
+
+34
+00:02:24,888 --> 00:02:32,424
+what would normally happen if you have this "Only include channels..." button selected
+
+35
+00:02:32,506 --> 00:02:35,263
+and if you are working on the bandie's body
+
+36
+00:02:35,345 --> 00:02:36,698
+you see the bandie's body
+
+37
+00:02:36,822 --> 00:02:40,352
+when you working on the stuff, you only see the stuff
+
+38
+00:02:40,507 --> 00:02:43,222
+and, really, these things should be working in concert
+
+39
+00:02:43,305 --> 00:02:57,324
+because they are completely intergrated in, you know, the overall animation of the scene that's of any worth
+
+40
+00:02:57,468 --> 00:03:01,732
+but, you know, I was going to a process, just setting keys and animating
+
+41
+00:03:01,794 --> 00:03:03,394
+just really loosely
+
+42
+00:03:03,435 --> 00:03:10,806
+and, so, because I was struggling with just organizing the animation
+
+43
+00:03:10,889 --> 00:03:17,041
+I talked to AG online, and he implemented a little feature that I thought it was pretty obscure
+
+44
+00:03:17,052 --> 00:03:20,582
+I mean I don't imagine it that too many people know about it
+
+45
+00:03:20,572 --> 00:03:25,032
+and it's a button right here, if you are in the Dopesheet
+
+46
+00:03:25,073 --> 00:03:29,192
+"Only include channels from Objects in the specified Group"
+
+47
+00:03:29,192 --> 00:03:31,721
+so this is basically animation groups
+
+48
+00:03:31,804 --> 00:03:36,986
+and you can specify any group to, sort of, filter
+
+49
+00:03:37,048 --> 00:03:40,114
+what you are looking at in the Dopesheet
+
+50
+00:03:40,217 --> 00:03:42,715
+so, if I select Sintel's rig here
+
+51
+00:03:42,788 --> 00:03:46,483
+and I go into the Object buttons
+
+52
+00:03:47,547 --> 00:03:52,533
+you'll see in the groups, right here, that she is in several groups
+
+53
+00:03:52,636 --> 00:03:56,167
+and this one....both of them have this prefix "AN"
+
+54
+00:03:56,167 --> 00:03:58,531
+which is I just used to specify
+
+55
+00:03:58,541 --> 00:04:00,503
+OK, this group isn't animation group
+
+56
+00:04:00,606 --> 00:04:04,973
+"AN_ALLchars", so it's just characters and no cameras
+
+57
+00:04:05,138 --> 00:04:07,688
+and here, it's just Sintel by herself
+
+58
+00:04:07,801 --> 00:04:14,171
+so let me just show you all the animation first in the whole scene
+
+59
+00:04:14,439 --> 00:04:17,743
+and, just gonna select everything I don't know any to do that
+
+60
+00:04:17,897 --> 00:04:23,080
+alright, so, do you like the Dopesheet?
+
+61
+00:04:23,080 --> 00:04:24,422
+Summarily you get it pretty dense
+
+62
+00:04:24,422 --> 00:04:25,826
+and I can just scroll it down
+
+63
+00:04:25,857 --> 00:04:27,880
+lots of objects in the scene
+
+64
+00:04:28,004 --> 00:04:31,793
+if I toggle a few of these down
+
+65
+00:04:32,257 --> 00:04:36,593
+you know, this is, was....
+
+66
+00:04:36,882 --> 00:04:49,456
+actually, I was animating hands with empties for certain uses: camera, root of Sintel...
+
+67
+00:04:49,518 --> 00:04:51,706
+Let's see where are the bindies
+
+68
+00:04:52,130 --> 00:04:54,411
+anyway, I think you get the point
+
+69
+00:04:54,649 --> 00:04:58,644
+surely we have the bindies around here
+
+70
+00:04:58,964 --> 00:05:06,242
+"GEO-stuff" so you've got stuff separated from bandies' "jack_simple_proxy"
+
+71
+00:05:06,211 --> 00:05:08,461
+OK, so this is jack's animation
+
+72
+00:05:08,678 --> 00:05:10,691
+alright, so, it's not too bad
+
+73
+00:05:10,784 --> 00:05:13,633
+but, it's very easy to view overwhelmed 
+
+74
+00:05:13,654 --> 00:05:18,537
+you know, especially for scrolling to all the stuff and camera are binded in it
+
+75
+00:05:18,661 --> 00:05:25,464
+and, if you notice the channel for Sintel's root is all the way up here
+
+76
+00:05:25,619 --> 00:05:31,616
+yep, Sintel's actual proxy and hand channels are where on here
+
+77
+00:05:31,678 --> 00:05:35,653
+and currently, there isn't a way to disorder them, can't click and drag
+
+78
+00:05:35,684 --> 00:05:47,514
+so, navigating and moving, you know, blocks of animation,you know, became extremely difficult to figure it out how to do
+
+79
+00:05:47,504 --> 00:05:49,961
+you know, I was working with the layers and not get a thing
+
+80
+00:05:50,095 --> 00:05:54,607
+so instead of talking isolate things
+
+81
+00:05:54,576 --> 00:06:02,504
+I'm gonna take use of groups, and use that to just help me
+
+82
+00:06:02,483 --> 00:06:04,001
+actually see what I'm doing 
+
+83
+00:06:04,073 --> 00:06:06,447
+so, I'm just gonna toggle this on
+
+84
+00:06:06,458 --> 00:06:08,233
+I probably got one of these groups selected
+
+85
+00:06:08,171 --> 00:06:10,536
+but I'm gonna change it to Sintel
+
+86
+00:06:10,783 --> 00:06:12,714
+and then press Home
+
+87
+00:06:12,703 --> 00:06:18,805
+and now, our scene is animated, that I have determined is relevant to Sintel
+
+88
+00:06:18,877 --> 00:06:24,761
+so that includes Sintel's body, yep, here is all just the relevant animation
+
+89
+00:06:24,864 --> 00:06:27,301
+left hand, right hand, her weapon
+
+90
+00:06:27,486 --> 00:06:38,223
+and you know this is may not be as elegant as if all of these individual actions would actually one, unified
+
+91
+00:06:38,388 --> 00:06:42,786
+but for most purposes, it's already achieved that
+
+92
+00:06:42,786 --> 00:06:47,586
+and what next thing is I connected this boot of the view
+
+93
+00:06:48,525 --> 00:06:53,770
+and create another dopesheet with another group
+
+94
+00:06:53,842 --> 00:06:57,641
+so here let's look at "Smith"
+
+95
+00:06:59,685 --> 00:07:03,267
+"Simth" animation for example, currently
+
+96
+00:07:06,643 --> 00:07:13,456
+so we've got the root you're just translating his poses and stuff
+
+97
+00:07:13,467 --> 00:07:18,473
+and those are the three different objects needed animation
+
+98
+00:07:18,494 --> 00:07:21,343
+and because all here, the dopesheet icons
+
+99
+00:07:21,443 --> 00:07:29,685
+sort of, move all three of the same time without having to rearrange my view and find, OK, where is everything
+
+100
+00:07:29,716 --> 00:07:32,709
+so, ya, that is all I really want to share with you
+
+101
+00:07:34,020 --> 00:07:45,190
+and, just because, you know, being very very helpful especially with the scene which got very complex very fast
+
+102
+00:07:45,314 --> 00:07:49,918
+Umm.. Ya, I guess that is it.
+
+103
+00:07:50,032 --> 00:07:58,435
+If you want to send me... Or if you have very specific features or things you'd like to see demoed
+
+104
+00:07:58,456 --> 00:08:02,430
+I'm interested to continue this kind of short tutorial as here is
+
+105
+00:08:02,585 --> 00:08:05,651
+Um, but ya, I hope I find it useful
+
+106
+00:08:05,751 --> 00:08:07,840
+thanks very much for watching, bye
+
+107
+00:00:00,000 --> 00:00:00,000
+
+

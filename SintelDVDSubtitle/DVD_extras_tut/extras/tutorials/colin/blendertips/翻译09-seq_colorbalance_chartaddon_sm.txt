@@ -1,0 +1,500 @@
+
+OK, so I'd like to show you a couple of sequencer features for your quick
+
+那么，下面我来给大家讲一下序列功能
+
+
+
+the first I just wanna do general file selection thing
+
+我首先来选择文件
+
+I'm gonna add an image sequence
+
+并添加一个图像序列(Shift+A)
+
+
+
+just can navigate to this tab
+
+不管是添加那种序列
+
+
+
+whatever the sequence
+
+
+
+都先切换到这个窗口
+
+
+
+what you can do is, actually, let's say these PNGs are mixed in with tons of various kinds of files
+
+
+
+其实吧，所谓的PNG就是一堆连续的图像文件
+
+
+you can add... Do a *.png
+
+你只要在上面输入 *.png
+
+
+and you will automatically select all of the files of that extension
+
+就可以自动选择所有这样的扩展名(PNG)的文件
+
+
+that's really handy
+
+相当地方便啊！
+
+a little thing
+
+（方便啊！）
+
+
+
+now here right now is actually the correct aspect create issue
+现在需要做的是修正一下导入后的图片显示问题
+
+a lot of times you bring something in
+很多时候你导入了一些东西
+
+
+and it's completely distorted
+结果发现全都悲剧了。。。
+
+so my first step usually is after I've imported something
+所以导入后的第一步！
+
+
+to go to Strip
+
+菜单 Strip->Set Render Size
+
+Set Render Size
+
+菜单 Strip->Set Render Size
+
+and what that's gonna do is
+
+
+
+于是接下来...
+
+
+if you go to Shift F7
+
+或者你按 Shift+F7
+
+
+and look at dimensions
+
+然后看尺寸(dimensions)一栏
+
+
+it's going to set the dimensions of the project to whatever that actually file is
+
+这里可以调整导入文件的尺寸分辨率等等，使其和文件一致
+
+
+so let's just say that comes in like this
+
+这里我们假设它就是这样
+
+
+I'm gonna go Strip -> Set Render Size
+
+菜单 Strip->Set Render Size
+
+
+and as soon as you change the frame
+
+然后当你移动当前帧时
+
+
+you will see that is just set correctly
+
+你会看到它已经设置好了
+
+
+so now I'm gonna open up the aminatic edit
+
+现在我来打开aminatic edit
+
+
+and just show you a really color balance stuff we are doing
+
+
+
+然后来告诉你色彩平衡的事
+
+
+and... gonna change the scene to ColorGrade
+
+将场景(scene)切换到ColorGrade
+
+
+as so
+
+
+
+喵~
+
+
+these are referencing AVI files
+
+这里是AVI的参考文件
+
+
+and basically there is a really cool addon
+
+顺便说一下，这里有个非常给力的插件
+
+
+
+which allows you to take any property of the given strip
+
+可以让你获得strip的属性
+
+and allow you to apply that same properties or values to other strips
+
+以及将该属性应用到其他的strip上
+
+
+
+and this is useful especially when you are doing color correction with the Color Balance tools here
+
+这个功能在你想调整色彩和色彩平衡时尤为有用
+
+
+
+they are pretty basic, but really nice to work with
+
+简单实用
+
+
+and, so, let's just assume that I wanted to give this entire scene a really green fill
+
+那么，假设我要让整个影片场景绿起来
+
+
+I wanna make it look like that 
+
+绿油油的！
+
+by the way, you can use Shift to make this ultra sensitive
+
+你同样可以按住Shift键进行微调
+
+
+what I'm going to do is going to the User Preference
+
+接下来切换到 User Preference 窗口
+
+
+Ctrl Alt U
+
+按 
+Ctrl + Alt + U
+
+and go to the Add-Ons pane
+
+进入插件面板
+
+and I've already searched for "chart"
+
+我这里已经在搜索 "chart" 了
+
+
+but we are looking indeed for the Property Chart
+
+但实际上我们要找的是属性图表
+
+
+and you can just go ahead and enable it
+
+启用它
+
+
+and... (oops)
+
+喵？
+
+
+now at the bottom you would see the Property Chart
+
+现在在下面你能看到属性圆饼图了
+
+
+and it's already got all these properties enabled
+
+这里已经将所有属性启用了
+
+the basic I would have done is
+
+下面要做的是
+
+
+if I got this strip selected
+
+如果我选择了这个strip
+
+
+use Color Balance
+
+应用色彩平衡
+
+
+I can hover over a property like Lift
+
+我可以把鼠标悬停在某个属性上，比如说"Lift"
+
+and take a look at with the Python line says "SequenceColorBalance.lift"
+
+于是可以看到 Python 一行显示："SequenceColorBalance.lift"
+
+
+and you can see here that I've got "Use_color_balance.lift"
+
+然后你可以看到这里也有 "Use_color_balance.lift"
+
+
+"color_balance.gamma"
+
+"color_balance.gamma"
+
+
+
+"color_balance.gain"
+
+
+"color_balance.gain"
+
+
+
+so these are properties that I've just basically copy and paste into here
+
+所以这里的属性都是我刚刚复制粘贴过来的
+
+
+and that becomes what the chart is
+
+他和上面圆饼图的一样
+
+
+so let's just say I want... Let's go ahead and make this green as we've designed
+
+就按我刚刚说的，我们来让它绿起来！
+
+
+excellent that's perfect
+
+不错~
+
+
+now I wanna apply that to the rest of the scene
+
+现在再把它们应用到剩下的场景中去
+
+
+you see, as soon as I selected, the chart increases to the selection
+
+
+
+你看，我一选中，他就出现了这些选项
+
+
+
+and color balance is not enabled on this strip
+
+色彩平衡在这个strip上没有启用
+
+
+
+the first thing I wanna do is make that enabled
+
+我们先来启用它
+
+
+now the gamma selection is changed
+
+gamma选项改变了颜色
+
+
+so this one his a slightly more green hue
+
+它有了一点点的绿色色度
+
+and I'll just copy the gamma
+
+
+
+我可以直接复制gamma选项
+
+so, right now, if you like this chart it's pretty normal
+
+现在，如果你觉得这个太正常了
+
+
+copy it over
+
+粘贴覆盖它
+
+
+and now the gamma is that green tint for the entire scene
+
+于是所有的都绿了
+
+
+that's pretty nifty
+
+绿得好给力啊！
+
+now if delete this actually right now I'm sure I'm having a bug with Property Chart
+
+现在如果删掉这个，我确定会属性图表会出BUG
+
+
+where it completely disappeared
+
+你看，它们都不见了
+
+
+but I could just say "color_saturation" I can just add that to the property chart
+
+但是我只是说我刚刚加了"color_saturation"(色彩饱和度)给属性图
+
+
+I'm undoing, so it doesn't disappeared
+
+
+
+撤销上一步，于是它们又出现咯
+
+and say, I gonna type "color_saturation"
+
+
+
+然后，输入"color_saturation"
+
+and I can see that saturation has replaced the color that we had before
+
+于是，饱和度替换了刚刚显示的颜色
+
+so I can just make it completely this saturated
+
+我可以把它们都设定成这样的饱和度
+
+
+border selected these guys, and apply
+
+范围选中这个家伙，然后应用
+
+
+now, saturation is down to 0 for the entire thing
+
+现在，所有的饱和度都变成0了
+
+so it's a pretty handy tool which I thought you should know about
+
+
+
+方便吧，大家要记住这个工具哦~
+
+
+so yep, that's it for this subside of blender tips with Colin Levy
+
+
+
+喵~这就是 Colin Levy 的不楞德尔小知识~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

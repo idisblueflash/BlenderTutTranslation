@@ -1,0 +1,101 @@
+Hello, this is Colin Levy
+
+How are you
+
+I thought I'll be interesting to do a series of really short and less than one-munite videos
+
+to show you tips and tricks that I learned in blender during my time on Sintel
+
+I thought I knew blender
+
+but appearently there's a lot of people who know a lot of things that I didn't know
+
+everything in this little series gonna be simple, really simple
+
+so to jump right in
+
+first I wanna show you this in blender 2.5
+
+let's say I have the scene open
+
+and I want to make sure Anti-Aliasing is on
+
+well, I'm gonna just scroll down all the way to Anti-Aliasing
+
+wow that took about a second
+
+but look how much faster it would be
+
+if I could really quickly to close and open these little sections in the render panel
+
+you can do that by hitting A
+
+that just toggles them on
+
+enough
+
+No.2: Math
+
+appearently and maybe this is really obvious to anyone who has used this program
+
+but you can do math in any field with their numbers in blender 
+
+so you've got 100 here
+
+you'll just type /2
+
+and it goes to 50
+
+wow that is cool
+
+now this is useful in a lot of situations
+
+because if you're dealing with a technical things that have absolute values
+
+so right here we've got this setup to be you know to render it 2000
+
+what if you wanna render it in 4000
+
+well normally I would come up with and launch the calculator
+
+and do the math here that want it to be precise
+
+but you can actually just type in *2 on both of these values
+
+and there you go
+
+beautiful
+
+that applies basicly everywhere in blender
+
+No.3 Local View
+
+also a feather from years ago that I did not know about
+
+so basicly when you're dealing with scenes of any complexity you're working in a space with a lot of other things
+
+hitting period to center my selection
+
+and sometimes to be a drag if these things are included in your view and the only one is selection of our objects
+
+let's say that I want to get all the lights just by themselves
+
+and it's pretty easy
+
+first of all to select all in the same type with Shift G -> Type
+
+and then go into local view by hitting the / button
+
+Bam! now all we see are lights
+
+everything there was selected 
+
+and in a point you can just start working with these things by themselves
+
+you can toggle in and out with /
+
+and you can move things away from local view by hitting M
+
+pretty cool
+
+that's concludes the first installment of blender tips with Colin Levy

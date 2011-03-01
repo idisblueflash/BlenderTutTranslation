@@ -1,0 +1,274 @@
+1
+00:00:00,000 --> 00:00:02,008
+Hello, my name is David REVOY
+
+2
+00:00:02,034 --> 00:00:06,255
+welcome to this video tutorial series indicated to 2D digital painting
+
+3
+00:00:06,204 --> 00:00:08,315
+with free and open sources softwares
+
+4
+00:00:09,128 --> 00:00:15,002
+this video would mainly show you how I manage my graffiti process through a simple illustration
+
+5
+00:00:16,426 --> 00:00:18,740
+I will use three softwares
+
+6
+00:00:18,994 --> 00:00:20,825
+the first is Alchemy
+
+7
+00:00:20,825 --> 00:00:23,368
+for the external story creative start
+
+8
+00:00:23,343 --> 00:00:24,970
+the second is Mypaint
+
+9
+00:00:24,995 --> 00:00:26,699
+as the main painting program
+
+10
+00:00:26,674 --> 00:00:29,089
+and finally the third is Gimp
+
+11
+00:00:29,140 --> 00:00:35,141
+with the patch "Gimp-for -Painter" and toolset "Gimp Paint Studio" for mainly image manipulation
+
+12
+00:00:35,548 --> 00:00:39,489
+All of these are on my favourite operating system - Linux Mint
+
+13
+00:00:39,642 --> 00:00:42,210
+So let's get in
+
+14
+00:00:42,294 --> 00:00:49,712
+To Protect sensitives ears against the French accent, all the following video will be musical.
+This is a message from the O.P.A.B.T.S., the Organisation of Protection Against Bad Tutorial Speech
+
+15
+00:00:49,803 --> 00:00:52,293
+Music: Kevin MacLeod
+"Willow and the Light"
+incompetech.com
+Licensed under Creative Commons
+"Attribution 3.0"
+
+16
+00:00:53,538 --> 00:00:56,761
+1. Chaos with Alchemy
+
+17
+00:01:00,569 --> 00:01:09,727
+Alchemy look at first as a basic 2D tools, but it have originals features.
+In this tutorial, I show how to use it as a CHAOS generator.
+
+18
+00:01:23,640 --> 00:01:30,524
+As you can see, the user interface is pretty minimalistic.
+Just go over the top apps to let appear the main toolbar
+
+19
+00:01:32,355 --> 00:01:39,386
+We can add effects or modifier on the brush stroke to have more random shapes.
+I use mainly "Speed shapes" and "Pull shapes" here.
+
+20
+00:02:00,805 --> 00:02:05,605
+Pretty chaos :)
+But for what???
+
+21
+00:02:07,091 --> 00:02:13,834
+We want here to be creative, and to have a totally new result.
+Starting from a Chaos is a great solution.
+
+22
+00:02:14,634 --> 00:02:20,692
+Chaos will bring us incredible new organics and geometrics shapes
+and we will just underline what we see from it
+
+23
+00:02:21,835 --> 00:02:31,092
+As children play to guess "What this could look like?" during watching the sky.
+A strong creative process.
+
+24
+00:02:36,121 --> 00:02:44,464
+I underline here in red a girl faces to better show you what I see in this chaos at first
+
+25
+00:02:48,464 --> 00:02:58,817
+And I try to render the 2D way what I see using the "solid shape" brush with just opacity
+
+26
+00:03:06,296 --> 00:03:15,104
+I didn't like a lot this idea. So I just continue my Chaos work over.
+In Alchemy, no "undo"
+
+27
+00:03:23,745 --> 00:03:31,473
+New shapes appear very fast, and also depend of personal interpretation
+
+28
+00:03:36,126 --> 00:03:45,848
+I would be curious to know what do you see in all those splatters of shape.
+It's kind revelant most of the time....
+
+29
+00:04:13,602 --> 00:04:20,499
+Now you understand the process, let's speed the video to the end of this first part.
+
+30
+00:04:45,759 --> 00:04:52,656
+That's all for the Alchemy part, of course Alchemy can do a lot of other things, this will be in future's videos. :)
+
+31
+00:04:52,490 --> 00:04:54,318
+To finish, just save your result as flat PNG file format. I will use only this file format in this tutorial...
+
+32
+00:04:54,152 --> 00:05:00,467
+Music: Kevin MacLeod
+"Perigrine Grandeur"
+incompetech.com
+Licensed under Creative Commons
+"Attribution 3.0"
+
+33
+00:05:00,716 --> 00:05:04,206
+2. Black and white painting
+
+34
+00:05:04,538 --> 00:05:13,429
+I opened Gimp to prepare my drawing a bit:
+I need to make it darker (multiply layer) and resize this base to a higher resolution.
+
+35
+00:05:38,856 --> 00:05:46,584
+After, I switch to Mypaint and start a paint over with my basic brush set (you can find it on the Mypaint forum).
+I start with the head: the main focal point.
+
+36
+00:06:04,615 --> 00:06:11,013
+At this step I use the mirror a lot;
+It help my eyes to have a refreshing view of the face, and see all my proportions errors.
+
+37
+00:06:27,632 --> 00:06:37,853
+After finishing to paint the face, I switch to Gimp to correct the proportions with a simple cut/transform/paste process.
+
+38
+00:06:43,420 --> 00:06:51,314
+I crop too the artwork to a better size using the good option of the crop tools "rules of the third" that display an helpful gird.
+
+39
+00:06:59,540 --> 00:07:09,594
+I paint a bit with Gimp to reconstruct voids parts,
+but all the brush are very slow at this resolution.
+I start also to light some part, using layer blending modes.
+
+40
+00:07:30,202 --> 00:07:37,680
+back to Mypaint. I paint on the whole surface of the painting, keeping a view mode that display all my illustration on the screen.
+I continue the B&W painting.
+
+41
+00:08:18,895 --> 00:08:24,046
+I keep it speed painting to go to the next step: Color!
+
+42
+00:08:27,121 --> 00:08:29,531
+----------
+Music: Kevin MacLeod
+"Night of the Owl"
+Incompetech.com
+Licensed under Creative Commons
+"Attribution 3.0"
+-----------
+
+43
+00:08:29,946 --> 00:08:33,768
+To color my black & white speed painting
+I use mostly layers with blending mode (color/multiply/dodge)
+
+44
+00:08:40,084 --> 00:08:47,645
+I also flatten image very often,
+and use the tools as "levels","color curves", "colorise", "hue/saturation" to adjust better colors.
+
+45
+00:08:53,628 --> 00:09:00,358
+Color step is always the best moment to try a lot of possibility:
+Here I focus on cold blue/green palette, with my focus points more warms.
+
+46
+00:09:37,584 --> 00:09:42,487
+When I'm happy with the general palette, I switch to Mypaint.
+
+47
+00:09:55,117 --> 00:10:00,518
+All Mypaint's tools can have custom keyboard shortcuts.
+
+48
+00:10:27,025 --> 00:10:31,928
+4. Details
+
+49
+00:11:02,423 --> 00:11:07,409
+Details step is very long...
+It represents around 60% of all the drawing time
+
+50
+00:11:21,867 --> 00:11:28,265
+This timelapse video is accelerate;
+time is between 25 and 30 times more than normal
+
+51
+00:11:48,706 --> 00:11:59,093
+At normal time speed, all this illustration took 7hour and 30min.
+I did it in 3 steps, and on 2 different days.
+
+52
+00:13:00,084 --> 00:13:12,548
+All details are created with the same creative process in part.1...
+I always try to recognise in random shaping something.
+
+53
+00:14:11,711 --> 00:14:19,189
+All ideas born during the painting,
+I didn't block myself to an idea at first.
+That's the most pleasant way to paint.  :-)
+
+54
+00:15:22,673 --> 00:15:34,223
+Still switching Between Mypaint and Gimp all the time...
+Blending layers as "Multiply" or "Dodge" are very useful to fix shadows.
+
+55
+00:15:46,105 --> 00:15:55,246
+5. Finishing
+
+56
+00:16:05,632 --> 00:16:14,856
+Back to Mypaint, I use the brush system to create some textures
+and continuing adding details
+
+57
+00:18:33,373 --> 00:18:42,264
+At the end, I switch a last time in Gimp to do the final crop, and paste my signature.
+
+58
+00:19:06,112 --> 00:19:12,510
+The End
+Thanks for watching
+

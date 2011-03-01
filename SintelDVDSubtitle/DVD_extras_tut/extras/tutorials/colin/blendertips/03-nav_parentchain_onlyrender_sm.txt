@@ -1,0 +1,50 @@
+So this is actually one of my favourite features
+there is a way in Maya to do this
+but now in blender
+and so I asked Campbell
+and he spent like 30 seconds running this feature
+it is extremely exciting
+so I'm going to duplicate this cube
+and set up the parent, child
+a little hot key here
+basically all what I wanna be about to do is move along this chain
+and so by using the bracket keys
+you can now navigate through them
+so cool
+and you can even hit Shift and select, you know, multiple
+and it's pretty smart the way it works
+now I've got sort of a branch 
+this one is the parent of all of them
+settled there
+this is also the child of this parent
+by hitting bracket right
+it selects both
+I'm not really sure how it will deal with the active one
+probably the longer chain
+in this case
+it is incredibly useful and use it all time
+you should 
+let's see
+the other thing that I want show you is...
+I'm gonna open up a particular dance shot from Durian
+and so it's another Campbell feature
+so, as you can see this is a pretty intense shot
+if I enable all layers and holy smokes
+what's is going on
+I can barely see the scene
+but if you look, hit the N key to open up this tab on the right
+A to close this up
+and under the Display tab
+there's a Only Render option
+what that will do is locate everything that doesn't render
+rigs, cameras, empties, curves...  And make them disappeared under the view port
+and wow look the clean that is
+you can actually see what is going on
+very handy
+if you open up any files from the Durian repository
+and you can't select things
+that's alright
+so untoggle Only Render 
+anyway
+awesome feature?
+Part of 4 is next

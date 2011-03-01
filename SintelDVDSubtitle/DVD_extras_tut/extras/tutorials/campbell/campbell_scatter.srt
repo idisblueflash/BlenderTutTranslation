@@ -1,0 +1,116 @@
+1
+00:00:00,034 --> 00:00:03,176
+In some areas of the city
+
+2
+00:00:03,164 --> 00:00:05,849
+we want it to look like to be slum that have the junk everywhere
+
+3
+00:00:05,838 --> 00:00:07,654
+so rather than placing them manually
+
+4
+00:00:07,689 --> 00:00:11,128
+we are using physics scattered and found that would be a nice tool
+
+5
+00:00:11,196 --> 00:00:13,618
+that would be able to draw into the scene with grease pencil
+
+6
+00:00:13,641 --> 00:00:15,995
+and it will find the areas you would want the junk to go
+
+7
+00:00:16,109 --> 00:00:18,851
+and then use the script to place it
+
+8
+00:00:19,023 --> 00:00:21,593
+Er...
+
+9
+00:00:23,079 --> 00:00:26,449
+So I've got a group of objects here
+
+10
+00:00:26,392 --> 00:00:29,420
+of junk objects that are of the appeal
+
+11
+00:00:29,305 --> 00:00:30,162
+they are just proxy objects
+
+12
+00:00:30,219 --> 00:00:33,133
+you know really it would look good
+
+13
+00:00:33,247 --> 00:00:34,275
+alright
+
+14
+00:00:34,161 --> 00:00:35,875
+by the lines there the script...
+
+15
+00:00:35,875 --> 00:00:39,017
+It is working in progress and it doesn't do properly stacking
+
+16
+00:00:39,017 --> 00:00:40,331
+but it's quite quick
+
+17
+00:00:40,388 --> 00:00:44,615
+and it feels to me wagons' there I'm not sure about that 
+
+18
+00:00:44,558 --> 00:00:49,300
+we can place them manually but that's hmm... What I've got so far
+
+19
+00:00:49,357 --> 00:00:53,184
+so far it is not quite rough and doesn't do proper intersections
+
+20
+00:00:53,241 --> 00:00:56,840
+We may add that later
+
+21
+00:00:57,069 --> 00:00:59,068
+use bullet or something like that
+
+22
+00:00:58,992 --> 00:01:00,820
+or you might just place it manually
+
+23
+00:01:00,782 --> 00:01:04,533
+because it is easily duplicate faces so we translate objects on the top of face
+
+24
+00:01:04,667 --> 00:01:09,580
+made it smoother so you can see the objects rather than the face getting in the way
+
+25
+00:01:09,580 --> 00:01:15,616
+but we can place them using snapping just kinda of what you can
+
+26
+00:01:18,644 --> 00:01:20,662
+OK use the face scale tool
+
+27
+00:01:20,624 --> 00:01:23,100
+so you gotta watch it
+
+28
+00:01:31,573 --> 00:01:33,630
+OK
+
+29
+00:00:00,000 --> 00:00:00,000
+
+

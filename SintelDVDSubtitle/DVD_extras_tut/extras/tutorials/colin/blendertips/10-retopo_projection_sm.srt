@@ -1,0 +1,220 @@
+1
+00:00:00,055 --> 00:00:02,811
+So, I'm currently at home
+
+2
+00:00:02,839 --> 00:00:07,010
+I probably assume I'm gonna run out of the features to demonstrate
+
+3
+00:00:07,004 --> 00:00:10,099
+So it's just probably do a couple of more
+
+4
+00:00:10,176 --> 00:00:14,750
+But right I'm gonna show you a "projection editing"
+
+5
+00:00:14,854 --> 00:00:17,888
+Forget what the term it actually was
+
+6
+00:00:18,013 --> 00:00:20,942
+When I was under 2.49, there is a different way of doing this
+
+7
+00:00:20,963 --> 00:00:21,310
+this is really cool
+
+8
+00:00:21,303 --> 00:00:26,815
+this is basically the feature that allows you to take a base of geometry that has deformations 
+
+9
+00:00:26,947 --> 00:00:28,397
+you know, it's not a plane
+
+10
+00:00:28,481 --> 00:00:38,164
+and you can take another object when you're editing the mesh that have the vertices automatically snap to the surfaces underneath
+
+11
+00:00:38,213 --> 00:00:40,448
+and it's really a great modeling tool
+
+12
+00:00:40,434 --> 00:00:44,710
+anyway, its approach in 2.5 is a little bit different
+
+13
+00:00:44,745 --> 00:00:48,389
+so I can either... Well, I just use this cube, since it's here
+
+14
+00:00:48,597 --> 00:00:54,199
+with Ctrl 2 just add a Subsurf modifier and make it smooth
+
+15
+00:00:54,248 --> 00:00:55,907
+so here we go
+
+16
+00:00:55,927 --> 00:00:58,315
+and I'm just gonna add a plane
+
+17
+00:00:58,426 --> 00:01:02,480
+and, basically...er... Rotate with double R
+
+18
+00:01:02,834 --> 00:01:05,653
+just because I want it to be outside
+
+19
+00:01:05,722 --> 00:01:06,798
+OK
+
+20
+00:01:07,055 --> 00:01:11,345
+so, basically we have to be in Shaded mode, I believe
+
+21
+00:01:11,476 --> 00:01:16,412
+and this tool actually is a snapping feature which makes sense
+
+22
+00:01:16,502 --> 00:01:22,048
+this feature was not immigrated in the snapping tools, I believe in 2.49
+
+23
+00:01:22,062 --> 00:01:24,853
+but here at the bottom of the 3D view 
+
+24
+00:01:24,964 --> 00:01:27,248
+we can toggle on Snapping
+
+25
+00:01:27,636 --> 00:01:30,406
+and here right next to it is your snapping options
+
+26
+00:01:30,462 --> 00:01:31,864
+so let's click that
+
+27
+00:01:31,968 --> 00:01:32,836
+and go to Face
+
+28
+00:01:32,801 --> 00:01:36,501
+because it's gonna snap those vertices to the faces underneath
+
+29
+00:01:36,667 --> 00:01:42,047
+and, then, this is important to a magical button
+
+30
+00:01:42,283 --> 00:01:43,588
+right here
+
+31
+00:01:43,671 --> 00:01:46,850
+"Project vertices on the surface of other objects"
+
+32
+00:01:46,906 --> 00:01:48,822
+so just can toggle that on
+
+33
+00:01:48,857 --> 00:01:50,224
+we just wanna do
+
+34
+00:01:50,960 --> 00:01:52,355
+there, interesting
+
+35
+00:01:52,404 --> 00:01:53,750
+now I'm gonna prove that 
+
+36
+00:01:53,938 --> 00:01:55,986
+alright, so I'm going to Edit Mode
+
+37
+00:01:56,006 --> 00:01:57,311
+hit G
+
+38
+00:01:57,554 --> 00:02:00,532
+and suddenly, as all we have to do, to need moving it
+
+39
+00:02:00,761 --> 00:02:06,405
+those four points have snapped to the surface of the object underneath
+
+40
+00:02:06,467 --> 00:02:09,827
+I need to just toggle Subsurf on more
+
+41
+00:02:10,021 --> 00:02:14,880
+so we can see, and, we're gonna subdivide to several times on this plane
+
+42
+00:02:14,922 --> 00:02:16,796
+we can always see it by then
+
+43
+00:02:16,935 --> 00:02:19,753
+now under Shade mode we can 
+
+44
+00:02:19,753 --> 00:02:22,009
+and we're gonna press G again
+
+45
+00:02:22,301 --> 00:02:28,902
+and it's actually going to just confirm perfectly to the form of that sphere
+
+46
+00:02:28,986 --> 00:02:30,381
+beautiful
+
+47
+00:02:30,700 --> 00:02:32,894
+and you might be going like this 
+
+48
+00:02:32,921 --> 00:02:35,761
+right now, it looks like it's still not doing it right 
+
+49
+00:02:35,865 --> 00:02:37,558
+but if I change the view
+
+50
+00:02:37,545 --> 00:02:40,925
+you will see how it's actually deformed those points
+
+51
+00:02:40,981 --> 00:02:43,063
+so it's really a handy modeling tool
+
+52
+00:02:43,098 --> 00:02:47,499
+if you've got the shape of a model 
+
+53
+00:02:47,540 --> 00:02:50,567
+that looks great, but the edge loops are not working
+
+54
+00:02:50,706 --> 00:02:55,308
+it is really a great way to start to work
+
+55
+00:02:55,408 --> 00:03:01,118
+anyway, that is that pretty cool feature, pretty easy, as well.
+

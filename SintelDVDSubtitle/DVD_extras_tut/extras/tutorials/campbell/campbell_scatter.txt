@@ -1,0 +1,28 @@
+In some areas of the city
+we want it to look like to be slum that have the junk everywhere
+so rather than placing them manually
+we are using physics scattered and found that would be a nice tool
+that would be able to draw into the scene with grease pencil
+and it will find the areas you would want the junk to go
+and then use the script to place it
+Er...
+So I've got a group of objects here
+of junk objects that are of the appeal
+they are just proxy objects
+you know really it would look good
+alright
+by the lines there the script...
+It is working in progress and it doesn't do properly stacking
+but it's quite quick
+and it feels to me wagons' there I'm not sure about that 
+we can place them manually but that's hmm... What I've got so far
+so far it is not quite rough and doesn't do proper intersections
+We may add that later
+use bullet or something like that
+or you might just place it manually
+because it is easily duplicate faces so we translate objects on the top of face
+made it smoother so you can see the objects rather than the face getting in the way
+but we can place them using snapping just kinda of what you can
+OK use the face scale tool
+so you gotta watch it
+OK

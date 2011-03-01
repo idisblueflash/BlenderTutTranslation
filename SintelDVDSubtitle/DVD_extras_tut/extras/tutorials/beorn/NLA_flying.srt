@@ -1,0 +1,180 @@
+1
+00:00:00,000 --> 00:00:08,361
+this is a short tutorial explaining how we made the varies of things like fly for our movie "Sintel"
+
+2
+00:00:08,383 --> 00:00:11,778
+we have basicly dragons, butterflies, birds
+
+3
+00:00:11,906 --> 00:00:13,922
+then a large amount of them
+
+4
+00:00:13,879 --> 00:00:19,122
+so we have to carry out with an enfficent way of making a fly in an interesting way
+
+5
+00:00:19,185 --> 00:00:21,774
+and for this
+
+6
+00:00:21,732 --> 00:00:24,045
+we use a library of cycles
+
+7
+00:00:24,109 --> 00:00:26,868
+this one is a bird cycle I come up with
+
+8
+00:00:26,932 --> 00:00:33,256
+it's also one for the baby dragon and for the butterfly
+
+9
+00:00:33,362 --> 00:00:41,491
+for example here is the baby dragon and you will this is the baby dragon with cycles in the character directory
+
+10
+00:00:41,512 --> 00:00:47,115
+btw, in the action list you will find different varies of ones
+
+11
+00:00:47,242 --> 00:00:54,989
+so anyway here is a small example about a bird flying around the bezier spline
+
+12
+00:00:54,946 --> 00:00:59,827
+you'll see the banking somewhere you wanna go around it such as connection
+
+13
+00:00:59,912 --> 00:01:03,287
+what you normally do is in the NLA
+
+14
+00:01:03,478 --> 00:01:07,489
+import this cycle you saw earlier
+
+15
+00:01:07,574 --> 00:01:09,760
+and simply go down
+
+16
+00:01:09,823 --> 00:01:14,217
+and increase the number of Repeats such as the beziered animation
+
+17
+00:01:14,195 --> 00:01:17,655
+and there have a bird flying around the spline
+
+18
+00:01:17,994 --> 00:01:20,159
+unfortunately it looks wrapped out
+
+19
+00:01:20,117 --> 00:01:22,515
+because the fly's waven
+
+20
+00:01:22,557 --> 00:01:24,552
+and I really have much characters to do
+
+21
+00:01:24,552 --> 00:01:29,582
+and I don't have anything to do with speeding up or slowing down
+
+22
+00:01:29,497 --> 00:01:30,898
+as is the part changes
+
+23
+00:01:30,962 --> 00:01:33,233
+so I don't wanna change it and I would use these two buttons
+
+24
+00:01:33,211 --> 00:01:37,116
+one of these is the new feature for this candidates started for Durian
+
+25
+00:01:37,223 --> 00:01:44,714
+Basically it means that we now have the use of a F-Curve we have controls over the timing in the NLA strip
+
+26
+00:01:44,714 --> 00:01:48,959
+so basically here you can see
+
+27
+00:01:48,916 --> 00:01:51,251
+change the handle to vector
+
+28
+00:01:51,230 --> 00:01:55,771
+here you can see it's looping just as it normally would if you would repeat
+
+29
+00:01:55,920 --> 00:01:58,255
+the cycle is in a standard wide
+
+30
+00:01:58,191 --> 00:02:00,992
+but because of the curve we now have control library
+
+31
+00:02:01,120 --> 00:02:08,633
+so by adding keyframes I can, for example, make the bird speed up as it goes around the curve
+
+32
+00:02:08,633 --> 00:02:10,097
+so add a keyframe here
+
+33
+00:02:10,076 --> 00:02:11,816
+and keyframe here
+
+34
+00:02:11,922 --> 00:02:14,809
+select to the end and lift them up
+
+35
+00:02:14,766 --> 00:02:17,568
+you now see in that region it will speed the curve
+
+36
+00:02:17,653 --> 00:02:22,619
+which means that the bird will fly faster in that region
+
+37
+00:02:22,619 --> 00:02:27,394
+now just set another one here and drag it up again
+
+38
+00:02:27,415 --> 00:02:32,742
+so basically the speedy curve means a faster flap a shadowed curve means a slower flap
+
+39
+00:02:32,763 --> 00:02:36,902
+as you can see this means that the bird now has a provisional appeal
+
+40
+00:02:36,902 --> 00:02:44,521
+and you can make the flap speed make sense to the projectory of the bird
+
+41
+00:02:44,691 --> 00:02:45,582
+so alright
+
+42
+00:02:45,582 --> 00:02:47,450
+this is the technique used
+
+43
+00:02:47,513 --> 00:02:50,845
+and hopefully you can find it useful for other themes
+
+44
+00:02:50,845 --> 00:02:51,758
+good luck
+
+45
+00:02:51,716 --> 00:02:53,456
+see you
+

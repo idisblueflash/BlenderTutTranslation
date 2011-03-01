@@ -1,0 +1,36 @@
+So I'm just gonna load up Sintel
+ans show you the coolest feature you've ever seen
+But before that
+I will show you Simplify
+Simplify is in the Scene panel
+And if you scroll to the bottom
+You will see that what you can do by toggling on 
+It limits the view port the number of subdivision levels you are showing
+So you can actually play back animations in real time
+When you sort of simplify your scene
+So if you look at Sintel
+You turn down the Child Particles here
+it just makes everything a lot more responsive
+alright
+so the thing I actually may have said about 
+that's really cool
+but even cooler is 
+I select Sintel's body
+going the Texture panel
+And you will see one of the textures here is skin color
+when you working in 3D
+a lot of time you realize: "OK, I wanna make this changes on the texture."
+then you gotta go into, Norlalis(不确定，某搜索工具？) or the finder...or, you know, Windows Explorer 
+And navigate to where ever that texture is
+To just open it
+And this is a... You know, it takes time
+now what we can do is just hover over this little file browser icon
+and if you read the tool tip
+it says "Hold Shift to open the file, Alt to browse containing directory"
+How cool is that?
+So, Alt click, the actual directory is just popped up
+And Shift click, you'll actually get the image
+Really really handy
+I was so excited
+Campbell, it's awesome
+alright, on the Part 5.

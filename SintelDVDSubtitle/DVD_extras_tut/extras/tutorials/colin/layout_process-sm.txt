@@ -1,0 +1,1368 @@
+Hi, this is Colin Levy. How are you?
+
+I, sort of be cool, to actually go to the process of doing some layout
+
+since I was on my major responsibility for Durian
+
+I thought, might be constructive to, acutally, do the whole sequence
+
+basically with characters locking, bringing in rigs, and animating basic locking
+
+and also, working with camera switching and camera animating
+
+so, let's think of a scene using our assets
+
+basically let's use Sintel of course
+
+how about the market scene and one of the guardians
+
+ok, so Sintel is trying to buy a piece of fruit from a guardian, who is just a vendor at the market
+
+this is a scene that was never conceived
+
+alright, so, we've got blender open
+
+let's just delete everything that is here
+
+and I'm just gonna go ahead and save this
+
+so I'm gonna save this in place where we normally save the scene, which is in the ..\pro\scenes\
+
+and I wanna just call this "fakeScene.blend". beautiful.
+
+so now we are here
+
+the reason I'm doing that is because we are about to link in some files
+
+and it's important that we have our project saved, so that the relative library links work
+
+so, let's link in, first, our character Sintel
+
+so, I'm pressing Ctrl Alt O
+
+but you can also go File -> Link, this is the same thing
+
+and I'm just gonna navigate to our "chars" directory
+
+..\pro\chars\sintel.blend
+
+and I'm just gonna find the group that we specificly want
+
+then we want her, you know, to have a back pack on
+
+sure, why not
+
+Umm, no armour£¬blablabla....
+
+"Sintel_Winter"? No
+
+"Sintel_Backpack" should be good
+
+so, as you can see here she is fully rigged
+
+I whould actually like her without a coat
+
+now that I think about it. X
+
+gonna try "_backpack" with a lowercase be.
+
+see what that does
+
+oh, very self-explanatory
+
+OK£¬so now we've got Sintel
+
+but what if I wannt her in a different pose
+
+right now, we can't really do anything, except rotate and scale
+
+and, so, what we need to do is bringing in her rig
+
+how do you do that?
+
+it's a special feature
+
+go on to Object menu, and say Make Proxy
+
+and, it asks you what would you make a proxy, the "rig"
+
+so I just go on to "sintel.blend", take the rig
+
+and make that proxy, which means that the rig is now here, kind of local mode
+
+can really go into Edit Mode
+
+in... can you? no, can only go into the Pose Mode
+
+and it's a lot easy to actually pose your characters
+
+even though they are linked in
+
+then, go ahead and turn on Simplify on
+
+because she's got hairing stuff
+
+they will really slow down the performance
+
+and actually, why whould I use the high resolution rig here, or model?
+
+that's just a waste of resources
+
+so, I'm also going to link in "sintel_simple"
+
+and that's the proxy version of the animator's using
+
+as you see here, they are overlapping
+
+but if you are going to the rig and go to Pose Mode
+
+this time going Ctrl Tab to do that
+
+you'll see how the pose or the amarture deforms both models
+
+so what I'll do here is just delete "sintel_simple"
+
+well, actually I've just deleted the "backpack"
+
+but, because we are here, I'll show you how you can very easily switch between the two models
+
+you can go, can select it, going to the Object tab, go down to Duplication,and under Group
+
+change it to "sintel_backpack"
+
+and, the animation, everything you have, should remain the same
+
+so, I'm gonna go back to "sintel_simple", dudududu....
+
+so here we go, we've got the character, great
+
+step one complete
+
+now we need to put her in the envionment
+
+so thankfully as Soenke and Pablo have already done this for us
+
+so, again, Ctrl Alt O
+
+I'm gonna navigate to the ..\env_city\ directory
+
+er... "chicken_run", yes, so "chicken_run" is actually the name of the market
+
+so gonna go into the Group
+
+Hoo! this time I see a lot of choices
+
+"ground"? well, we want more than a ground
+
+"chicken_run_proxy"? we want a little more detail
+
+because I wannt know, I wanna a place right there for our particular stand
+
+so I'm just gonna say, oh gees, "chicken_run"? that's generic
+
+hopefully it will be what I want
+
+link slash append from a library....
+
+wait, as blender thinks...
+
+OK what's going on...
+
+Alright, I'm gonna clear the oringin, clear its location
+
+alright, it's already there
+
+so, wow, look at this
+
+we've got this great scene here
+
+and I've no idea where Sintel is
+
+Oh, probably at the origin, OK
+
+so, let's just say that I want.... in a fly around, because that may be a little eaiser to navitate
+
+I want her to stand right in front of this low guy
+
+we'll put... OK£¬ she'll stand right here
+
+and a guardian guy will be... I don't know, close by
+
+so where's Sintel
+
+right here
+
+I'm gonna grab her... in Pose Mode
+
+I want her location, transmations, to be at 0 0 0
+
+surely that I can take the whole object and move it around
+
+that causes problems
+
+instead, I'm going into Pose Mode
+
+and then put her where I want her to be
+
+alright, so she's standing relatively, you know, to the little barrels
+
+now let's just say, you know, for layout settings, I need to populate the barrel with stuff
+
+but because we have the option, just gonna place 3D cursors there
+
+pop it up there, dong dong....
+
+and maybe I mean the mold for some vegetables
+
+so I'm going to go in the "..\envs\prop\" directory
+
+let's see, "props_city" -> "fruite"
+
+we don't have any vegetables
+
+"fruits" - I'll have to do
+
+and then.... I dont't want "apples", I hate apples
+
+"market_props" -> "group"
+
+"Fish'... "Cucumber", that's vegetable. "Pumpkin", "Squashes"...
+
+OK, just bring all those guys, anything else... "VeggieGroups", perfect, in here
+
+and, I got exactly one of them
+
+is that correct?
+
+alright, let's see if I can add a Group Instance
+
+"Veggiegroup", interesting
+
+so, for some reason they didn't all pop... woo..
+
+but they have been linked in
+
+so if I go to Shift A -> "Group Instance"
+
+I can then, sort of, look through what are already linked in
+
+and just, yep, add different things
+
+um... what else... I'm gonna get a "CumcumberBasket", beautiful
+
+alright, so now we have Sintel standing in front of these barrels
+
+hum.. let's get rid of that, I don't like that
+
+and she wants to order, you know, these cucumbers, or this pumpkin
+
+but we don't have anything for her... I mean right now she can just steal it and no one would know
+
+we need a vendor
+
+so let's go into the "..\chars\" directory again
+
+and bring in a vendor
+
+now we have a lot of options
+
+we could bring in a guardian, or the guardians we did in end-up using
+
+could do that
+
+we could even bring in "hyena", she could be buying it from hyena
+
+but let's bring in "proog", because proog is fine
+
+so, "ishtarian_proog", go into "Group" -> "Proog"
+
+and, Proog is dancing on the barrels
+
+OK, we'll place him behind
+
+and to constain, I know he's basically on the ground now
+
+because he's intersecting, and I'm gonna hit G
+
+and I'm gonna contrain with Shift Z
+
+so that I can push him back in space without having be in an orthographic view
+
+now I'm gonna rotate him, and by hitting Z, I can constain this rotation, as well.
+
+actually I just, sort of, contradict myself
+
+because now you'll see in the Transformations, he's not at 0 0 0
+
+that is bad, bad colin, alright... 0 0 0, good
+
+now where's he?
+
+he's right there exactly where I want him
+
+in, you know, maybe he's taking a bath..
+
+hehe, OK, so we are going to "Make Proxy" here
+
+and bring in the rig "WomanA-rig"
+
+I don't love, like... I'm fine
+
+OK, for some reason the rig in Proog's file is called "WomanA-rig"
+
+which is, for some reason, I think it's slanderous
+
+OK£¬so, now we've got problem
+
+Proog's root bone is nowhere to be seen
+
+so I can't even move him
+
+this is because the rig layer has disappeared, that's an issue
+
+so, let me see where is it
+
+I'm gonna have to go into the 'Amature", a little setting here
+
+and I have to know that bone is on the 4th to last...
+
+see? I was toggling it on and off
+
+it's on the 4th to last layer
+
+probably pretty handy you've kown that
+
+so now, just gonna move him up
+
+and across, and place him
+
+now all these stuff is just basically set up£¬the scene's setup
+
+but it takes a long time actually
+
+you know, what's your characters are there, you can actually start getting worked on
+
+so, now we've got these characters emulateing each other
+
+maybe they are doing yoga
+
+but we prefer that they would be in a more natural pose
+
+so I'm gonna just start posing them
+
+let's have a like looking, sort of, increasing lively
+
+hum... she can, maybe, have her hand on a chain, like...
+
+hum... you know, in dicision making mode
+
+she doesn't have much money
+
+so, she's gotta be really making these dicisions really carefully
+
+we do have a lot of extra bones, showing up here, you can see
+
+we don't need all those
+
+in fact that some bones that I want to access, which are not there
+
+so you'll notice if you explore in the animation scenes
+
+that if you select Sintel's amature
+
+usually on the right-hand column
+
+you'll have these really handy rig buttons
+
+which allow you to show or hide a varies of bone groups, control groups
+
+and these are not here right now
+
+why is that?
+
+well, turns out, you have to link in a script, separately run it
+
+and then it will be part of the scene
+
+so I'll show you what this is
+
+I'm gonna save this first
+
+go back to "Link" in Ctrl Alt O
+
+go back to "sintel"
+
+and then in the "Text" pannel we'll see "sintel_rig_props.py"
+
+so for each of the characters, Nathan has settled up so that there is, basically, a python script that runs on mode,
+
+which, basically, adds this functionally in Properties view
+
+so I'm just gonna link this
+
+and you will see that isn't actually shown up, that doesn't do anything
+
+this first time, let's open the view, you have to actually run it
+
+so I would go to the Text view... Text Editor
+
+open up this
+
+a lot of awsome python
+
+check down and understand
+
+and I'll just say Run
+
+well see what's next happens, I got Colloquy
+
+so I'm just gonna log on the irc
+
+and see is he's online
+
+he is online
+
+"ideasman_42: you, how's it going?"
+
+"you know Nathan's rig_prop.py scriopt for all the rigged characters?"
+
+sorry for the detour
+
+so it looks like, although Campbell is on, he's not responding
+
+and I don't know what to do
+
+so I'm gonna just hide this
+
+go back to blender
+
+hit "Run Script" a few times
+
+hope it starts to work
+
+OK, it's not going to look in the concole for now
+
+so, I don't know
+
+but basically what that nice one, I think, did, is a handy shortcut for actually what these buttons do
+
+so I could just go here, and I want all those interior things to go away
+
+go away... no idea what these are doing
+
+OK, so that cover up those
+
+and I want finger controls, don't want them strict
+
+here we go, so, it's not nearly as nice as they are labeled like they were here
+
+no worries that, we can continue our work
+
+I would complain to Campbell when he's back
+
+so here we go
+
+I'm just gonna continue our left-off
+
+can both select these fingers and rotate them
+
+you know, hum, acutally I prefer to use IK
+
+now IK switching is also a beautiful property that Nathan had in his lower property, seen here
+
+unfortunately that's also not handy any more
+
+but I can still go to this guy and turn the... god! cover!
+
+I, you know, less comfortable with blender than I really should be up to all this time
+
+but basically I've found the layer on which the IK hand is
+
+and I've already put that on, uh, OK
+
+so this layer is the left hand IK controller
+
+the reason looks like this all geommetrical stuff is because Simplify
+
+if I put this back to where, whatever, it's nice and smooth, it's beautiful
+
+hum, and if you select this controller in the Properties pannel, you'll see IK
+
+so in this case, I just felt like it's combined some to control kokokoko...
+
+it's actually, FK is great for animation because you get nice arcs for free
+
+but for layout you're just doing a single pose to convey something really quickly
+
+so in this case, I was generally using IK
+
+because animators' gonna start over from scratch, any way
+
+and now I wanna get rid of this guy
+
+so, alright, I guess I did it right
+
+for this arm, so I'm gonna re-pose that still a lot of extra bones that I completely do not need
+
+alright, bababa dada...
+
+and her elbow is pointing to the sky
+
+I'm gonna lower that with pole target
+
+hum, I wonder what I can get, what can I afford
+
+and I'm gonna just move her a little bit closer
+
+I hate trackball rotation
+
+I don't know why I'm using it
+
+turn to tables, so, much better
+
+alright, so this is also FK
+
+I'm going to do the same thing
+
+I can just find the... uh! there we go... the IK layer
+
+now I'll get rid of the other layer, there we go, beautiful
+
+I'm learning more about Nathan's work
+
+methodology here
+
+I was organizing these layers
+
+and here's the pole target again
+
+I also like to turn off the relationships
+
+Over here, Display -> Relationship Lines
+
+because I though them kinda structive and necessary
+
+so, see the difference
+
+I'm gonna try to figure out what layer these green and yellow bones are
+
+because it's completely with nuts, supposing what we'll be doing
+
+uh, it's more of the... OK, good
+
+OK, huh, I'm all set, perfect
+
+so we've got Sintel here, and pose
+
+that's more or less, you know, tells a story that what's going on
+
+not really what I want here
+
+just a little bit of spread, stands, so it's not so perfect
+
+so let's gonna R -> Z  to constain
+
+there we go, alright
+
+it still currently bammed, awkward, but OK
+
+now I'm gonna have Proog to shift our attention to him
+
+and, you know what, Turntable, where are you? thank you
+
+so much better
+
+and I'm gonna have him sort of like the film
+
+if you notice he's just got his hand on his hips
+
+so this I can also do it with IK
+
+but I'm almost afraid of searching for that
+
+nope? I got a first try now. Perfect
+
+just gonna turn the IK on for both of them
+
+bring it down here, bring it down here
+
+sometimes when there's a lot of stuff in the way
+
+first I should be using layers
+
+so, this envionment, I'm just gonna put on layer 2
+
+you would notice now really how we get that things
+
+actually, why I wanna do this?
+
+I'm gonna put Sintel on layer 1, she's already there
+
+Proog on layer 2
+
+I'm changing this with the M key
+
+and then, gonna switch to layer 2
+
+move these guys to layer 6
+
+so that we get things less on our guys
+
+because here's local view
+
+to be an isolator here, you know, what you are working on
+
+but any way, you get this, not caring too much
+
+remember, this is layout, not animations
+
+you have excuse to do sucky work
+
+alright, so there we go
+
+we've got this man, this very handsome man, sort of putting his hands on his hips
+
+don't you there think about stealing my protos, young lady?
+
+move these guys to layer 6, as well
+
+just so, it... within environment
+
+and viewing them together, you see we've got a scene set up
+
+yea, that waited too long!
+
+so now, what's gonna happen in the scene?
+
+so Sintel can, maybe, look over, so we start with the closeup of her
+
+sort of scanning the protos, then would cut to a point of view shot, how about.
+
+so would just get what she's seeing
+
+it's gonna be a panning shot, the route across
+
+then, at the end of the shot, we will have her hand coming in
+
+she'll take the....er... I don't know, a basket or something
+
+and we'll get a medium shot of Proog
+
+and he'll slap her
+
+so that's gonna take a little bit of time
+
+so bear with me
+
+but, I'm just gonna setup the camera
+
+now I wonder if this is actually going to work
+
+"add tripod", OK, no
+
+Nathan made a really fantastic camera rig, that was, he built into an operator
+
+all he did was constructive and very basic, you know, servious relationships with empties and camera
+
+to give me some controls
+
+but we really don't need it in this case
+
+and I never really used all of the features that it really had
+
+so it's more, because I thought it's cool
+
+so I'm just gonna add a camera
+
+and, here we go, it pointed at the ground, perfect
+
+and like I said, we will start with closer upon Sintel
+
+so I'm just going to rotate it into place
+
+I'm constaining along the X axis with "X"
+
+I'm gonna scale it down
+
+that doesn't change a thing
+
+just how it displays in 3D
+
+let's gotta put the view so that we can start looking at actually what the camera is seeing
+
+and hitting Numpad 0 to look through it
+
+now for getting any further
+
+I'm going to change the resolution
+
+so, what we are doing for Durian was 4096 x 1744
+
+and, 50%, that's OK
+
+with the right aspect Ratio which was 2.35 to 1
+
+so, again, I'm going to here and dull it out with Z Z that pushes it back locally
+
+on its own, sort of normal, you know
+
+such like dulling straight back
+
+so, we can also in this view, press Shift F, to fly around
+
+but until we use scroll wheel, it actually was just panning
+
+once we start scrolling, then we are actually moving
+
+but it's nice to reframe things
+
+also, the tool that I was using is double R
+
+so we've got the camera selected here
+
+and I can hit double R
+
+and, as I move around, this is also a way, sort of, like we're grabbing on the background
+
+it's mainly useful if you hit double R and then Shift
+
+because that slows it down, then it's more like, you know, fine tuning composition
+
+so, in any case, we've got this
+
+scale it down a little bit more
+
+and camera doesn't really need to be animated here
+
+but I'm going to be using the camera switching system that blender has
+
+so, I wanna link the camera a marker
+
+so that the next camera I add will switch on 2nd marker
+
+so I'm just gonna go onto the Timeline, hit M
+
+and then, since it's already selected and already active, and hit Ctrl B
+
+and now you'll see it displayed on this marker that has little tiny dotted line
+
+and that indicates this is linked up to this camera
+
+perfect
+
+so, in this view, I'm gonna turn off... oh, then she disappears, it's fine
+
+OK, perfect
+
+I'm just gonna have her looking
+
+so I'm an animator actually
+
+first, keyframe of the scene
+
+gonna start on frame 3
+
+and insert rotation with eye
+
+go to frame 30
+
+and insert another keyframe
+
+and, so, of course that would be a little bit more a second
+
+she looks over, OK, perfect
+
+now I wanna add another camera
+
+so I'm... actually just because we are pretty close...
+
+I'm gonna duplicate this camera
+
+duplicate the camera, and rotate it
+
+and since we want it to be above her point of view
+
+we'll just sort of situate it
+
+let me move this camera to the first layer
+
+so that we can, sort of... you knew that
+
+and now, let's add a 2nd marker
+
+to going to Timeline again, pressing M
+
+now, I need to make this 2nd camera active
+
+right now, you can tell the active camera by looking at that triangle, which appears over the camera
+
+so here we've got this camera, and it's solid triangle
+
+and this 2nd camera we've just duplicated, which had a non-filled-in triangle
+
+and so, to make it active, we're gonna press Ctrl Numpad 0
+
+so with it selected, now we're gonna jump into that camera
+
+and... hum, interesting...
+
+so, appearently, it's purview
+
+because in this view, we've got the selected camera as active
+
+and this view, very curious
+
+maybe I'll just stay here, too, very interesting
+
+regardless that shouldn't actually cause the problem
+
+but... then go in here, and Ctrl B
+
+and you can also do the same thing, with View -> Bind Camera to Markers
+
+so now we've got 2 cameras, 2 markers
+
+and if I scroll up, dududududu....
+
+you'll see how the camera actually changes, beautiful
+
+so now let's animate the 2nd camera
+
+I'm gonna animate it right here in the view
+
+set a keyframe here
+
+and since it should just be a pan
+
+that replicates her view point
+
+I'm going to, just set 2 rotation keyframes
+
+now, screen direction wise
+
+Sintel, in the shot, is looking from the left to the right
+
+so it make sense that she's looking like so
+
+so in this shot, it should actually start, sort of, over here, you know
+
+set a keyframe, on the same frame, and then, you know, should be more whoso,too, likt so
+
+you'll notice also that I haven't changed the focal length of these cameras
+
+so I wanna go ahead and do that
+
+because usually, you know, unot everything should be shot with a 35 length
+
+this one, let's make it either tether, if you wanna see the beautiful detail on the tomatos
+
+or what, we can try the width, I'll do a lot of experimentation
+
+let's try an 18 milimeters length
+
+she's just looking that all in
+
+wow, look at all the selection
+
+now, to, sort of tweak, the specific self of how the camera moves
+
+I usually open up the Graph Editor
+
+and start playing with curves
+
+so you can change the timing
+
+it's kind of start earlier
+
+we can change how it eases in to a key
+
+and you can even add noise modifier which we'll use greatly for handheld effect
+
+so maybe we will through that onto our cameras
+
+but any way, now we have to see her hand going in the frame
+
+and picking something up, say, this basket
+
+that starts becoming a little bit more complex
+
+how's that gonna work?
+
+is that gonna work in the shot?
+
+I don't know
+
+so let's, sort of, half way through the camera's pan
+
+let's key Sintel's hand
+
+gonna add location & rotation keyframe
+
+go a few frames forward
+
+and just find the 2nd position
+
+now this is kinda stuff usually requires a lot of cheating
+
+so we will see what make sense
+
+by the way, I will really encourage anyone who's interested in this kind of stuff
+
+to look at this video serious called Hollywood Camera Work
+
+it's a really amazing resource for cinematography and film makers
+
+doesn't even have to be in 3D actually
+
+it cared more fly action
+
+but all of the examples are done in 3D, sort of, like what we are doing right now
+
+so, I'm just gonna moving this control beyond where she's actually able to go
+
+so I can also key her pelvis and root
+
+so she can move forward appropriately to let her get that close
+
+so, right now, obviously, there are some issues
+
+we do not wanna see this in our shot
+
+but, I'll show you a little trick
+
+that I view in several times
+
+that is, I gonna select the camera
+
+by the way, if asking an easy way to get the camera
+
+when you are like this, and sort of, you know, embeded within the character
+
+you can hit Ctrl Right click on the marker
+
+and I'll switch to it, pretty cool
+
+and I'm gonna change the clip start,and as I just push that up
+
+it's not actually seen anything, until, you know, after Sintel's face
+
+so, a little bit stupid, it's not really the best
+
+wait in shooting something
+
+but it works for our case
+
+it's gonna keyframe this hand goind down
+
+and now you can see that is really kinda like her point of view
+
+just pretty cool
+
+her hand is coming in there, just gonna grab something
+
+as for the 2nd complicity, I'm just gonna keyframe the basket and her hand and sort of constraining it
+
+which is what I wanna normally do
+
+and animating a constraint
+
+normally I would be...
+
+normally a hand would come in here
+
+at animated constraint from 0 to 1
+
+and then I'd only still be animating the hand
+
+but suddently the second object would move with it
+
+and set all just for the keyframes on both, since it is easier
+
+so, putting in keyframe here
+
+just forward 10 frames
+
+going back to this hand, bringing it back, dododo...
+
+and since AutoKey is not on, I'm gonna turn it on, since I usually use it
+
+but I have to hit "I" every time
+
+then I gonna move the basket to... sort of, come along
+
+and since AutoKey is now on, I didn't have to hit I any more
+
+so this is really a horrible example of the scene
+
+but hope it's not completely unvaluable, so...
+
+uh, it's not gonna work at all
+
+but I wanna just scrab
+
+oh, look, cucumbers...
+
+hand comes in
+
+she holds them back and...
+
+how about I... I wanna cut the tool with sort of a medium to shot
+
+so you can see Proog on the left, and Sintel on the right
+
+just to follow these actions
+
+kinda cutting on the action
+
+so I'm just gonna add another camera
+
+rotate it up
+
+actually, clear the rotation
+
+constrain it on the X axis just select it and doesn't get any wacky
+
+rotations around
+
+I'm gonna look through it with Ctrl Numpad 0
+
+Ctrl B
+
+so now we are here, I'll bring it back a little with Shift F and then scroll the wheel
+
+and look at Proog,as well
+
+this guy is pretty tall, we can change him down
+
+but I'm just gonna change the length, so it's more forgiving
+
+one thing I do a lot is rotate around the empty
+
+so if I know, basically, like this composition
+
+but I need to be closer to Sintel
+
+I can rotate, like so, just as sort of metrix thing, just pretty sweet
+
+I gotta push in a little
+
+alright, it's kinda nice, well it's knida nice, compsition is there
+
+I'll be doing a lot of tweaking
+
+but anyways, I like this, so would cut from this point of view to....
+
+huh, Autokey was on
+
+I do not want that animation
+
+so I'm gonna delete one of the keys
+
+do that a lot
+
+dododo...
+
+OK, so that sort of works
+
+or pretend it does
+
+and then finally, yes, slapped, doesn't it
+
+so, just gonna animate, well, "I" keys for all this
+
+and then I'm gonna have anticipation, and the actual action
+
+so, anticipation, and it is really a bad habit to actually animate from the camera view
+
+but, why not
+
+gonna key all these fingers, which means setting a key before
+
+then previous, then key again
+
+rotating them up, spreading them out
+
+gonna bringt them back
+
+wow, really deformed
+
+and then, bring that forward
+
+now, an issue is that Sintel is completely way to far
+
+and if this is actually written in the script that Proog slaps Sintel
+
+would affect that there is actually a fruit stand separating them
+
+but you can grow arams, actually just lean forward really far
+
+aha, so it's gonna work
+
+just have to cheat a little bit
+
+I'll take here, dadadada...
+
+and, it's interesting because we probably only have to make this work in screen space
+
+althrough it's usually best not to cheat at all, you know, as little as necessary
+
+but as well as it looks right, that's all matters
+
+I here to see he's actually making context, so actually I have to cheat it all
+
+and then just sort of followed through
+
+so I can twist him around, ya
+
+I'm gonna bring his hand over
+
+as in a look "Grrr... you deserve that for picking those cucumbers!"
+
+so now it's animating incrediblely and steadily
+
+as pulling his head back where it needs to be
+
+perfect slap
+
+it'll all set to animate Sintel's reaction
+
+but you know that's a pretty quick way to establish a thought, or, you know, the action
+
+now we got to time it out 
+
+so right now... that's how fast it is
+
+and it's definately too slow, the actual arm moving into the space
+
+so I'm going to change the view to the Dopesheet
+
+and look at Proog
+
+and I'm gonna look at only Proog by hitting the little cursor thing
+
+selecting all
+
+so these are all the channels of animation on Proog
+
+now it's this portion that is way too slow
+
+so, if I hit Summary, I can just take, by clicking the top keyframes on this summary, sort of sheet
+
+as select all the ones, little peer, on that frame, on all the channels
+
+so, dadada... perfect
+
+so a lot of snap here
+
+so now, I'm just gonna hide... normally I would hit Only Render
+
+but what we've done is to return renderability of all the proxy models
+
+so makes it harder to see
+
+OK. so the time doesn't work for her, actually taking away the basket of cucumbers
+
+so, again, in the Dopesheet, I'm going to look at everything
+
+we've got animation on several things
+
+gonna unhide Sintel's rigs that she also shows up
+
+and this is something that happens very often
+
+usually I'm editing someting in the sequence with multiple cameras, camera animation, blocking, character constaints... a lot
+
+it gets very complex and very fast
+
+one of the tools that helps keep everything, sort of, sinked up when I retiming things is to have the...
+
+where is it... "Sync Markers" option checked
+
+so that means the camera switch will still happen in the same time
+
+if I want to a long give on the time takes Sintel to grab the cucumber basket
+
+I can do so in the Dopesheet and have it... and sort of push the cut back with the action, which is really handy
+
+so I can select all the keys in front of the playhead with Ctrl Right click
+
+and in this case, I think it's all of these keys we should need
+
+stretching, so just gonna pull that back
+
+and you can see how that stretched
+
+and now this, Sintel... there are so many little (dots)...yeah, I would move those ones, too
+
+dadada... perfect. alright
+
+so now let's watch
+
+ha, we've got a beautiful scene here
+
+all I have to do is sort of animating Sintel real quick to go "Ah...", you know
+
+and, you know, sort of a tearing closeup
+
+you know, what you are doing? why? you know I gonna pay for these... kind of thing
+
+but hopefully that's a lot exclutive, and, sort of, how you go about setting up a scene
+
+(my phone is ringing...)
+
+because I was basically to save this out 
+
+put that on edit, to see how it works
+
+if I'm pretty heavy with the timging, I whould save out individual animation files for each of the shots
+
+so I put, since it starts here, start frame, end frame
+
+save this out, F with a 2 (¼´F2), as, you know, "03.1a.blend¡°
+
+and that becomes a shot, you get it animated
+
+in this case there will be flies, buzzing around it
+
+the camera, with them getting animated, would be a little bit better
+
+then I'll go on to the next shot, start, and end
+
+and this is the... oh, right, OK, this one would be this: Sintel's looking around
+
+so the animator would then have 29 frame to have Sintel, you know, actually acting, which is now she's doing here
+
+but it is really cool and fun way to quickly make a movie without putting all the effort into the new onces performance
+
+and also, you know, it would be foolish to actually do that kind of thing 
+
+because this is basically experimental face at its core
+
+it's like I mean to try something out, idea
+
+to see how the visual flow works,
+
+how, you know, the story's told,
+
+what idea's being communicated 
+
+what's the right placing
+
+you know, what's the best way to shoot, you know, the scene
+
+and absolutely have evert shot dicision that you make, every camera places been
+
+there's probably something better up there
+
+there has to be a reason why you can't tour a wide shot, versus, you know, a close upon the other character
+
+or, you know, as recorder of view, versus, straight on, all these things is a lot of theory there above, you know, above cinematography
+
+so, yeah, I would go to that Hollywood Camera Work thing
+
+it's also a really good book
+
+"Shot by Shot"
+
+can attract in "Shot by Shot"
+
+it has really a cool way of, I don't know, talking about, you know, composition and...
+
+Oh, One other thing I wanna show you, real quick, is noise modifier
+
+because that's up there and pretty funny
+
+so let's see this slapping shot, right here
+
+we want make him really greedy
+
+sort of born identity like
+
+so I'm gonna select that 
+
+I wanna go into the Graph Editor
+
+and look at its channels
+
+and usually, actually, the most radical changes that you perceive in a camera's motion is rotation
+
+when you think about it, this much rotation... like this much rotation
+
+is this is a lens and you're looking, you know, if you are looking really far
+
+sort of a tether, a focal lens, this much difference would be perceive general obviously on screen
+
+while if you put forward, and you zooming isn't really far, it won't be as perceptible
+
+anyway, I feel like, for the most part, noise modifiers work better for rotation channels than location
+
+so I wanna go into X roation, which is this... and add modifier "Noise"
+
+and let's see what this does
+
+hwa.... a little bit much, a little bit much
+
+so i'm gonna reduce it, I'm gonna expand it so we can actually conceive what we are doing
+
+then reduce, so, that's the speed of the effect and this is in the intensity
+
+so, still way too much
+
+actually most of my values in the 2nd property were like the greatest with 0.02
+
+so that's actually still pretty intense... ya, maybe not in this case
+
+aha... choo...
+ 
+and, you know, this kinda stuff takes a lot of experimentation
+
+and it's good to actually a kind of layer, noise modifier, see if you've got like the giddier
+
+and you've got the over all motion for that
+
+I feel like, generally, I would prefer to key that myself
+
+so, now I'm going to the Y, do the same thing with noise
+
+this is really, you know, you can really go overboard of this
+
+and maybe there are some shots were, I have, you know
+
+it's so fun to play with
+
+OK, so this is yaw
+
+alright, Z
+
+oh my god, I'm gonna push forward
+
+this needs to crash dully
+
+so, keyframe here, and then just gonna push forward
+
+Shift F, poo...oh my god
+
+oh, haha, so here we go, we've got a beautiful shot and the scene with a real smart to the face
+
+it's gonna make the audience, you know, unwrapped in applause, I don't know, in fear and shock
+
+and they will love you forever
+
+so, probably should do a followup that's a little bit more based in reality, terms of like
+
+I mean, I could show the thought went into a certain scene, I can break down the scene, maybe
+
+but, yep, let me know if you have questions, or if you have request on some what is exactly you would like to know about, layout, for example
+
+anyway, I hope this is mildly amusing
+
+and entertaining, I mean educational
+
+amd I'll see you soon
+
+
+
+
+
+
+
